@@ -107,6 +107,7 @@
   }
   *{
     font-family: "Poppins", "serif";
+    margin: 0px;
   }
   .dropdown-menu{
     background-color: #343A40;
