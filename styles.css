@@ -149,3 +149,24 @@
   .custom-toggler.navbar-toggler {
     border-color: rgb(255,102,203);
   } 
+  .banner-section{
+    background: linear-gradient(90deg, #252B83 2.18%, #05BAE6 97.69%);
+
+  }
+  .checkout-blob{
+    background-color: white;
+  }
+  /* .vl{
+    border-left:6px ;
+    height: 500px;
+    margin-left: -3px;
+    top: 0;
+  } */
+   .year{
+    background: #000000;
+    border-radius: 61px;
+    color: white;
+    display: inline-block;
+    padding: 28px 25px;
+
+   }

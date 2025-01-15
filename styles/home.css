@@ -90,21 +90,6 @@ hr{
     height: 30vh;
 
 }
-/* .grid_gradient::after{
-    content: "";
-    background-image: linear-gradient(0deg, #318895b9 50%, #fff0);
-    z-index: 0;
-    /* background-image: linear-gradient(0deg, var(--brand--blue-dark) 50%, #fff0); */
-    /* height: 50%;
-    position: absolute;
-    inset: auto 2% 4%; */
-    /* border-radius: 10px;
- } */
- /* .grid_gradient:first-child{
-    content: "";
-    /* background-image: linear-gradient(0deg, #2f2f7979 50%, #fff0) !important; */
-
- /* } */
 
 .web-mentis{
     background: linear-gradient(180deg, #442A80 13.26%, #992D89 106.2%);
@@ -114,6 +99,53 @@ hr{
 .checkout-blob{
     background-color: white;
 
+}
+.btn-pink{
+    background-color: #D8078A;
+    color: white;
+    font-weight: 500;
+    border:none;
+    width: 104px;
+    height: 38px;
+    top: 3672px;
+    left: 668px;
+    gap: 0px;
+    border-radius: 5px ;
+    opacity: 0px;
+
+
+}
+.btn-light-blue{
+    background-color: white;
+    color: #262A82;
+    font-weight: 500;
+    border:none;
+    width: 104px;
+    height: 38px;
+    top: 3672px;
+    left: 668px;
+    gap: 0px;
+    border-radius: 5px ;
+    opacity: 0px;
+
+
+}
+.text-blue{
+    color: #25297E;
+
+}
+.services{
+    background: linear-gradient(180deg, #161736 -20.05%, #262A82 43.87%, #D8078A 100%);
+}
+.employee-image{
+    background-image: url('/assets/employee-bg.png');
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center;
+
+}
+.our-partners{
+    background: linear-gradient(180deg, #262A81 0%, #171839 100%);
 }
 @media (max-width:430px) {
     .cards{
