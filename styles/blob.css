@@ -116,3 +116,17 @@ text-decoration-skip-ink: none;
     }
     
 }
+@media (max-width:768px) {
+    .purple-wave{
+        position: relative;
+        bottom: 4px;
+    }
+    .community-border {
+        margin-left: -20px;
+    }
+    .community-shadow {
+        margin-top: 0;
+        margin-left: 20px;
+    }
+    
+}

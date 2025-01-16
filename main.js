@@ -2,7 +2,7 @@ $(function(){
     $("#header").load("shared/header/header.html"); 
     $("#partners").load("/shared/partners/partners.html", function() {
       // This callback function ensures that the partners.html content is loaded before running your script
-     if(window.location.href.includes('/ind')){
+     if(window.location.href.includes('/ind')||window.location.href.includes('/team')){
         console.log('working')
         const wave = document.getElementById('wave-pink');
         const wavehtml=` <img src="/assets/pink-wave.svg" class="purple-wave" style="z-index:1" alt="">
@@ -16,7 +16,8 @@ $(function(){
         `
         wave.innerHTML +=wavehtml;
       }
-      if(window.location.href.includes('contact') || window.location.href.includes('service'))
+      if(window.location.href.includes('contact') ||
+       window.location.href.includes('service') || window.location.href.includes('project'))
         {
         const wave = document.getElementById('wave-white');
         const wavehtml=`<img src="/assets/white-wave.svg" class="purple-wave" alt="">

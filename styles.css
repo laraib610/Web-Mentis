@@ -167,12 +167,30 @@
     border-radius: 61px;
     color: white;
     display: inline-block;
-    padding: 28px 25px;
+    padding: 30px 24px;
 
    }
    .purple-wave{
     position: relative;
     bottom: 1px;
+}
+.project-text p{
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: right;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  
+}
+*{
+  margin-bottom: 0;
+}
+.btn-dark{
+  background-color: #000000;
+  color: white;
+  font-size:small;
 }
 @media (max-width:430px) {
   .purple-wave{

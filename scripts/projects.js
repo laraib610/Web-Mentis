@@ -12,7 +12,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Select the container element where content will be inserted
     const container = document.getElementById('project-container');
-
     // Generate the HTML structure dynamically using a for loop
     for (let i = 0; i < projectTexts.length; i++) {
         const colClass = i === 0  ? 'col-lg-5' : i===1?'col-lg-7': 'col-lg-4';
@@ -26,6 +25,7 @@ document.addEventListener('DOMContentLoaded', function () {
         `;
         container.innerHTML += cardHTML;
     }
+
 
 
     // community blobs cards
@@ -59,6 +59,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Select the container where content will be injected
     const container2 = document.getElementById('blog-container');
+    // if (!container) {
+    //     console.error('Project container not found');
+    //     return;  // Exit if the container doesn't exist
+    // }
 
     // Generate the HTML structure dynamically using a for loop
     blogPosts.forEach(post => {

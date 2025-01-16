@@ -20,6 +20,7 @@
 }
 .text-yellow{
     color: #E3EA0C;
+    padding: 5px;
 
 }
 .text-pink{
@@ -59,12 +60,13 @@ hr{
     background-image: url('/assets/card-button.png');
     background-repeat: no-repeat;
     background-size: contain;
-    background-position-x: right;
+    background-position-x: 66%;
     div{
         margin: 0;
         transform: rotate(90deg);
         position: relative;
-        left: 50px;
+        /* position: absolute; */
+        left: 31px;
         top: 58%;
         p{
             width: 170px;
@@ -127,8 +129,22 @@ hr{
     gap: 0px;
     border-radius: 5px ;
     opacity: 0px;
+    a{
+        color: #262A82;
+    }
 
 
+}
+.btn-light{
+    font-weight: 500;
+    border:none;
+    width: 104px;
+    height: 38px;
+    top: 3672px;
+    left: 668px;
+    gap: 0px;
+    border-radius: 5px ;
+    opacity: 0px;
 }
 .text-blue{
     color: #25297E;
@@ -149,19 +165,85 @@ hr{
 }
 @media (max-width:430px) {
     .cards{
-        height: 50vh;
+        /* height: 50vh; */
     }
     .vr{
-        display: none
+         width: 100%;
+        height: 1px; 
+        border-top: 1px solid  #DAE810 ;
+        background-color: transparent !important;
+        margin:0px;
+        margin-top: 15px;
+        opacity: 1;
     }
     .view-mob{ 
        
-        background-image: url('/assets/viewmore.png');
+        background-image: url('/assets/view-more-mob.png');
         /* transform: scale(2.3); */
         background-repeat: no-repeat;
         background-size: cover;
-        background-position-x: 195px;
+        background-position-y: 0px;
+       
+            span{
+                position: relative;
+                top: 15px;
+                width: 170px;
+                margin: 0px;
+                font-family: "Poppins";
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 36px;
+                letter-spacing: -0.03em;
+                text-align: left;
+                text-underline-position: from-font;
+                text-decoration-skip-ink: none;
+    
+            }
+        
              
     }
+    
+
+}
+@media (max-width:768px) {
+    .cards{
+        /* height: 80vh; */
+    }
+    .vr{
+         width: 100%;
+        height: 1px; 
+        border-top: 1px solid  #DAE810 ;
+        background-color: transparent !important;
+        margin:0px;
+        margin-top: 15px;
+        opacity: 1;
+    }
+    .view-mob{ 
+       
+        background-image: url('/assets/view-more-mob.png');
+        /* transform: scale(2.3); */
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-y: 0px;
+       
+            span{
+                position: relative;
+                top: 25px;
+                width: 170px;
+                margin: 0px;
+                font-family: "Poppins";
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 36px;
+                letter-spacing: -0.03em;
+                text-align: left;
+                text-underline-position: from-font;
+                text-decoration-skip-ink: none;
+    
+            }
+        
+             
+    }
+    
 
 }

@@ -40,3 +40,26 @@ label{
     z-index: -1;       
     /* transform: scale(1.8); */
 }
+.text-secondary {
+    color: #6c757d;
+}
+
+.py-5 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+
+.d-flex {
+    display: flex;
+    align-items: center;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.mx-2 {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
