@@ -1,0 +1,42 @@
+label{
+    color:#262A82;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #262A82;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #262A82;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+::-ms-input-placeholder { /* Edge 12-18 */
+    color: #262b8292;
+  }
+  .btn-blue{
+    background-color: #262A82;
+    color: #fff;
+
+ }
+ .blob {
+    /* height: 60vh; */
+    background-image: url('/assets/blob.png'), url('/assets/footer-image.png');
+    background-position: -4px 0px, 80% 30%;
+    background-size: 22%, 35%;
+    background-repeat: no-repeat, no-repeat;
+    position: relative;
+    overflow: hidden;  /* Ensure overflow content is hidden */
+}
+
+.blob::before {
+    content: url('/assets/blob2.png');
+    position: absolute; /* Use absolute positioning */
+    top: -80px;         /* Adjust to fit your design */
+    left: 0;
+    z-index: -1;       
+    /* transform: scale(1.8); */
+}

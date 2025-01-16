@@ -48,10 +48,7 @@
     position: relative;
     border-top: 2px solid transparent;
 }
-.purple-wave{
-    position: relative;
-    bottom: 1px;
-}
+
 .blog_featured-blob {
     z-index: -1;
     height: 130%;

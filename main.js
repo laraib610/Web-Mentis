@@ -16,6 +16,13 @@ $(function(){
         `
         wave.innerHTML +=wavehtml;
       }
+      if(window.location.href.includes('contact') || window.location.href.includes('service'))
+        {
+        const wave = document.getElementById('wave-white');
+        const wavehtml=`<img src="/assets/white-wave.svg" class="purple-wave" alt="">
+        `
+        wave.innerHTML +=wavehtml;
+      }
       
       // Now you can safely run your JavaScript to modify #partners-container
       const partnerImgUrls = [
