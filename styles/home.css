@@ -164,9 +164,7 @@ hr{
     background: linear-gradient(180deg, #262A81 0%, #171839 100%);
 }
 @media (max-width:430px) {
-    .cards{
-        /* height: 50vh; */
-    }
+
     .vr{
          width: 100%;
         height: 1px; 
@@ -199,16 +197,18 @@ hr{
                 text-decoration-skip-ink: none;
     
             }
+            
         
              
+    }
+    .mob-text{
+        text-align: center;
     }
     
 
 }
 @media (max-width:768px) {
-    .cards{
-        /* height: 80vh; */
-    }
+
     .vr{
          width: 100%;
         height: 1px; 

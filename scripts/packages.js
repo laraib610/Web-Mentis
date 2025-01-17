@@ -20,7 +20,7 @@ const packages=[
 packages.forEach((package, index) => {
     const padding =index===0 || index==2 ?'p-text':'p-text-2';
     const cardHTML = `
-                  <div class="col-lg-3">
+                  <div class="col-lg-3 py-4 py-lg-0">
                     <div class="package-card py-4">
                         <div class="p-4">
                                 <div class="heading pt-5 pb-2">
