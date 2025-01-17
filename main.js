@@ -10,7 +10,7 @@ $(function(){
         wave.innerHTML +=wavehtml;
       }
       else if(window.location.href.includes('contact') ||
-       window.location.href.includes('service') || window.location.href.includes('project'))
+       window.location.href.includes('service') || window.location.href.includes('project.html'))
         {
         const wave = document.getElementById('wave-white');
         const wavehtml=`<img src="/assets/white-wave.svg" class="purple-wave" alt="">
