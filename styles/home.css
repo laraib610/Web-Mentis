@@ -107,8 +107,9 @@ hr{
     color: white;
     font-weight: 500;
     border:none;
-    width: 104px;
-    height: 38px;
+    min-width: 130px !important;
+    max-width: 300px !important;
+     height: 38px;
     top: 3672px;
     left: 668px;
     gap: 0px;
@@ -116,6 +117,25 @@ hr{
     opacity: 0px;
 
 
+}
+.btn-pink-outline{
+    color: #D8078A;
+    background-color: white;
+    border: 2px solid #D8078A;
+    font-weight: 500;
+    min-width: 104px;
+    max-width: 180px;
+    height: 38px;
+    top: 3672px;
+    left: 668px;
+    gap: 0px;
+    border-radius: 5px ;
+    opacity: 0px;
+    a{
+        color: #D8078A;
+ 
+    }
+    
 }
 .btn-light-blue{
     background-color: white;

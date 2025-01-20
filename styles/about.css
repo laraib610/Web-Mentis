@@ -1,0 +1,90 @@
+.about-banner{
+    background-image: url('/assets/about-banner-bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header_about-background-shape{
+    z-index:-1;
+    width:100%;
+    /* position:absolute; */
+    /* inset:auto 0% -29%; */
+}
+.slider-image{
+    width: -webkit-fill-available;
+
+}
+.slider_slider{
+    z-index:0;
+    background-color:#0000;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    height:auto
+}
+.slider_image-wrapper{
+    height:625px;
+    /* position:relative */
+}
+.slider_image{
+    text-align:left;
+    object-fit:cover;
+    max-width:120px;
+    display:block;
+    position:static;
+    inset:0%;
+}
+.gallery_arrow{
+    background-color:var(--deep-pink\<deleted\|variable-462e714e\>);
+    border-radius:100%;
+    justify-content:center;
+    align-items:center;
+    width:2.5rem;
+    height:2.5rem;
+    display:flex
+}
+.gallery_arrow.hide-mobile-landscape{
+    margin-left:2rem;
+    margin-right:2rem;
+    bottom:4rem
+}
+.gallery_arrow-icon{
+    color:var(--white\<deleted\|variable-b597407c\>);
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    width:1.7rem;
+    height:1.7rem;
+    display:flex
+}
+.gallery_slide-nav{
+    height:1.75rem;
+    margin-bottom:2rem;
+    font-size:.5rem;
+    display:none
+}
+.header_about-background-shape{
+    z-index:-1;
+    width:100%;
+    position:absolute;
+    inset:auto 0% -29%;
+}
+.z-index-3{
+    z-index:3;
+    position:relative
+}
+.z-index-4{
+    z-index:4;
+    position:relative
+}
+.section_gallery{
+    color:white;
+  background: linear-gradient(180deg, #462A80 0%, #902D88 100%);;
+    position:relative
+}
+
+
+.section_transition-wrapper{z-index:1;width:100%;position:absolute;inset:auto 0% -1px;overflow:hidden}
+.section_transition-image{width:100%;position:relative;}
+.background-color-darkblue{background-color:#262a82;}
+
+.background-color-darkblue.moving-gradient-test{position:relative;overflow:hidden;}
