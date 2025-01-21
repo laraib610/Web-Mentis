@@ -101,7 +101,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Generate the HTML structure dynamically using a for loop
     values.forEach((value, index) => {
         const cardHTML = `
-                    <div class="col-lg-4 my-3">
+                    <div class="col-md-4 my-3">
                            <div class="location_item m-2">
                                 <div class="d-flex justify-content-center">
                                     <img src=${value.img_src}  width="20%" alt="" class="">
