@@ -215,9 +215,30 @@ hr{
 .carousel-control-next-icon {
     background-image: url('/assets/Caret_Circle_right.png');
 }
+.carousel-control-next {
+    right: -82px;
+}
+.carousel-control-prev {
+    left: -82px;
+}
 .carousel-control-prev-icon {
     background-image: url('/assets/Caret_Circle_Left.png');
 }
+.testimonials{
+    background-image: url('/assets/testimonial-bg.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+}
+.testimonial-card{
+    padding: 10px;
+    border-radius: 15px;
+    background: linear-gradient(136.71deg, rgba(67, 67, 67, 0.86) -24.05%, rgba(0, 0, 0, 0) 115.5%);
+    backdrop-filter: blur(216.2393035888672px)
+
+
+}
+
 @media (max-width:430px) {
 
     .vr{
@@ -311,4 +332,18 @@ hr{
     }
     
 
+}
+@media (max-width:2560px) {
+    .our-partners {
+        background: url('/assets/our-partner-bg.png');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        /* background-position-y: -138px; */
+        margin-top: -151px;
+        padding-top: 120px;
+        padding-bottom: 71px;
+        position: relative;
+        z-index: 2;
+        min-height: 500px; /* Adjust height as necessary */
+    }
 }
