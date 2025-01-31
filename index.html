@@ -18,8 +18,9 @@
     <link rel="stylesheet" href="/styles/home.css">
     <link rel="stylesheet" href="/styles/blob.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
 
-
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -39,11 +40,19 @@
     </div>
     <section class="home ">
         <div class="py-4">
-            <div class="py-3 d-flex justify-content-center">
-                <h3 class="text-center text-white m-0" style="width: 570px;">
-                            “Lorem Ipsum is simply dummy
-                text of the ...”
-                </h3>
+            <div class="py-3 d-flex flex-column justify-content-center">
+                <h1 class="text-center fw-bolder text-white m-0" style="width: 570px;">
+                    Welcome to Web Mantis
+                </h1>
+                <p class="text-center text-white m-0 w-75 py-4">
+                    Your trusted partner in transforming businesses into extraordinary brands. At Web Mantis, 
+                    just like the sea mantis, renowned for its unparalleled vision and ability to perceive the most 
+                    vivid spectrum of colours in the natural world. This unique capability symbolizes our 
+                    approach to business - offering unmatched foresight, clarity, and creativity to help you 
+                    uncover hidden opportunities and craft strategies that make you stand out in even the most 
+                    competitive landscapes. By embracing the brilliance of nature, we ensure your business 
+                    thrives with vision and innovation at its core.
+                </p>
                 
             </div>
             <div class="d-flex justify-content-center py-3">
@@ -112,16 +121,36 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="project-main py-5">
                     <div>
-                        <h5 class="text-center text-white">OUR PROJECTS</h5>
-                        <p class="text-center text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <h5 class="text-center text-white">OUR Services</h5>
+                        <p class="text-center text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     </div>
-                    <div class="d-lg-flex justify-content-between align-items-center flex-lg-wrap py-5" id="project-container">
-
+                    <div class="d-flex justify-content-center">
+                       <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner" id="services_card">
+                          <!-- <div class="carousel-item active">
+                            <img class="d-block w-100" src="..." alt="First slide">
+                          </div>
+                          <div class="carousel-item">
+                            <img class="d-block w-100" src="..." alt="Second slide">
+                          </div>
+                          <div class="carousel-item">
+                            <img class="d-block w-100" src="..." alt="Third slide">
+                          </div> -->
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                      </div> 
                     </div>
-
+                    
                 </div>
                 
             </div>
@@ -151,7 +180,7 @@
             <div class="container pb-4">
                 <div class="d-lg-flex justify-content-center align-items-center px-4 py-5">
                     <div class="col-lg-6">
-                        <img src="/assets/whatweb.png" width="80%" alt="">
+                        <img src="/assets/Mantis.png" class="mantis" width="80%" alt="">
     
                     </div>
                     <div class="col-lg-6">
@@ -183,7 +212,7 @@
             <!-- <div> -->
             <div class="container py-4">
                 <h2 class="text-pink text-center">
-                    CHECKOUT OUR BLOB
+                    OUR PROJECTS
                 </h2>
                 <div class="d-lg-flex justify-content-center align-items-center py-5">
                     <div class="col-lg-6">
@@ -194,14 +223,21 @@
                         <div class="community-shadow ">
                             <div class="community-border">
                                 <div class=" community">
-                                    <h5 class="text-pink">Community</h5>
-                                    <h5 class="blob-heading">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h5>
-                                    <p class="blob-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                                    <h5 class="text-pink">Canva</h5>
+                                    <h5 class="blob-heading">
+                                        Canva is a graphic design platform that enables users to create stunning
+                                         visuals with ease, using a drag-and-drop interface. Whether for social 
+                                         media posts, presentations, or marketing materials, Canva makes design 
+                                         accessible to anyone, regardless of skill level.
+                                    </h5>
+                                    <p class="blob-text">Our mission at Canva is to empower everyone to design 
+                                        anything and publish anywhere. We believe that creativity should be for 
+                                        all, and we're dedicated to providing the tools to help people bring their 
+                                        ideas to life." – Melanie Perkins, CEO of Canva
                                     </p>
                                     <div class="d-flex align-items-center">
                                         <img src="/assets/pink-circle.png" alt="">
-                                        <sub class="text-secondary m-0 mx-2">By <a class="text-secondary text-decoration-underline"> ALAN WALKER  &nbsp;&nbsp;&nbsp;&nbsp; JANUARY 07, 2025      </a></sub>
+                                        <sub class="text-secondary m-0 mx-2">By <a class="text-secondary text-decoration-underline"> Melanie Perkins  &nbsp;&nbsp;&nbsp;&nbsp; CEO of Canva      </a></sub>
                                     </div>
                                 </div>
                             </div>
@@ -226,48 +262,48 @@
         </div>
     </section>
     <section class="services">
-        <img src="/assets/white-wave.svg" class="purple-wave" alt="">
+        <div class="">
+           <img src="/assets/white-wave.svg" class="purple-wave" alt="">
         <div class="container">
             <div class="py-5">
-                <div class="py-5">
-                    <div class="heading py-3">
-                        <h3 class="text-white text-center">OUR SERVICES</h3>
+                <div class="py-4">
+                    <h2 class="text-center text-white">
+                        WHY CHOOSE WEBMANTIS
+                    </h2>
+                    <div class="d-flex justify-content-center">
+                       <p class="w-75 text-white text-center m-0">
+                            Our commitment to exceptional vision, strategic expertise, 
+                            and client-centric solutions sets us apart. At Web Mantis, 
+                            we don’t just follow trends; we set them. By aligning your 
+                            business with innovative strategies and the latest technology, 
+                            we ensure you’re always ahead of the curve. Let Web Mantis guide 
+                            you through the ever-changing digital landscape and make your 
+                            business a beacon of excellence.
+                        </p> 
                     </div>
-                    <div class="d-lg-flex justify-content-center align-items-center flex-wrap" id="services">
+                    <div class="d-lg-flex justify-content-center align-items-center flex-wrap py-4" id="services">
                         
 
                     </div>
-                    <div class="d-flex justify-content-center py-4">
-                       <button class="btn-light-blue"><a  href="/services.html" >VIEW MORE</a></button> 
-                    </div>
+                    
+
                 </div>
-                <div class="py-5">
-                    <div class="heading py-3">
-                        <h3 class="text-white text-center">OUR TEAM</h3>
-                    </div>
-                    <div class=" d-lg-flex justify-content-center align-items-center " id="team">
-                        
-                        
-
-                    </div>
-                    <div class="d-flex justify-content-center py-4">
-                        <button class="btn-light-blue"><a  href="/team.html">VIEW MORE</a></button>
-                        
-                    </div>
-                </div>
-
-                
 
             </div>
+        </div> 
         </div>
+        
         
 
 
     </section>
-    
-    <div id="partners">
+    <section class="our-partners">
+        <div id="partners" >
 
-    </div>
+        </div>
+    </section>
+    
+    
  
        
 

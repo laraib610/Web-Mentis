@@ -170,9 +170,14 @@ hr{
     color: #25297E;
 
 }
-.services{
-    background: linear-gradient(180deg, #161736 -20.05%, #262A82 43.87%, #D8078A 100%);
+.services {
+    background: linear-gradient(180deg, #161736 -26.26%, #262A82 30.13%, #D8078A 130.99%);
+    position: relative;
+    z-index: 0;
+    min-height: 500px; /* Adjust this as needed to ensure enough height for the content */
+    padding-bottom: 100px; /* To make space for the wave image */
 }
+
 .employee-image{
     background-image: url('/assets/employee-bg.png');
     background-repeat: no-repeat;
@@ -180,8 +185,38 @@ hr{
     background-position: center;
 
 }
-.our-partners{
-    background: linear-gradient(180deg, #262A81 0%, #171839 100%);
+.our-partners {
+    background: url('/assets/our-partner-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -69px;
+    margin-top: -80px;
+    position: relative;
+    z-index: 2;
+    min-height: 500px; /* Adjust height as necessary */
+}
+.carousel-item{
+    border-radius: 10px;
+    padding: 10px;
+    .card-projects{
+        padding: 20px;
+        background-image: url('/assets/card-projects.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        height: 100%;
+        width: 100%;
+    
+    }
+}
+.carousel{
+    width: 80%;
+}
+.carousel-control-next-icon {
+    background-image: url('/assets/Caret_Circle_right.png');
+}
+.carousel-control-prev-icon {
+    background-image: url('/assets/Caret_Circle_Left.png');
 }
 @media (max-width:430px) {
 
@@ -227,6 +262,16 @@ hr{
     
 
 }
+.mantis{
+   -webkit-animation: mymove3 6s linear infinite;
+}
+@-webkit-keyframes mymove3{
+	
+	0%{	transform:rortate(320deg);opacity:1;}
+	50%{transform:rotate(10deg);opacity:1;}
+    100%{transform:rotate(0deg);opacity:1;}
+	}
+
 @media (max-width:768px) {
 
     .vr{
