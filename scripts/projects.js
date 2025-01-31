@@ -3,12 +3,48 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // Projects Cards
 const projectTexts = [
-    "LOREM IPSUM IS SIMPLY DUMMY TEXT",
-    "LOREM IPSUM IS SIMPLY DUMMY TEXT",
-    "LOREM IPSUM IS SIMPLY DUMMY TEXT",
-    "LOREM IPSUM IS SIMPLY DUMMY TEXT",
-    "LOREM IPSUM IS SIMPLY DUMMY TEXT",
-    "LOREM IPSUM IS SIMPLY DUMMY TEXT",
+    {
+        heading:"UI/UX Design & Branding",
+        image:"/assets/phone.png",
+        description:"Creating user-centric designs and strong brand identities that resonate with audiences."
+    },
+    {
+        heading:"Web Development",
+        image:"/assets/mobile-enterprise.png",
+        description:"Building scalable, innovative websites that drive engagement and conversions."
+    },
+    {
+        heading:"Digital & Multimedia Marketing",
+        image:"/assets/web-design.png",
+        description:"Amplifying your presence with targeted campaigns across social media, email, and other platforms."
+    },
+    {
+        heading:"Software & App Development",
+        image:"/assets/ios-dev.png",
+        description:"Delivering robust, intuitive software and mobile applications tailored to your needs."
+    },
+    {
+        heading:"SaaS Solutions",
+        image:"/assets/legacy-app.png",
+        description:"Streamlining business operations with cloud-based applications."
+    },
+    {
+        heading:"Cybersecurity",
+        image:"/assets/platform.png",
+        description:"Safeguarding your digital assets with state-of-the-art security solutions."
+    },
+    {
+        heading:"CRM Integration & Cloud Services: ",
+        image:"/assets/phone.png",
+        description:"Enhancing customer relationships and operational efficiency."
+    },
+    {
+        heading:"Event & Corporate Management",
+        image:"/assets/mobile-enterprise.png",
+        description:"Orchestrating seamless events that leave lasting impressions."
+    },
+
+
 ];
 
 // Select the container element where content will be inserted
@@ -38,10 +74,19 @@ for (let i = 0; i < projectTexts.length; i += cardsPerSlide) {
 // Function to create an individual card
 function createCard(index) {
     return `
-        <div class="card-projects p-2 m-3">
-            <h3 class="text-white text-center my-2 py-4">Service</h3>
-            <p class="text-white my-5">${projectTexts[index]}</p>
-        </div>
+     <div class="col-lg-4 d-flex justify-content-center">
+       <div class="flip-card my-4">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front ">
+                                    <img src=${projectTexts[index]?.image} alt="Avatar" >
+                                    <p class="w-75 text-center py-2">${projectTexts[index]?.heading}</p>
+                                </div>
+                                <div class="flip-card-back flex align-items-center">
+                                    <p class="my-3 mx-2">${projectTexts[index]?.description}
+                                </div>
+                            </div>
+                        </div>
+            </div>
     `;
 }
 
@@ -153,51 +198,51 @@ function createCard(index) {
 
 
     // Teams Cards
-    const Teams=[
-        {
-            heading:"CEO",
-            image:"/assets/employee.png",
-            description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-        },
-        {
-            heading:"CEO",
-            image:"/assets/employee.png",
-            description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-        },
-        {
-            heading:"CEO",
-            image:"/assets/employee.png",
-            description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-        },
-        {
-            heading:"CEO",
-            image:"/assets/employee.png",
-            description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-        }];
+    // const Teams=[
+    //     {
+    //         heading:"CEO",
+    //         image:"/assets/employee.png",
+    //         description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    //     },
+    //     {
+    //         heading:"CEO",
+    //         image:"/assets/employee.png",
+    //         description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    //     },
+    //     {
+    //         heading:"CEO",
+    //         image:"/assets/employee.png",
+    //         description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    //     },
+    //     {
+    //         heading:"CEO",
+    //         image:"/assets/employee.png",
+    //         description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    //     }];
 
-        const teamContainer = document.getElementById('team');
+    //     const teamContainer = document.getElementById('team');
 
-    // Generate the HTML structure dynamically using a for loop
-    Teams.forEach(team => {
-        const cardHTML = `
-                     <div class="col-lg-3 p-3">
-                            <div class="employee">
-                                <div class="employee-image">
-                                    <img src="${team.image}" width="100%" alt="">
+    // // Generate the HTML structure dynamically using a for loop
+    // Teams.forEach(team => {
+    //     const cardHTML = `
+    //                  <div class="col-lg-3 p-3">
+    //                         <div class="employee">
+    //                             <div class="employee-image">
+    //                                 <img src="${team.image}" width="100%" alt="">
 
-                                </div>
-                                <div class="py-2">
-                                    <h6 class="text-white">${team.heading}</h6>
-                                    <p class="text-white">${team.description}</p>
-                                </div>
+    //                             </div>
+    //                             <div class="py-2">
+    //                                 <h6 class="text-white">${team.heading}</h6>
+    //                                 <p class="text-white">${team.description}</p>
+    //                             </div>
 
-                            </div>
+    //                         </div>
 
-                        </div>              
+    //                     </div>              
 
-        `;
-        teamContainer.innerHTML += cardHTML;
-    });
+    //     `;
+    //     teamContainer.innerHTML += cardHTML;
+    // });
 
     
 });
