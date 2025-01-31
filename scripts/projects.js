@@ -47,6 +47,7 @@ const projectTexts = [
 
 ];
 
+
 // Select the container element where content will be inserted
 const service_container = document.getElementById('services_card');
 
@@ -197,52 +198,8 @@ function createCard(index) {
     });
 
 
-    // Teams Cards
-    // const Teams=[
-    //     {
-    //         heading:"CEO",
-    //         image:"/assets/employee.png",
-    //         description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-    //     },
-    //     {
-    //         heading:"CEO",
-    //         image:"/assets/employee.png",
-    //         description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-    //     },
-    //     {
-    //         heading:"CEO",
-    //         image:"/assets/employee.png",
-    //         description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-    //     },
-    //     {
-    //         heading:"CEO",
-    //         image:"/assets/employee.png",
-    //         description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-    //     }];
 
-    //     const teamContainer = document.getElementById('team');
 
-    // // Generate the HTML structure dynamically using a for loop
-    // Teams.forEach(team => {
-    //     const cardHTML = `
-    //                  <div class="col-lg-3 p-3">
-    //                         <div class="employee">
-    //                             <div class="employee-image">
-    //                                 <img src="${team.image}" width="100%" alt="">
-
-    //                             </div>
-    //                             <div class="py-2">
-    //                                 <h6 class="text-white">${team.heading}</h6>
-    //                                 <p class="text-white">${team.description}</p>
-    //                             </div>
-
-    //                         </div>
-
-    //                     </div>              
-
-    //     `;
-    //     teamContainer.innerHTML += cardHTML;
-    // });
-
+    
     
 });

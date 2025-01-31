@@ -226,6 +226,17 @@ hr{
 }
 .testimonials{
     background-image: url('/assets/testimonial-bg.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+}
+.testimonial-card{
+    padding: 10px;
+    border-radius: 15px;
+    background: linear-gradient(136.71deg, rgba(67, 67, 67, 0.86) -24.05%, rgba(0, 0, 0, 0) 115.5%);
+    backdrop-filter: blur(216.2393035888672px)
+
+
 }
 
 @media (max-width:430px) {
