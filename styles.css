@@ -140,22 +140,14 @@
     color: white;
   }
   .navbar-nav .nav-link:hover{
-    /* background-color: #343A40; */
-    border-radius: 10px;
-    background-color: #d8078b74;
-    margin: 0px 2px;
+    color: #D8078A;
+ 
   }
 
 
-  .navbar-nav .nav-link:active{
-    border-radius: 10px;
-    background-color: #d8078b74;
-    margin: 0px 2px;
-  }
+ 
   .navbar-nav .nav-link.active {
-    border-radius: 10px;
-    background-color: #d8078b74; 
-    margin: 0px 2px; /* Example background change */
+    color: #D8078A;
   }
   
   .fa-chevron-down{
