@@ -163,23 +163,23 @@ function createCard(index) {
     const services=[
         {
             heading:"01.",
-            subheading:"You can trust",
-            description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+            subheading:"Built on Trust",
+            description:"Reliable, high-quality digital solutions backed by expertise and innovation."
         },
         {
             heading:"02.",
-            subheading:"You can trust",
-            description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+            subheading:"Custom Strategies",
+            description:"Tailored solutions to match your business goals for lasting success."
         },
         {
             heading:"03.",
-            subheading:"You can trust",
-            description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+            subheading:"Latest Technology",
+            description:"Secure, scalable, and high-performance solutions with cutting-edge tools."
         },
         {
             heading:"04.",
-            subheading:"You can trust",
-            description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+            subheading:"Ongoing Support",
+            description:"Continuous updates, expert guidance, and dedicated customer care."
         },
 
 
