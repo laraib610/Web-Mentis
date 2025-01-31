@@ -43,6 +43,11 @@ const projectTexts = [
         image:"/assets/mobile-enterprise.png",
         description:"Orchestrating seamless events that leave lasting impressions."
     },
+    {
+        heading:"Artificial Intelligence (AI) Services",
+        image:"/assets/mobile-enterprise.png",
+        description:"Integrating AI to automate processes, enhance decision-making, and improve user experiences."
+    },
 
 
 ];
