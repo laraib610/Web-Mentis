@@ -332,6 +332,12 @@ hr{
     }
     
 
+    .our-partners{
+        background-position-y: -209px !important;
+        padding-bottom: 78% !important;
+        margin-top: -280px !important;
+    }
+
 }
 @media (max-width:2560px) {
     .our-partners {

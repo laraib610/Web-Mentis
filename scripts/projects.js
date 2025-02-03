@@ -80,7 +80,7 @@ for (let i = 0; i < projectTexts.length; i += cardsPerSlide) {
 // Function to create an individual card
 function createCard(index) {
     return `
-     <div class="col-lg-4 d-flex justify-content-center">
+     <div class="col-lg-4 col-12 d-flex justify-content-center">
        <div class="flip-card my-4">
                             <div class="flip-card-inner">
                                 <div class="flip-card-front ">
