@@ -7,7 +7,7 @@
     background-image:
     linear-gradient(to bottom, rgba(28, 35, 115, .5) 0%, rgba(12, 15, 45, 1) 30%),
     url('/assets/package-bg.png');    background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
     border-radius: 10px;
     /* W3C */
 
@@ -74,4 +74,10 @@ text-decoration-skip-ink: none;
     color:rgba(218, 232, 16, 1);
     margin: 0;
 
+}
+
+@media (max-width:430px) {
+    .package-card{
+        background-size: cover;
+    }
 }
