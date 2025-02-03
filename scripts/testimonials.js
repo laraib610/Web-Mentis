@@ -66,7 +66,7 @@ const Testimonials = [
     // Function to create an individual card
     function createCard(index) {
         return `
-         <div class="col-lg-4 d-flex justify-content-center">
+         <div class="col-lg-4 col-12 d-flex justify-content-center">
            <div class="testimonial-card my-4">
                                 
                 <p class="text-white py-3 px-1">${Testimonials[index]?.description}
