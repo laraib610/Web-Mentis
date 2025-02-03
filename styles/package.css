@@ -76,6 +76,7 @@ text-decoration-skip-ink: none;
 
 }
 
+
 @media (max-width:430px) {
     .package-card{
         background-size: cover;
