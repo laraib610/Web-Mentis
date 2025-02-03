@@ -29,7 +29,7 @@
 }
 
 .slider_image-wrapper {
-    min-height: 625px;
+    /* min-height: 625px; */
     background: url('/assets/about-bg.webp');
     /* position:relative */
 }
@@ -112,7 +112,7 @@
 .section_transition-wrapper {
     z-index: 1;
     width: 100%;
-    position: absolute;
+    position: relative;
     inset: auto 0% -1px;
     overflow: hidden
 }
@@ -217,5 +217,19 @@ p {
     .our-partners{
         background-position-y: -209px !important;
         padding-bottom: 90% !important;
+    }
+}
+@media (max-width:2560px) {
+    .our-partners {
+        background: url('/assets/our-partner-bg.png');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        /* background-position-y: -138px; */
+        margin-top: -119px;
+        padding-top: 120px;
+        padding-bottom: 71px;
+        position: relative;
+        z-index: 2;
+        min-height: 500px; /* Adjust height as necessary */
     }
 }

@@ -9,19 +9,11 @@ if (navItems.length > 0) {
       console.log(item, item.href)
       console.log(window.location.href.includes(item.href))
       if(window.location.href.includes(item.href)){
-        // navItems.forEach(navItem => navItem.classList.remove('active'));
       console.log(item.classList)
       // Add 'active' class to clicked item
       item.classList.add('active');
       }
-      
-        // item.addEventListener('click', function() {
-        //     // Remove 'active' class from all nav items
-        //     navItems.forEach(navItem => navItem.classList.remove('active'));
-        //     console.log(item)
-        //     // Add 'active' class to clicked item
-        //     item.classList.add('active');
-        // });
+    
     });
 } else {
     console.error('No navigation items found.');
@@ -30,16 +22,6 @@ if (navItems.length > 0) {
 
   // Load partners content
   $("#partners").load("/shared/partners/partners.html", function() {
-      // Dynamically add waves based on URL
-    //   console.log(window.location.pathname)
-    //   const wave = document.getElementById(window.location.pathname.includes('package') ? 'wave' :
-    //   window.location.pathname.includes('about')    ||    window.location.pathname.includes('contact') || window.location.pathname.includes('service') || window.location.pathname.includes('projects.html') ? 'wave-white' : 'wave-pink');
-    //   if (wave) {
-    //       const wavehtml = `<img src="${window.location.pathname.includes('package') ? '/assets/purple-wave.svg' : (window.location.pathname.includes('contact') || window.location.pathname.includes('about') || window.location.pathname.includes('service') || window.location.pathname.includes('projects.html') ? '/assets/white-wave.svg' : '/assets/pink-wave.svg')}" class="purple-wave" style="z-index:1" alt="">`;
-    //       wave.insertAdjacentHTML('beforeend', wavehtml);
-    //   }
-
-      // Dynamically populate partner logos
       const partnerImgUrls = [
           { src: "/assets/samsung.png", width: "60%",  class:"partner-img"},
           { src: "/assets/amazon.png", width: "60%" ,  class:"partner-img-2"},
