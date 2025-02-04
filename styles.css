@@ -292,6 +292,40 @@
   min-width: 50px;
   padding: 0px 20px;
 }
+
+.ratings{
+  margin-right:10px;
+}
+
+.ratings i{
+  
+  color:#ffffff93;
+  /* border: 3px solid #FFA43C; */
+  font-size:32px;
+}
+
+.rating-color{
+  color:#FFA43C !important;
+  
+}
+.page-link{
+  background-color: #000000;
+  color: white;
+
+}
+.page-link:hover{
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 0 .2rem rgba(1, 5, 10, 0.25);
+
+}
+.active-page{
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 0 .2rem rgba(1, 5, 10, 0.25);
+
+}
+
 @media (max-width:430px) {
   .purple-wave{
       position: relative;

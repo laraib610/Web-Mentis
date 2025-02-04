@@ -3,33 +3,39 @@ document.addEventListener('DOMContentLoaded', function () {
 const Testimonials = [
     {
         heading:"Jane Copper",
-        image:"/assets/review.png",
+        image:"/assets/jane-copper.png",
+        rating:4,
         description:"OHHHH Thanks god !!!! Finally there is someone making it for me to use on my projects. Love ya "
     },
     {
-        heading:"Jane Copper",
-        image:"/assets/review.png",
-        description:"OHHHH Thanks god !!!! Finally there is someone making it for me to use on my projects. Love ya"
+        heading:"Michael Thomas",
+        image:"/assets/michael-thomas.png",
+        rating:4,
+        description:"WebMantis is fantastic at developing creative, innovative IT solutions that help businesses grow. Their expertise in IT strategy and implementation is impressive, and their support is always on point."
     },
     {
-        heading:"Jane Copper",
-        image:"/assets/review.png",
-        description:"OHHHH Thanks god !!!! Finally there is someone making it for me to use on my projects. Love ya"
+        heading:"Liam Walker",
+        image:"/assets/liam-walker.png",
+        rating:3,
+        description:"Cybersecurity is a major concern for our company, and WebMantis helped us enhance our security. Their team conducted thorough audits and provided solutions that have significantly reduced our risks."
     },
     {
-        heading:"Jane Copper",
-        image:"/assets/review.png",
-        description:"OHHHH Thanks god !!!! Finally there is someone making it for me to use on my projects. Love ya"
+        heading:"Sarah Johnson",
+        image:"/assets/sarah-johnson.png",
+        rating:5,
+        description:" Their team is highly professional, reliable, and always available to resolve any issues quickly. Highly recommend them for any business looking to streamline their IT infrastructure"
     },
     {
-        heading:"Jane Copper",
-        image:"/assets/review.png",
-        description:"OHHHH Thanks god !!!! Finally there is someone making it for me to use on my projects. Love ya"
+        heading:"James Lee",
+        image:"/assets/james-lee.png",
+        rating:5,
+        description:"The customer service at WebMantis is second to none. Their attention to detail and commitment to client satisfaction make them stand out in the IT industry."
     },
     {
-        heading:"Jane Copper",
-        image:"/assets/review.png",
-        description:"OHHHH Thanks god !!!! Finally there is someone making it for me to use on my projects. Love ya"
+        heading:"Emma Robinson",
+        image:"/assets/emma-robhinson.png",
+        rating:4,
+        description:"We partnered with WebMantis for a website overhaul, and they delivered excellent results on time and within budget. The team is incredibly responsive and provides great value for the price."
     },
 
 
@@ -71,13 +77,16 @@ const Testimonials = [
                                 
                 <p class="text-white py-3 px-1">${Testimonials[index]?.description}
                 <div class="d-flex justify-content-center">
-                    <img src="/assets/Star.png" width="70%"  alt="Avatar" >
+                   <div class="ratings d-flex">
+                    ${createRating(Testimonials[index]?.rating)}
+                    </div>
                 </div>
                 
-                <div class="d-flex py-3 justify-content-center align-items-center px-5 py-1">
+                <div class="d-flex py-3 justify-content-center align-items-center px-3 py-1">
                     <img src=${Testimonials[index]?.image} width="30%" alt="Avatar" >
+                    
                     <p class="w-75 text-center py-2 m-0 text-white">${Testimonials[index]?.heading}
-                     <sup class="text-secondary m-0">Lead designer</sup>
+                    <br>
                     </p>
                    
                 </div>
@@ -87,5 +96,20 @@ const Testimonials = [
                             </div>
                 </div>
         `;
+    }
+    function createRating(rating) {
+        var innerHTML='';
+        var  innerHTML2='';
+        for(let i=0; i<rating; i++){
+           innerHTML+=  `<i class="fa fa-star rating-color m-1"></i>`
+        }
+        for(let i=0; i<5-rating; i++){
+            innerHTML2+=  `<i class="fa fa-star-o rating-color m-1"></i>`
+
+        }
+
+        return innerHTML+innerHTML2
+
+
     }
 });
