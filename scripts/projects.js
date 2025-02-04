@@ -101,23 +101,23 @@ function createCard(index) {
 
     const blogPosts = [
         {
-            title: "Atlassian Jira Software",
-            description: "Atlassian Jira is a popular project management tool designed for teams to plan, track, and release software.",
-            ceoQuote: "\"At Atlassian, our mission is to unleash the potential of every team. We believe that software should be intuitive and powerful.\" - Mike Cannon-Brookes",
+            title: "NanoSoft",
+            description: "NanoSoft specializes in software development for robotics, particularly in industrial automation. The project focuses on real-time motion control systems, optimizing sensor fusion for feedback loops, and ensuring that robotic arms and drones function with maximum precision, safety, and efficiency.",
+            ceoQuote: "\"At NanoSoft, we’re empowering robots with the intelligence to make real-time decisions. Our low-level software ensures that every sensor reading, every movement, and every task is executed with perfect precision. The future of robotics is here, and we’re proud to be leading the way.\" - Mike Cannon-Brookes",
             author: "Mike Cannon-Brookes",
             imgSrc: "/assets/group-coworkers.png"
         },
         {
-            title: "Swyftx Cryptocurrency Exchange",
-            description: "Swyftx is an Australian cryptocurrency exchange platform offering low fees and secure transactions.",
-            ceoQuote: "\"We're committed to providing the best cryptocurrency exchange experience in Australia.\" - Ryan Edwards-Tierney",
+            title: "QuickBooks",
+            description: "QuickBooks is an accounting software app designed for small businesses in Australia. It offers features like expense tracking, invoicing, tax calculation, and reporting. The low-level software in QuickBooks ensures that large data sets are processed quickly, providing seamless and real-time financial insights to users, without lag or delays",
+            ceoQuote: "\"QuickBooks is designed to simplify business finances, and we’re proud to make managing accounts faster and easier for Australian small business owners. With our focus on performance at the software core, we ensure seamless experiences that help businesses thrive\" - Ryan Edwards-Tierney",
             author: " Ryan Edwards-Tierney",
             imgSrc: "/assets/group-coworkers.png"
         },
         {
-            title: "MYOB",
-            description: "MYOB provides accounting, payroll, and business management software for small to medium-sized businesses.",
-            ceoQuote: "\"We are focused on delivering software solutions that help Australian businesses thrive.\" - Greg Ellis",
+            title: "SmartStudy",
+            description: "SmartStudy is an educational app for students, offering interactive lessons, quizzes, and resources across various subjects. The app utilizes low-level software to ensure real-time progress tracking, offline access to content, and seamless synchronization across devices, providing a highly responsive and engaging learning experience",
+            ceoQuote: "\"SmartStudy is transforming the way students learn by focusing on real-time performance improvements and user-friendly features. Our low-level optimizations ensure that students have uninterrupted access to educational content wherever they are, on any device.\" - Greg Ellis",
             author: "Greg Ellis",
             imgSrc: "/assets/group-coworkers.png"
         }
