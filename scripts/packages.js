@@ -64,3 +64,4 @@ packages.forEach((package, index) => {
     packageContainer.innerHTML += cardHTML;
 });
 });
+
