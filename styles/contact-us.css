@@ -71,7 +71,21 @@ label{
     outline: 0;
     box-shadow: 0 0 0 .2rem #d8078b3f;
 }
-
+.carousel{
+    width: 65%;
+}
+.carousel-control-next-icon {
+    background-image: url('/assets/Caret_Circle_right.png');
+}
+.carousel-control-next {
+    right: -82px;
+}
+.carousel-control-prev {
+    left: -82px;
+}
+.carousel-control-prev-icon {
+    background-image: url('/assets/Caret_Circle_Left.png');
+}
 
 
 @media (max-width:2560px) {
