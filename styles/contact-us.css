@@ -22,6 +22,7 @@ label{
     color: #fff;
 
  }
+
  .blob {
     /* height: 60vh; */
     background-image: url('/assets/blob.png'), url('/assets/footer-image.png');
@@ -63,12 +64,21 @@ label{
     margin-left: 0.5rem;
     margin-right: 0.5rem;
 }
+.form-control:focus, .form-control:hover {
+    color: #6e4a61;
+    background-color: #fff;
+    border-color: #D8078A;
+    outline: 0;
+    box-shadow: 0 0 0 .2rem #d8078b3f;
+}
+
+
+
 @media (max-width:2560px) {
     .our-partners {
         background: url('/assets/our-partner-bg.png');
         background-size: 100% 100%;
         background-repeat: no-repeat;
-        /* background-position-y: -138px; */
         margin-top: -119px;
         padding-top: 120px;
         padding-bottom: 71px;
