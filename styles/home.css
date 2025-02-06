@@ -1,11 +1,41 @@
+html{
+    overflow-x: hidden;
+}
 .home{
-    background-image: url('/assets/banner.png');
+    background-image: url('/assets/home4k.gif');
     background-repeat: no-repeat;
     background-size: cover;
     height: fit-content;
     position: relative;
     top: 0;
 }
+
+.typing {
+    color: #ffffff;
+    font-size: 38px;
+    margin: 0px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+ 
+/* Cursor Blinking Animation */
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+/* Glowing Text Effect */
+.typed {
+    color: #DAE810;
+    font-weight: 500;
+    text-shadow: 0 0 10px #DAE810, 0 0 20px rgba(218, 232, 16, 0.8);
+}
+
+
 .btn-custom{
     background: linear-gradient(90deg, #45C250 0%, #E3EA0C 100%);
     width: 120px;
@@ -29,15 +59,39 @@
 .projects{
     background-color: black;
    
-    .cards{
+    .cards {
         width: 750px;
-        background: url('/assets/card-img.png'), linear-gradient(180deg, #1C2373 50.6%, #0C0F2D 337.3%) ;
+        background: url('/assets/card-img.png'), linear-gradient(180deg, #1C2373 50.6%, #0C0F2D 337.3%);
         background-repeat: no-repeat;
         background-size: cover;
-        border:2px solid #DAE810;
-        border-radius: 11px;
-        
+        border: 2px solid #DAE810;
+        border-radius: 21px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        position: relative;
     }
+    
+    .cards:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 0 20px #DAE810, 0 0 40px rgba(218, 232, 16, 0.8), 0 0 60px rgba(218, 232, 16, 0.6);
+    }
+    
+  
+    @keyframes neonGlow {
+        0% {
+            box-shadow: 0 0 15px #DAE810, 0 0 30px rgba(218, 232, 16, 0.6), 0 0 45px rgba(218, 232, 16, 0.4);
+        }
+        50% {
+            box-shadow: 0 0 20px #DAE810, 0 0 40px rgba(218, 232, 16, 0.8), 0 0 60px rgba(218, 232, 16, 0.6);
+        }
+        100% {
+            box-shadow: 0 0 15px #DAE810, 0 0 30px rgba(218, 232, 16, 0.6), 0 0 45px rgba(218, 232, 16, 0.4);
+        }
+    }
+    
+    .cards:hover {
+        animation: neonGlow 1.5s infinite alternate;
+    }
+    
     
 }
 hr{
@@ -72,9 +126,9 @@ hr{
             width: 170px;
             margin: 0px;
             font-family: "Poppins";
-            font-size: 20px;
+            font-size: 24px;
             font-weight: 600;
-            line-height: 36px;
+            line-height: 22px;
             letter-spacing: -0.03em;
             text-align: left;
             text-underline-position: from-font;

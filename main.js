@@ -21,27 +21,44 @@ if (navItems.length > 0) {
   });
 
   // Load partners content
+
   $("#partners").load("/shared/partners/partners.html", function() {
+    const cardsPerSlide_testimonial = 3;
       const partnerImgUrls = [
           { src: "/assets/samsung.png", width: "60%",  class:"partner-img"},
           { src: "/assets/amazon.png", width: "60%" ,  class:"partner-img-2"},
           { src: "/assets/apple.png", class:"partner-img-1" },
-          { src: "/assets/samsung.png", width: "60%" ,  class:"partner-img"}
+          { src: "/assets/samsung.png", width: "60%" ,  class:"partner-img"},
+          { src: "/assets/amazon.png", width: "60%" ,  class:"partner-img-2"},
+          { src: "/assets/apple.png", class:"partner-img-1" },
       ];
 
       const partnerContainer = document.getElementById('partners-container');
       if (partnerContainer) {
-          partnerImgUrls.forEach(partner => {
+         for(let i=0; i<partnerImgUrls.length ;  i += cardsPerSlide_testimonial){
+            const activeClass = i === 0 ? 'active' : ''; 
               const cardHTML = `
-              <div class="d-flex justify-content-center align-items-lg-start py-2 py-lg-0">
-                          <img src="${partner.src}" class=${partner.class} alt="">
-              </div>
-                 
+               <div class="carousel-item ${activeClass}">
+                <div class="d-flex justify-content-between">
+                   
+                    ${ createCard(i)}
+                    ${ createCard(i + 1)}
+                    ${ createCard(i + 2) }
+                </div>
+            </div>
               `;
               partnerContainer.insertAdjacentHTML('beforeend', cardHTML);
-          });
-      }
-
+          };
+      
+    }
+      function createCard(index) {
+        return `
+         <div class="">
+                          <img src="${partnerImgUrls[index].src}" class=${partnerImgUrls[index].class} alt="">
+            </div>
+                 
+        `;
+    }
       // Dynamically populate global offices
       const globalOffices = [
           { heading: "PAKISTAN", image: "/assets/pakistan.png", description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.", imagesize: "60%" },
