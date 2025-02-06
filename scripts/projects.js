@@ -108,9 +108,9 @@ function createCard(index) {
             imgSrc: "/assets/group-coworkers.png"
         },
         {
-            title: "QuickBooks",
-            description: "QuickBooks is an accounting software app designed for small businesses in Australia. It offers features like expense tracking, invoicing, tax calculation, and reporting. The low-level software in QuickBooks ensures that large data sets are processed quickly, providing seamless and real-time financial insights to users, without lag or delays",
-            ceoQuote: "\"QuickBooks is designed to simplify business finances, and we’re proud to make managing accounts faster and easier for Australian small business owners. With our focus on performance at the software core, we ensure seamless experiences that help businesses thrive\" - Ryan Edwards-Tierney",
+            title: "Castlepoint",
+            description: "Castlepoint Systems offers a platform that promotes secure data storage using ethical AI. It ensures organizations can manage and protect their information assets while complying with regulatory requirements.",
+            ceoQuote: "\"We are committed to providing organizations with the tools to manage their data securely and ethically, leveraging AI to uphold the highest standards of information governance.\" - Ryan Edwards-Tierney",
             author: " Ryan Edwards-Tierney",
             imgSrc: "/assets/group-coworkers.png"
         },
