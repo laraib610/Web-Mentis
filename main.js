@@ -38,7 +38,7 @@ if (navItems.length > 0) {
          for(let i=0; i<partnerImgUrls.length ;  i += cardsPerSlide_testimonial){
             const activeClass = i === 0 ? 'active' : ''; 
               const cardHTML = `
-               <div class="carousel-item ${activeClass}">
+               <div class="carousel-item ${activeClass}" data-bs-interval="100">
                 <div class="d-flex justify-content-between">
                    
                     ${ createCard(i)}

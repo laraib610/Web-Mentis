@@ -191,7 +191,7 @@ function createCard(index) {
     services.forEach(service => {
         const cardHTML = `
             <div class="col-lg-3 p-3 ">
-                    <div class=" p-4">
+                    <div class="expertise-card p-4">
                         <h3 class="text-pink m-0">${service.heading}</h3>
                         <h5 class="text-white">${service.subheading}</h5>
                         <p class="text-white">${service.description}</p>

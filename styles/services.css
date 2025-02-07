@@ -1,7 +1,7 @@
 .flip-card {
     background-color: transparent;
     width: 90%;
-    height: 300px;
+    height: 250px;
     perspective: 1000px;
     border-radius: 10px;
     
@@ -39,6 +39,7 @@
     align-items: center;
     border-radius: 10px;
     justify-content: center;
+    transform-style: preserve-3d;
   }
   
   .flip-card-back {
@@ -67,6 +68,7 @@
     backface-visibility: hidden;
     /* font-weight: 900; */
   }
+
   .flip-card-front p ,.flip-card-front img {
     position: relative;
     z-index: 1000;
@@ -78,3 +80,9 @@
     backface-visibility: hidden;
     /* font-weight: 900; */
   }
+  /* Glowing Text Effect */
+.typed {
+  color: #DAE810;
+  font-weight: 500;
+  /* text-shadow: 0 0 10px #DAE810, 0 0 20px rgba(218, 232, 16, 0.8); */
+}

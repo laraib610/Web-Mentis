@@ -221,6 +221,16 @@ hr{
 
 
 }
+.expertise-card:hover{
+    /* color: #6e4a61;
+    background-color: #fff; */
+    border-radius: 20px;
+    transform: scale3d(1.1, 1.1, 1);
+    border-color: #D8078A;
+    outline: 0;
+    box-shadow: 0 0 0 .2rem #d8078b3f;
+
+}
 
 @media (max-width:430px) {
 
