@@ -1,19 +1,11 @@
 document.addEventListener('DOMContentLoaded', function () {
-const packages=[
-    {
-        heading:"AGGRESSIVE",
-    },
-    {
-        heading:"MARKET LEADER",
+    const packages = [
+        { heading: "AGGRESSIVE" },
+        { heading: "MARKET LEADER" },
+        { heading: "ENTERPRISE" },
+        { heading: "ENTERPRISE PLUS" }
+    ];
 
-    },
-    {
-        heading:"ENTERPRISE",
-    },
-    {
-        heading:"ENTERPRISE PLUS",
-    }];
-    
     const packageContainer = document.getElementById('package-container');
 
 // Generate the HTML structure dynamically using a for loop
@@ -53,10 +45,12 @@ packages.forEach((package, index) => {
 
                         </div>
                     </div>
-
+                    <div class="package-button">
+                        <a href="#">CHOOSE PLAN</a>
+                    </div>
                 </div>
-
-    `;
-    packageContainer.innerHTML += cardHTML;
-});
+            </div>
+        `;
+        packageContainer.innerHTML += cardHTML;
+    });
 });
