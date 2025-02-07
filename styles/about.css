@@ -153,8 +153,21 @@
     font-weight: bold;
 }
 
-.carousel {
-    width: 100% !important;
+
+.carousel{
+    width: 65%;
+}
+.carousel-control-next-icon {
+    background-image: url('/assets/Caret_Circle_right.png');
+}
+.carousel-control-next {
+    right: -82px;
+}
+.carousel-control-prev {
+    left: -82px;
+}
+.carousel-control-prev-icon {
+    background-image: url('/assets/Caret_Circle_Left.png');
 }
 
 
