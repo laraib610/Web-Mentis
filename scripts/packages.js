@@ -30,10 +30,6 @@ packages.forEach((package, index) => {
                             <div>
                             <p class="text-white m-0">What's included</p> 
                                 <ul class="package-list">
-                                    <li> Required Ad Spend Range
-                                        $1,000 – $6,000 / month ad
-                                        spend (paid to networks)</li>
-                                    <li>Initial Setup $499</li>
                                     <li>Up to 10 Business Days for complete setup</li>
                                     <li>Social Media Platforms</li>
                                     <li>Ad Campaign Copywriting</li>
@@ -53,7 +49,7 @@ packages.forEach((package, index) => {
                             </div>
                         </div>
                         <div class="package-button">
-                            <a href="#">CHOOSE PLAN</a>
+                            <a href="/contact-us.html">CHOOSE PLAN</a>
 
                         </div>
                     </div>
