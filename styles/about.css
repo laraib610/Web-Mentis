@@ -253,3 +253,28 @@
         min-height: 500px; /* Adjust height as necessary */
     }
 }
+
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-container img {
+    display: block;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.image-container::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, #462A80 0%, #902D88 100%);
+    filter: blur(20px);
+    z-index: -1;
+    transform: translate(-50%, -50%);
+}
