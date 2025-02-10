@@ -45,9 +45,6 @@ packages.forEach((package, index) => {
 
                         </div>
                     </div>
-                    <div class="package-button">
-                        <a href="#">CHOOSE PLAN</a>
-                    </div>
                 </div>
             </div>
         `;
