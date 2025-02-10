@@ -4,48 +4,67 @@ document.addEventListener('DOMContentLoaded', function () {
   // Projects Cards
 const projectTexts = [
     {
-        heading:"UI/UX Design & Branding",
-        image:"/assets/phone.png",
+        heading:"UI/UX",
+        heading2:"Design",
+        image:"/assets/ui-service.png",
+        color:"#DAE810",
         description:"Creating user-centric designs and strong brand identities that resonate with audiences."
     },
     {
-        heading:"Web Development",
-        image:"/assets/mobile-enterprise.png",
+        heading:"Web",
+        heading2:"Development",
+        image:"/assets/web-service.png",
+        color:"#161737",
         description:"Building scalable, innovative websites that drive engagement and conversions."
     },
     {
-        heading:"Digital & Multimedia Marketing",
-        image:"/assets/web-design.png",
-        description:"Amplifying your presence with targeted campaigns across social media, email, and other platforms."
-    },
-    {
-        heading:"Software & App Development",
-        image:"/assets/ios-dev.png",
-        description:"Delivering robust, intuitive software and mobile applications tailored to your needs."
-    },
-    {
-        heading:"SaaS Solutions",
-        image:"/assets/legacy-app.png",
-        description:"Streamlining business operations with cloud-based applications."
-    },
-    {
-        heading:"Cybersecurity",
-        image:"/assets/platform.png",
+        heading:"Cyber ",
+        heading2:"Security",
+        image:"/assets/cyber-service.png",
+        color:"#DAE810",
         description:"Safeguarding your digital assets with state-of-the-art security solutions."
     },
     {
-        heading:"CRM Integration & Cloud Services: ",
-        image:"/assets/phone.png",
-        description:"Enhancing customer relationships and operational efficiency."
+        heading:"Digital & Multimedia",
+        heading2:"Marketing",
+        image:"/assets/digital-service.png",
+        color:"#DAE810",
+        description:"Amplifying your presence with targeted campaigns across social media, email, and other platforms."
     },
     {
-        heading:"Event & Corporate Management",
-        image:"/assets/mobile-enterprise.png",
+        heading:"Software & App ",
+        heading2:"Development",
+        image:"/assets/software-service.png",
+        color:"#161737",
+        description:"Delivering robust, intuitive software and mobile applications tailored to your needs."
+    },
+    {
+        heading:"SaaS",
+        heading2:"Solutions",
+        image:"/assets/saas-service.png",
+        color:"#DAE810",
+        description:"Streamlining business operations with cloud-based applications."
+    },
+    {
+        heading:"Event & Corporate",
+        heading2:"Management",
+        image:"/assets/event-service.png",
+        color:"#161737",
         description:"Orchestrating seamless events that leave lasting impressions."
     },
     {
-        heading:"Artificial Intelligence (AI) Services",
-        image:"/assets/mobile-enterprise.png",
+        heading:"CRM Integration ",
+        heading2:"& Cloud Services ",
+        image:"/assets/crm-service.png",
+        color:"#DAE810",
+        description:"Enhancing customer relationships and operational efficiency."
+    },
+    
+    {
+        heading:"Artificial Intelligence",
+        heading2:"Intelligence",
+        image:"/assets/artificial-service.png",
+        color:"#DAE810",
         description:"Integrating AI to automate processes, enhance decision-making, and improve user experiences."
     },
 
@@ -82,13 +101,17 @@ function createCard(index) {
     return `
      <div class="col-lg-4 col-12 d-flex justify-content-center">
        <div class="flip-card my-4">
-                            <div class="flip-card-inner">
-                                <div class="flip-card-front ">
-                                    <img loading="lazy"  src=${projectTexts[index]?.image} alt="Avatar" >
-                                    <p class="w-75 text-center py-2">${projectTexts[index]?.heading}</p>
+                            <div class="flip-card-inner" >
+                                <div class="flip-card-front "
+                                 style="background:url('${projectTexts[index]?.image}'); background-size:cover; background-repeat:no-repeat">
+                                 <div class="p-3">
+                                    <h4 class="w-50 m-0 text-light ">${projectTexts[index]?.heading}</h4>
+                                    <h4 class="w-50 " style="color:${projectTexts[index]?.color}" >${projectTexts[index]?.heading2}</h4>
+                                 </div>
+                                    
                                 </div>
                                 <div class="flip-card-back flex align-items-center">
-                                    <p class="my-3 mx-2">${projectTexts[index]?.description}
+                                    <p class="my-3 text-center mx-2">${projectTexts[index]?.description}
                                 </div>
                             </div>
                         </div>
@@ -125,12 +148,7 @@ function createCard(index) {
 
     // Select the container where content will be injected
     const container2 = document.getElementById('blog-container');
-    // if (!container) {
-    //     console.error('Project container not found');
-    //     return;  // Exit if the container doesn't exist
-    // }
 
-    // Generate the HTML structure dynamically using a for loop
     blogPosts.forEach(post => {
         const cardHTML = `
             <div role="listitem" class="blob_item w-dyn-item col-lg-4">

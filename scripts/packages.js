@@ -13,7 +13,7 @@ packages.forEach((package, index) => {
     const padding =index===0 || index==2 ?'p-text':'p-text-2';
     const cardHTML = `
                   <div class="col-lg-3 py-4 py-lg-0">
-                    <div class="package-card py-4">
+                    <div class="package-card py-4" style="animation-delay: ${0.2 + index * 0.2}s">
                         <div class="p-4">
                                 <div class="heading pt-5 pb-2">
                                 <h3 class=${padding}>${package.heading}</h3>

@@ -193,7 +193,7 @@ hr{
     }
 }
 .carousel{
-    width: 80%;
+    width: 100%;
 }
 .carousel-control-next-icon {
     background-image: url('/assets/Caret_Circle_right.png');
