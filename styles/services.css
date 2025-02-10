@@ -43,7 +43,7 @@
   }
   
   .flip-card-back {
-    background-color: white;
+  background: linear-gradient(360deg, rgba(72, 195, 79, 0) -30.62%, #48C34F 305.37%);;
     color: black;
     padding: 10px 10px;
     border-radius: 10px;
