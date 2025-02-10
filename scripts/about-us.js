@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', function () {
                      <div class="col-lg-2 mx-2 col-md-2 col-sm-4 ">
                        <a href="#" id="" class="m-2">
                             <div class="">
-                                <img src=${gallery.img_src}
+                                <img loading="lazy"  src=${gallery.img_src}
                                 alt="" class="w-100">
                             </div>
                         </a> 
@@ -104,7 +104,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     <div class="col-md-4 my-3">
                            <div class="location_item m-2">
                                 <div class="d-flex justify-content-center">
-                                    <img src=${value.img_src}  width="20%" alt="" class="">
+                                    <img loading="lazy"  src=${value.img_src}  width="20%" alt="" class="">
                                 </div>
                                 <div class="margin-bottom margin-small-2">
                                     <h5 class="text-white poppins-semibold text-center">${value.heading}</h5>

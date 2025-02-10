@@ -84,7 +84,7 @@ function createCard(index) {
        <div class="flip-card my-4">
                             <div class="flip-card-inner">
                                 <div class="flip-card-front ">
-                                    <img src=${projectTexts[index]?.image} alt="Avatar" >
+                                    <img loading="lazy"  src=${projectTexts[index]?.image} alt="Avatar" >
                                     <p class="w-75 text-center py-2">${projectTexts[index]?.heading}</p>
                                 </div>
                                 <div class="flip-card-back flex align-items-center">
@@ -138,7 +138,7 @@ function createCard(index) {
                     <div class="py-5">
                         <a aria-label="Blog Image Link" class="blog_image-link w-inline-block">
                             <div class="blog_image-wrapper">
-                                <img src="${post.imgSrc}" loading="lazy" width="100%" alt="" class="blog_image">
+                                <img loading="lazy"  src="${post.imgSrc}" loading="lazy" width="100%" alt="" class="blog_image">
                             </div>
                         </a>
                     </div>
@@ -148,7 +148,7 @@ function createCard(index) {
                         <p class="blob-text">${post.ceoQuote}</p>
 
                         <div class="d-flex align-items-center">
-                            <img src="/assets/pink-circle.png" alt="">
+                            <img loading="lazy"  src="/assets/pink-circle.png" alt="">
                             <sub class="text-secondary m-0 mx-2">By <a class="text-secondary text-decoration-underline">${post.author}</a></sub>
                         </div>
                     </div>

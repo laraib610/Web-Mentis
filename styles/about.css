@@ -4,7 +4,6 @@
     background-size: cover;
     background: linear-gradient(90deg, #262a82 0%, #060a4e 100%);
     ;
-
 }
 
 .header_about-background-shape {
@@ -260,7 +259,7 @@
     display: inline-block;
 }
 
-.image-container img {
+.image-container img{
     display: block;
     width: 80%;
     border-radius: 10px;

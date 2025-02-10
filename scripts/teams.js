@@ -76,7 +76,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 <div class="col-lg-3 p-3">
                     <div class="employee">
                         <div class="employee-image">
-                            <img src="${employee.image}" width="100%" alt="">
+                            <img loading="lazy"  src="${employee.image}" width="100%" alt="">
                         </div>
                         <div class="py-2">
                             <h6 class="text-white">${employee.heading}</h6>
@@ -96,7 +96,7 @@ document.addEventListener('DOMContentLoaded', function () {
             <div class="col-lg-3 p-3">
                 <div class="employee">
                     <div class="employee-image">
-                        <img src="${employee.image}" width="100%" alt="">
+                        <img loading="lazy"  src="${employee.image}" width="100%" alt="">
                     </div>
                     <div class="py-2">
                         <h6 class="text-white">${employee.heading}</h6>

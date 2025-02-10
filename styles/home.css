@@ -6,8 +6,7 @@ html,body{
     background-repeat: no-repeat;
     background-size: cover;
     height: fit-content;
-    position: relative;
-    top: 0;
+  
 }
 
 .typing {
@@ -58,10 +57,11 @@ html,body{
 }
 .projects{
     background-color: black;
+    padding-top: 91px;
    
     .cards {
         width: 750px;
-        background: url('/assets/card-img.png'), linear-gradient(180deg, #1C2373 50.6%, #0C0F2D 337.3%);
+        background: url('/assets/card-img loading="lazy" .png'), linear-gradient(180deg, #1C2373 50.6%, #0C0F2D 337.3%);
         background-repeat: no-repeat;
         background-size: cover;
         border: 2px solid #DAE810;

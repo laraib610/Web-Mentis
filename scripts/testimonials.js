@@ -83,7 +83,7 @@ const Testimonials = [
                 </div>
                 
                 <div class="d-flex py-3 justify-content-center align-items-center px-3 py-1">
-                    <img src=${Testimonials[index]?.image} width="30%" alt="Avatar" >
+                    <img loading="lazy"  src=${Testimonials[index]?.image} width="30%" alt="Avatar" >
                     
                     <p class="w-75 text-center py-2 m-0 text-white">${Testimonials[index]?.heading}
                     <br>

@@ -35,23 +35,26 @@
     integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
     crossorigin="anonymous"></script>
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
 </head>
 <body>
     <div id="header">
     </div>
-    <section >
+    <section class="services-page">
         <div class="banner-section">
             <div class="container pb-4 py-3" >
                 <div class="d-lg-flex justify-content-center align-items-center px-4 py-5">
                     <div class="col-lg-10">
                         <div>
-                            <h1 class="text-center fw-bolder text-white m-0">
+                            <h1 class="text-center fw-bolder text-white m-0" data-aos="fade-down" data-aos-duration="3000">
                                 UI/UX Design
                                 <br>
                                 <span class="typed text-center"> Design Services</span>
                             </h1>
                            
-                            <p class="text-white text-center py-4">
+                            <p class="text-white text-center py-4" data-aos="fade-up" data-aos-duration="3000">
                                 At Webmantis, we craft intuitive and engaging UI/UX designs that turn software solutions into seamless user experiences. Our team focuses on aesthetics, usability, and accessibility to help your brand stand out and deliver real value to your customers.                            </p>
                         </div>
 
@@ -66,14 +69,14 @@
        
     </section> 
     <section class="checkout-blob">
-        <img src="/assets/gradient-wave.svg" class="purple-wave" alt=""> 
+        <img loading="lazy"  src="/assets/gradient-wave.svg" class="blue-wave" alt=""> 
         <div class="blob">
-           <div class="container py-5">
+           <div class="container py-5 mt-5">
                 <div class="d-lg-flex flex-wrap justify-content-between align-items-center" id="UI-service-container">
 
                 </div>
             </div> 
-            <div class="technologies py-5">
+            <div class="technologies py-5 mt-3">
                     <h1 class="text-center py-5">Technologies We Use for UI/UX</h1>
                     <div class="d-lg-flex justify-content-center align-items-center" id="technology">
                      
@@ -101,7 +104,10 @@
         
 
     </section>
-    
+    <script>
+
+        AOS.init();
+    </script>
 <!-- 
     <div id="partners">
     </div> -->

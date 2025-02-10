@@ -24,7 +24,7 @@ if (navItems.length > 0) {
 
   $("#partners").load("/shared/partners/partners.html", function() {
     const cardsPerSlide_testimonial = 3;
-      const partnerImgUrls = [
+      const partnerimgUrls = [
           { src: "/assets/samsung.png", width: "60%",  class:"partner-img"},
           { src: "/assets/amazon.png", width: "60%" ,  class:"partner-img-2"},
           { src: "/assets/apple.png", class:"partner-img-1" },
@@ -35,7 +35,7 @@ if (navItems.length > 0) {
 
       const partnerContainer = document.getElementById('partners-container');
       if (partnerContainer) {
-         for(let i=0; i<partnerImgUrls.length ;  i += cardsPerSlide_testimonial){
+         for(let i=0; i<partnerimgUrls.length ;  i += cardsPerSlide_testimonial){
             const activeClass = i === 0 ? 'active' : ''; 
               const cardHTML = `
                <div class="carousel-item ${activeClass}" data-bs-interval="100">
@@ -54,7 +54,7 @@ if (navItems.length > 0) {
       function createCard(index) {
         return `
          <div class="">
-                          <img src="${partnerImgUrls[index].src}" class=${partnerImgUrls[index].class} alt="">
+                          <img loading="lazy"  src="${partnerimgUrls[index].src}" class=${partnerimgUrls[index].class} alt="">
             </div>
                  
         `;
@@ -74,7 +74,7 @@ if (navItems.length > 0) {
               const cardHTML = `
                   <div class="p-3">
                       <div class="d-flex justify-content-center justify-content-lg-start">
-                          <img src="${office.image}" width="${office.imagesize}" alt="">
+                          <img loading="lazy"  src="${office.image}" width="${office.imagesize}" alt="">
                       </div>
                       <div class="py-2 d-flex flex-column justify-content-center justify-content-lg-start">
                           <h6 class="text-white mob-text">${office.heading}</h6>

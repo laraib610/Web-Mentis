@@ -41,7 +41,7 @@ services.forEach(service => {
                         <div class="flip-card my-4">
                             <div class="flip-card-inner">
                                 <div class="flip-card-front ">
-                                    <img src=${service.image} alt="Avatar" >
+                                    <img loading="lazy"  src=${service.image} alt="Avatar" >
                                     <p class="w-75 text-center py-2">${service.heading}</p>
                                 </div>
                                 <div class="flip-card-back">

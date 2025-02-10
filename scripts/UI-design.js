@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
+  
     const UIservices=[
         {
             heading:"UX Design",
@@ -47,11 +48,11 @@ document.addEventListener('DOMContentLoaded', function () {
     // Generate the HTML structure dynamically using a for loop
     UIservices.forEach(service => {
         const cardHTML = `
-                    <div class="col-lg-3 d-flex justify-content-center">
+                    <div class="col-lg-3 d-flex justify-content-center" data-aos="fade-left" data-aos-duration="3000">
                             <div class="flip-card my-4">
                                 <div class="flip-card-inner">
                                     <div class="flip-card-front ">
-                                        <img src=${service.image} alt="Avatar" >
+                                        <img loading="lazy"  src=${service.image} alt="Avatar" >
                                         <p class="w-75 text-center px-4 py-2 m-0">${service.heading}</p>
                                     </div> 
                                     <div class="flip-card-back ">
@@ -81,62 +82,35 @@ document.addEventListener('DOMContentLoaded', function () {
 
     ];
 
-    const UItechApps=[
-        {
-            heading:"Figma",
-            image:"/assets/UI-Icons/figma.svg",
-            class:" col-lg-4 "
-        },
-        {
-            heading:"Adobe XD",
-            image:"/assets/UI-Icons/adobexd.svg",
-            class:" col-lg-4 "
-        },
-        {
-            heading:"Sketch",
-            image:"/assets/UI-Icons/sketch.svg",
-            class:" col-lg-4 "
-        },
-        {
-            heading:"Photoshop",
-            image:"/assets/UI-Icons/photoshop.svg",
-            class:" col-lg-6"
-        },
-        {
-            heading:"Illustrator",
-            image:"/assets/UI-Icons/illustrator.svg",
-            class:" col-lg-6"
-        },
-
-    ];
     const TechContainer=document.getElementById('technology');
     const techHtml=`
-    <div class="col-lg-6 pl-5">
+    <div class="col-lg-6 pl-5" data-aos="fade-right" data-aos-duration="3000">
                       ${getTechs()}      
 
     </div>
-                        <div class="col-lg-6 pr-0">
+                        <div class="col-lg-6 pr-0" data-aos="fade-left" data-aos-duration="3000">
                             <div class="tech-apps" >
-                            <div id="UI/UX" class="d-flex flex-wrap align-items-lg-stretch justify-content-between align-content-stretch">
-                               ${getApps('UI/UX')}
+                            <div id="tech-app" class="d-flex flex-wrap align-items-lg-stretch justify-content-between align-content-stretch">
+                           
+                              
                             </div>
-                            <div id="Web-front-end">
-                               ${getApps('web-front-end')}
-                            </div>
+                       
 
                         </div>
     `
     
     // Generate the HTML structure dynamically using a for loop
   TechContainer.innerHTML += techHtml;
-
+  window.getApps = getApps; // Attach to global scope
+    getApps('UI/UX');
+    
 
 function getTechs(){
    let data=''
     UItechnology.forEach(tech => {
        const cardHTML = `
         <div>
-                  <a href="#UI/UX" class="tech-link d-flex justify-content-between ${tech.id=='UI'?'active':''}">${tech.heading} <img src="/assets/UI-Icons/arrow.svg" alt=""></a>
+                  <a href="#UI/UX" id="UI" class="tech-link d-flex justify-content-between" onload="getApps('UI/UX')" onclick="getApps('${tech.heading}')">${tech.heading} <img loading="lazy"  src="/assets/UI-Icons/arrow.svg" alt=""></a>
                  <hr>
         </div>
     
@@ -146,56 +120,36 @@ function getTechs(){
     return data
 
 }
-function getApps(tech){
-    let data =''
-    if(tech=='UI/UX'){
-        document.getElementById('UI')?.classList.add('.active')
-        UItechApps.forEach(app=>{
-        const cardHTML2 = `
-        <div class=" ${app.class} p-2">
-            <div class="app py-1 px-1 d-flex align-items-center align-content-lg-stretch">  
-                <img src="${app.image}" alt="">
-                <h5 class="m-0 px-1">${app.heading}</h5>
-            </div>
-        </div>
-
-`;
-            data +=cardHTML2
-    });
-    return data
-    }
-    
-}
 
 const processes=[
     {
         id:'01',
-        img:'/assets/UI-Icons/research.svg',
+        img :'/assets/UI-Icons/research.svg',
         heading:'Research & Strategy'
     },
     {
         id:'02',
-        img:'/assets/UI-Icons/architecture.svg',
+        img :'/assets/UI-Icons/architecture.svg',
         heading:'Information Architecture'
     },
     {
         id:'03',
-        img:'/assets/UI-Icons/wfp.svg',
+        img :'/assets/UI-Icons/wfp.svg',
         heading:'Wireframe & Prototype'
     },
     {
         id:'04',
-        img:'/assets/UI-Icons/visuals.svg',
+        img :'/assets/UI-Icons/visuals.svg',
         heading:'Visual Design'
     },
     {
         id:'05',
-        img:'/assets/UI-Icons/development.svg',
+        img :'/assets/UI-Icons/development.svg',
         heading:'UI Development'
     },
     {
         id:'06',
-        img:'/assets/UI-Icons/usability.svg',
+        img :'/assets/UI-Icons/usability.svg',
         heading:'Usability Testing'
     },
 ];
@@ -203,58 +157,58 @@ const processes=[
 const processContainer=document.getElementById('process');
 const processHtml=`
     <div class="d-lg-flex flex-wrap justify-content-between align-items-center" >
-        <div class="col-lg-3 d-flex justify-content-center">
+        <div class="col-lg-3 d-flex justify-content-center" data-aos="fade-right" data-aos-duration="1000">
             <div class="flip-card my-4">
                 <div class="process-card">
                     <h1 class="h1-gradient">
                     ${processes[0].id}
                     </h1>
                     <div class="data d-flex flex-column justify-content-center">
-                        <img src="${processes[0].img}" alt="Avatar" >
+                        <img loading="lazy" src="${processes[0].img }" alt="Avatar" >
                         <p class="w-75 text-center px-4 py-2 m-0">Research & Strategy</p>
                     </div> 
                 </div>
             </div>
         </div>  
-        <div class="col-lg-1 p-0 d-none d-lg-block"  >
-            <img src="/assets/UI-Icons/arrow-line.svg" width="100%"  alt="">
+        <div class="col-lg-1 p-0 d-none d-lg-block"  data-aos="fade-right" data-aos-delay="1000" data-aos-duration="1000">
+            <img loading="lazy"  src="/assets/UI-Icons/arrow-line.svg" width="100%"  alt="">
 
         </div>
-        <div class="col-lg-3 d-flex justify-content-center">
+        <div class="col-lg-3 d-flex justify-content-center" data-aos="fade-right" data-aos-delay="1000" data-aos-duration="1000">
             <div class="flip-card my-4">
                 <div class="process-card">
                     <h1 class="h1-gradient">
                     ${processes[1].id}
                     </h1>
                     <div class="data d-flex flex-column justify-content-center">
-                        <img src="${processes[1].img}" alt="Avatar" >
+                        <img loading="lazy"  src="${processes[1].img}" alt="Avatar" >
                         <p class="w-75 text-center px-4 py-2 m-0">${processes[1].heading}</p>
                     </div> 
                 </div>
             </div>
         </div>   
-        <div class="col-lg-1 p-0 d-none d-lg-block"  >
-            <img src="/assets/UI-Icons/arrow-line.svg" width="100%"  alt="">
+        <div class="col-lg-1 p-0 d-none d-lg-block"  data-aos="fade-right" data-aos-delay="1500" data-aos-duration="1500">
+            <img loading="lazy"  src="/assets/UI-Icons/arrow-line.svg" width="100%"  alt="">
 
         </div>
-        <div class="col-lg-3 d-flex justify-content-center">
+        <div class="col-lg-3 d-flex justify-content-center" data-aos="fade-right" data-aos-delay="1500" data-aos-duration="1500">
             <div class="flip-card my-4">
                 <div class="process-card">
                     <h1 class="h1-gradient">
                     ${processes[2].id}
                     </h1>
                     <div class="data d-flex flex-column justify-content-center">
-                        <img src="${processes[2].img}" alt="Avatar" >
+                        <img loading="lazy"  src="${processes[2].img}" alt="Avatar" >
                         <p class="w-75 text-center px-4 py-2 m-0">${processes[2].heading}</p>
                     </div> 
                 </div>
             </div>
         </div>       
     </div>   
-    <div class="arrow pt-2 d-none d-lg-block">
-        <img src="/assets/UI-Icons/hori-line.svg" width="100%" alt="">
+    <div class="arrow pt-2 d-none d-lg-block" data-aos="fade-down" data-aos-delay="2000" data-aos-duration="2000">
+        <img loading="lazy"  src="/assets/UI-Icons/hori-line.svg" width="100%" alt="">
     </div>
-    <div class="d-lg-flex flex-wrap justify-content-between align-items-center">
+    <div class="d-lg-flex flex-wrap justify-content-between align-items-center" data-aos="fade-right" data-aos-delay="2000" data-aos-duration="2000">
         <div class="col-lg-3 d-flex justify-content-center">
             <div class="flip-card my-4">
                 <div class="process-card">
@@ -262,41 +216,41 @@ const processHtml=`
                        ${processes[3].id}
                     </h1>
                     <div class="data d-flex flex-column justify-content-center">
-                        <img src="${processes[3].img}" alt="Avatar" >
+                        <img loading="lazy"  src="${processes[3].img}" alt="Avatar" >
                         <p class="w-75 text-center px-4 py-2 m-0">${processes[3].heading}</p>
                     </div> 
                 </div>
             </div>
         </div>  
-        <div class="col-lg-1 p-0 d-none d-lg-block"  >
-            <img src="/assets/UI-Icons/arrow-line.svg" width="100%"  alt="">
+        <div class="col-lg-1 p-0 d-none d-lg-block" data-aos="fade-right" data-aos-delay="1000" data-aos-duration="1000" >
+            <img loading="lazy"  src="/assets/UI-Icons/arrow-line.svg" width="100%"  alt="">
 
         </div>
-        <div class="col-lg-3 d-flex justify-content-center">
+        <div class="col-lg-3 d-flex justify-content-center" data-aos="fade-right" data-aos-delay="2500" data-aos-duration="2500">
             <div class="flip-card my-4">
                 <div class="process-card">
                     <h1 class="h1-gradient">
                     ${processes[4].id}
                     </h1>
                     <div class="data d-flex flex-column justify-content-center">
-                        <img src="${processes[4].img}" alt="Avatar" >
+                        <img loading="lazy"  src="${processes[4].img}" alt="Avatar" >
                         <p class="w-75 text-center px-4 py-2 m-0">${processes[4].heading}</p>
                     </div> 
                 </div>
             </div>
         </div>   
-        <div class="col-lg-1 p-0 d-none d-lg-block"  >
-            <img src="/assets/UI-Icons/arrow-line.svg" width="100%"  alt="">
+        <div class="col-lg-1 p-0 d-none d-lg-block" data-aos="fade-right" data-aos-delay="1000" data-aos-duration="1000" >
+            <img loading="lazy"  src="/assets/UI-Icons/arrow-line.svg" width="100%"  alt="">
 
         </div>
-        <div class="col-lg-3 d-flex justify-content-center">
+        <div class="col-lg-3 d-flex justify-content-center" data-aos="fade-right" data-aos-delay="3000" data-aos-duration="3000">
             <div class="flip-card my-4">
                 <div class="process-card">
                     <h1 class="h1-gradient">
                     ${processes[5].id}
                     </h1>
                     <div class="data d-flex flex-column justify-content-center">
-                        <img src="${processes[5].img}" alt="Avatar" >
+                        <img loading="lazy"  src="${processes[5].img}" alt="Avatar" >
                         <p class="w-75 text-center px-4 py-2 m-0">${processes[5].heading}</p>
                     </div> 
                 </div>
@@ -314,3 +268,65 @@ processContainer.innerHTML+=processHtml;
 
 
  });
+
+ 
+ const UItechApps=[
+    {
+        heading:"Figma",
+        image:"/assets/UI-Icons/figma.svg",
+        class:" col-lg-4 "
+    },
+    {
+        heading:"Adobe XD",
+        image:"/assets/UI-Icons/adobexd.svg",
+        class:" col-lg-4 "
+    },
+    {
+        heading:"Sketch",
+        image:"/assets/UI-Icons/sketch.svg",
+        class:" col-lg-4 "
+    },
+    {
+        heading:"Photoshop",
+        image:"/assets/UI-Icons/photoshop.svg",
+        class:" col-lg-6"
+    },
+    {
+        heading:"Illustrator",
+        image:"/assets/UI-Icons/illustrator.svg",
+        class:" col-lg-6"
+    },
+
+];
+ 
+
+// Move the function OUTSIDE the event listener
+function getApps(tech) {
+    
+    let link = document.getElementById('UI');
+    let container= document.getElementById("tech-app");
+    console.log(link, container)
+    if (!container) {
+        
+    };
+
+    let data = '';
+
+    if (tech === 'UI/UX') {
+        link?.classList?.add('active');  
+        UItechApps.forEach(app => {
+            data += `
+                <div class="${app.class.trim()} p-2">
+                    <div class="app py-1 px-1 d-flex align-items-center">
+                        <img loading="lazy"  src="${app.image}" alt="">
+                        <h5 class="m-0 px-1">${app.heading}</h5>
+                    </div>
+                </div>
+            `;
+        });
+    } else {
+        link.classList.remove('active');
+    }
+
+    container.innerHTML = data;
+}
