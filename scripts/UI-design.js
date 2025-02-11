@@ -110,7 +110,7 @@ function getTechs(){
     UItechnology.forEach(tech => {
        const cardHTML = `
         <div>
-                  <a href="#UI/UX" id="UI" class="tech-link d-flex justify-content-between" onload="getApps('UI/UX')" onclick="getApps('${tech.heading}')">${tech.heading} <img loading="lazy"  src="/assets/UI-Icons/arrow.svg" alt=""></a>
+                  <a href="#UI/UX" id="UI" class="tech-link d-flex justify-content-between"  onclick="getApps('${tech.heading}')">${tech.heading} <img loading="lazy"  src="/assets/UI-Icons/arrow.svg" alt=""></a>
                  <hr>
         </div>
     
@@ -299,6 +299,36 @@ processContainer.innerHTML+=processHtml;
 
 ];
  
+const webApps=[
+    {
+        heading:"Html 5",
+        image:"/assets/UI-Icons/html-5.png",
+        class:" col-lg-4 "
+    },
+    {
+        heading:"Bootstrap",
+        image:"/assets/UI-Icons/bootstrap.png",
+        class:" col-lg-4 "
+    },
+    {
+        heading:"Wordpress",
+        image:"/assets/UI-Icons/wordpress.png",
+        class:" col-lg-4 "
+    },
+    {
+        heading:"React",
+        image:"/assets/UI-Icons/react.png",
+        class:" col-lg-6"
+    },
+    {
+        heading:"Drupal",
+        image:"/assets/UI-Icons/drupal.png",
+        class:" col-lg-6"
+    },
+
+];
+ 
+ 
 
 // Move the function OUTSIDE the event listener
 function getApps(tech) {
@@ -324,7 +354,22 @@ function getApps(tech) {
                 </div>
             `;
         });
-    } else {
+    } else if(tech === 'Web Front-End'){
+        link.classList.remove('active');
+        webApps.forEach(app => {
+            data += `
+                <div class="${app.class.trim()} p-2">
+                    <div class="app py-1 px-1 d-flex align-items-center">
+                        <img loading="lazy" width="20%"  src="${app.image}" alt="">
+                        <h5 class="m-0 px-1">${app.heading}</h5>
+                    </div>
+                </div>
+            `;
+        });
+
+    }
+    
+    else {
         link.classList.remove('active');
     }
 
