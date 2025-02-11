@@ -28,12 +28,17 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
+    <script src="/scripts/service-scripts/web-development.js"></script>
     <script src="/services.js"></script>
-    <script src="/scripts/services.js"></script>
     <script
     src="https://code.jquery.com/jquery-3.3.1.js"
     integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
     crossorigin="anonymous"></script>
+
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 
 </head>
 <body>
@@ -43,21 +48,18 @@
         <div class="banner-section">
             <div class="container pb-4 py-3" >
                 <div class="d-lg-flex justify-content-center align-items-center px-4 py-5">
-                    <div class="col-lg-6">
-                        <img loading="lazy"  src="/assets/whatweb.png" width="80%" alt="">
-
-                    </div>
-                    <div class="col-lg-6">
-                        <div>
-                            <h5 class="text-white">
-                                Web Development
-                            </h5>
-                            <p class="text-white">
-                                Building scalable, innovative websites that drive engagement and conversions.                            
-                            </p>
-                        </div>
-
-                    </div>
+                   
+                    <div class="col-lg-10">
+                        <h1 class="text-center fw-bolder text-white m-0" data-aos="fade-down" data-aos-duration="3000">
+                            Web Development
+                            <br>
+                            <span class="typed text-center">Services</span>
+                        </h1>
+                       
+                        <p class="text-white text-center py-4" data-aos="fade-up" data-aos-duration="3000">
+                            Building scalable, innovative websites that drive engagement and conversions. 
+                        </p>                           
+                     </div>
                     
                 
                 </div>
@@ -70,48 +72,18 @@
     <section class="checkout-blob">
         <img loading="lazy"  src="/assets/gradient-wave.svg" class="blue-wave" alt=""> 
         <div class="blob">
-           <div class="container py-5">
-             <div class="offer ">
-                <div class="card my-5">
-                    <div class="card-body list-style-disc">
-                        <h5>What We Offer </h5>
-                        <ul class="ml-5">
-                            <li class="m-0"> 	
-                            	Custom CMS development (WordPress, Drupal).
-                            </li>
-                            <li class="m-0">
-                                E-commerce platforms with secure payment gateways.
-                            </li>
-                            <li class="m-0">
-                                Website maintenance and updates.
-                            </li>
-                        </ul>
-                    </div>
+           <div class="container py-5 mt-5">
+                <div class="d-lg-flex flex-wrap justify-content-between align-items-center" id="web-service-container">
 
                 </div>
-                <div class="card my-5">
-                    <div class="card-body list-style-disc">
-                        <h5>Tools & Technologies  </h5>
-                        <div class="d-flex flex-wrap align-items-center ">
-                            <div class="bg-dark m-2">
-                                <p class="text-white m-0 py-1 px-1">HTML5</p>
-                            </div>
-                            <div class="bg-dark m-2">
-                                <p class="text-white m-0 py-1 px-1"> React </p>
-                            </div>
-                            <div class="bg-dark m-2">
-                                <p class="text-white m-0 py-1 px-1">Laravel </p>
-                            </div>
-                            <div class="bg-dark m-2">
-                                <p class="text-white m-0 py-1 px-1">WooCommerce</p>
-                            </div>
+            </div> 
+            <div class="technologies py-5 mt-3">
+                    <h1 class="text-center py-5">Technologies We Use for Web Development</h1>
+                    <div class="d-lg-flex justify-content-center align-items-center" id="technology">
+                     
 
-                        </div>
                     </div>
 
-                </div>
-
-             </div>
             </div>
 
         </div>
@@ -119,7 +91,10 @@
         
 
     </section>
-    
+    <script>
+
+        AOS.init();
+    </script>
 <!-- 
     <div id="partners">
     </div> -->

@@ -61,12 +61,39 @@ document.addEventListener('DOMContentLoaded', function () {
                                     </div>
                                 </div>
                             </div>
-                        </div>       
-                    </div>   
+                        </div>        
     
         `;
         UIserviceContainer.innerHTML += cardHTML;
     });
+    const UItechApps=[
+        {
+            heading:"Figma",
+            image:"/assets/UI-Icons/figma.svg",
+            class:" col-lg-4 "
+        },
+        {
+            heading:"Adobe XD",
+            image:"/assets/UI-Icons/adobexd.svg",
+            class:" col-lg-4 "
+        },
+        {
+            heading:"Sketch",
+            image:"/assets/UI-Icons/sketch.svg",
+            class:" col-lg-4 "
+        },
+        {
+            heading:"Photoshop",
+            image:"/assets/UI-Icons/photoshop.svg",
+            class:" col-lg-6"
+        },
+        {
+            heading:"Illustrator",
+            image:"/assets/UI-Icons/illustrator.svg",
+            class:" col-lg-6"
+        },
+    
+    ];
 
     const UItechnology=[
         {
@@ -74,13 +101,10 @@ document.addEventListener('DOMContentLoaded', function () {
             heading:"UI/UX",
             // image:"/assets/UI-Icons/UX-design.svg",
         },
-        {
-            id:'web',
-            heading:"Web Front-End",
-            // image:"/assets/UI-Icons/UX-design.svg",
-        },
+
 
     ];
+  
 
     const TechContainer=document.getElementById('technology');
     const techHtml=`
@@ -90,19 +114,16 @@ document.addEventListener('DOMContentLoaded', function () {
     </div>
                         <div class="col-lg-6 pr-0" data-aos="fade-left" data-aos-duration="3000">
                             <div class="tech-apps" >
-                            <div id="tech-app" class="d-flex flex-wrap align-items-lg-stretch justify-content-between align-content-stretch">
-                           
-                              
-                            </div>
+                                <div id="tech-app" class="d-flex flex-wrap align-items-lg-stretch justify-content-between align-content-stretch">
+                                    ${getApps()}
+                                
+                                </div>
                        
 
                         </div>
     `
-    
-    // Generate the HTML structure dynamically using a for loop
   TechContainer.innerHTML += techHtml;
-  window.getApps = getApps; // Attach to global scope
-    getApps('UI/UX');
+
     
 
 function getTechs(){
@@ -110,7 +131,7 @@ function getTechs(){
     UItechnology.forEach(tech => {
        const cardHTML = `
         <div>
-                  <a href="#UI/UX" id="UI" class="tech-link d-flex justify-content-between"  onclick="getApps('${tech.heading}')">${tech.heading} <img loading="lazy"  src="/assets/UI-Icons/arrow.svg" alt=""></a>
+                  <a href="#UI/UX" id="UI" class="tech-link d-flex justify-content-between active" >${tech.heading} <img loading="lazy"  src="/assets/UI-Icons/arrow.svg" alt=""></a>
                  <hr>
         </div>
     
@@ -119,6 +140,28 @@ function getTechs(){
     });
     return data
 
+}
+
+
+
+// Move the function OUTSIDE the event listener
+function getApps() {
+    
+    let link = document.getElementById('UI');
+ 
+    let data = '';
+        link?.classList?.add('active');  
+        UItechApps.forEach(app => {
+            data += `
+                <div class="${app.class.trim()} p-2">
+                    <div class="app py-1 px-1 d-flex align-items-center">
+                        <img loading="lazy"  src="${app.image}" alt="">
+                        <h5 class="m-0 px-1">${app.heading}</h5>
+                    </div>
+                </div>
+            `;
+        });
+    return data;
 }
 
 const processes=[
@@ -270,108 +313,4 @@ processContainer.innerHTML+=processHtml;
  });
 
  
- const UItechApps=[
-    {
-        heading:"Figma",
-        image:"/assets/UI-Icons/figma.svg",
-        class:" col-lg-4 "
-    },
-    {
-        heading:"Adobe XD",
-        image:"/assets/UI-Icons/adobexd.svg",
-        class:" col-lg-4 "
-    },
-    {
-        heading:"Sketch",
-        image:"/assets/UI-Icons/sketch.svg",
-        class:" col-lg-4 "
-    },
-    {
-        heading:"Photoshop",
-        image:"/assets/UI-Icons/photoshop.svg",
-        class:" col-lg-6"
-    },
-    {
-        heading:"Illustrator",
-        image:"/assets/UI-Icons/illustrator.svg",
-        class:" col-lg-6"
-    },
 
-];
- 
-const webApps=[
-    {
-        heading:"Html 5",
-        image:"/assets/UI-Icons/html-5.png",
-        class:" col-lg-4 "
-    },
-    {
-        heading:"Bootstrap",
-        image:"/assets/UI-Icons/bootstrap.png",
-        class:" col-lg-4 "
-    },
-    {
-        heading:"Wordpress",
-        image:"/assets/UI-Icons/wordpress.png",
-        class:" col-lg-4 "
-    },
-    {
-        heading:"React",
-        image:"/assets/UI-Icons/react.png",
-        class:" col-lg-6"
-    },
-    {
-        heading:"Drupal",
-        image:"/assets/UI-Icons/drupal.png",
-        class:" col-lg-6"
-    },
-
-];
- 
- 
-
-// Move the function OUTSIDE the event listener
-function getApps(tech) {
-    
-    let link = document.getElementById('UI');
-    let container= document.getElementById("tech-app");
-    console.log(link, container)
-    if (!container) {
-        
-    };
-
-    let data = '';
-
-    if (tech === 'UI/UX') {
-        link?.classList?.add('active');  
-        UItechApps.forEach(app => {
-            data += `
-                <div class="${app.class.trim()} p-2">
-                    <div class="app py-1 px-1 d-flex align-items-center">
-                        <img loading="lazy"  src="${app.image}" alt="">
-                        <h5 class="m-0 px-1">${app.heading}</h5>
-                    </div>
-                </div>
-            `;
-        });
-    } else if(tech === 'Web Front-End'){
-        link.classList.remove('active');
-        webApps.forEach(app => {
-            data += `
-                <div class="${app.class.trim()} p-2">
-                    <div class="app py-1 px-1 d-flex align-items-center">
-                        <img loading="lazy" width="20%"  src="${app.image}" alt="">
-                        <h5 class="m-0 px-1">${app.heading}</h5>
-                    </div>
-                </div>
-            `;
-        });
-
-    }
-    
-    else {
-        link.classList.remove('active');
-    }
-
-    container.innerHTML = data;
-}
