@@ -128,6 +128,7 @@ function createCard(index) {
             description: "NanoSoft specializes in software development for robotics, particularly in industrial automation. The project focuses on real-time motion control systems, optimizing sensor fusion for feedback loops, and ensuring that robotic arms and drones function with maximum precision, safety, and efficiency.",
             ceoQuote: "\"At NanoSoft, we’re empowering robots with the intelligence to make real-time decisions. Our low-level software ensures that every sensor reading, every movement, and every task is executed with perfect precision. The future of robotics is here, and we’re proud to be leading the way.\" - Mike Cannon-Brookes",
             author: "Mike Cannon-Brookes",
+            width:"96%",
             imgSrc: "/assets/nanosoft.jpg"
         },
         {
@@ -135,6 +136,7 @@ function createCard(index) {
             description: "Castlepoint Systems offers a platform that promotes secure data storage using ethical AI. It ensures organizations can manage and protect their information assets while complying with regulatory requirements.",
             ceoQuote: "\"We are committed to providing organizations with the tools to manage their data securely and ethically, leveraging AI to uphold the highest standards of information governance.\" - Ryan Edwards-Tierney",
             author: " Ryan Edwards-Tierney",
+            width:"85%",
             imgSrc: "/assets/castlepoint.jpeg"
         },
         {
@@ -142,6 +144,7 @@ function createCard(index) {
             description: "SmartStudy is an educational app for students, offering interactive lessons, quizzes, and resources across various subjects. The app utilizes low-level software to ensure real-time progress tracking, offline access to content, and seamless synchronization across devices, providing a highly responsive and engaging learning experience",
             ceoQuote: "\"SmartStudy is transforming the way students learn by focusing on real-time performance improvements and user-friendly features. Our low-level optimizations ensure that students have uninterrupted access to educational content wherever they are, on any device.\" - Greg Ellis",
             author: "Greg Ellis",
+            width:"68%",
             imgSrc: "/assets/smartstudy.jpeg"
         }
     ];
@@ -156,7 +159,7 @@ function createCard(index) {
                     <div class="py-5">
                         <a aria-label="Blog Image Link" class="blog_image-link w-inline-block">
                             <div class="blog_image-wrapper">
-                                <img loading="lazy"  src="${post.imgSrc}" loading="lazy" width="100%" alt="" class="blog_image">
+                                <img loading="lazy"  src="${post.imgSrc}" loading="lazy" width="${post.width}" alt="" class="blog_image">
                             </div>
                         </a>
                     </div>
