@@ -29,11 +29,14 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
     <script src="/services.js"></script>
-    <script src="/scripts/services.js"></script>
+    <script src="/scripts/service-scripts/CRM.js"></script>
     <script
     src="https://code.jquery.com/jquery-3.3.1.js"
     integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
     crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
 
 </head>
 <body>
@@ -43,19 +46,18 @@
         <div class="banner-section">
             <div class="container pb-4 py-3" >
                 <div class="d-lg-flex justify-content-center align-items-center px-4 py-5">
-                    <div class="col-lg-6">
-                        <img loading="lazy"  src="/assets/whatweb.png" width="80%" alt="">
-
-                    </div>
-                    <div class="col-lg-6">
-                        <div>
-                            <h5 class="text-white">
-                                CRM Integration & Cloud Services
-                            </h5>
-                            <p class="text-white">
-                                Enhancing customer relationships and operational efficiency.
-                            </p>
-                    </div>
+                    <div class="col-lg-10">
+                        <h1 class="text-center fw-bolder text-white m-0" data-aos="fade-down" data-aos-duration="3000">
+                            CRM Integration &
+                            <br>
+                            <span class="typed text-center"> Cloud Services</span>
+                        </h1>
+                       
+                        <p class="text-white text-center py-4" data-aos="fade-up" data-aos-duration="3000">
+                            Enhancing customer relationships and operational efficiency.
+                        </p>                           
+                     </div>
+                    
                     
                 
                 </div>
@@ -68,49 +70,20 @@
     <section class="checkout-blob">
         <img loading="lazy"  src="/assets/gradient-wave.svg" class="blue-wave" alt=""> 
         <div class="blob">
-           <div class="container py-5">
-             <div class="offer ">
-                <div class="card my-5">
-                    <div class="card-body list-style-disc">
-                        <h5>What We Offer</h5>
-                        <ul class="ml-5">
-                            <li class="m-0"> 	
-                            	CRM software setup and customization.
-                            </li>
-                            <li class="m-0">
-                                Workflow automation and pipeline management.
-                            </li>
-                            <li class="m-0">
-                                Real-time analytics for customer insights.
-                            </li>
-                        </ul>
-                    </div>
+           <div class="container py-5 mt-5">
+                <div class="d-lg-flex flex-wrap justify-content-between align-items-center" id="CRM-service-container">
 
                 </div>
-                <div class="card my-5">
-                    <div class="card-body list-style-disc">
-                        <h5>Tools & Technologies  </h5>
-                        <div class="d-flex flex-wrap align-items-center ">
-                            <div class="bg-dark m-2">
-                                <p class="text-white m-0 py-1 px-1">Salesforce</p>
-                            </div>
-                            <div class="bg-dark m-2">
-                                <p class="text-white m-0 py-1 px-1">HubSpot</p>
-                            </div>
-                            <div class="bg-dark m-2">
-                                <p class="text-white m-0 py-1 px-1">Zoho CRM  </p>
-                            </div>
-                            <div class="bg-dark m-2">
-                                <p class="text-white m-0 py-1 px-1"> Pipedrive</p>
-                            </div>
-                        </div>
+            </div> 
+            <div class="technologies py-5 mt-3">
+                <div class="d-flex justify-content-center">
+                    <h1 class="text-center w-75 py-5">Technologies We Use for CRM</h1>
+                </div>
+                    <div class="d-lg-flex justify-content-center align-items-center" id="technology">
+                     
+
                     </div>
 
-                </div>
-                
-               
-
-             </div>
             </div>
 
         </div>
@@ -118,7 +91,14 @@
         
 
     </section>
+    
+<!-- 
+    <div id="partners">
+    </div> -->
+    <script>
 
+        AOS.init();
+    </script>
     <div id="footer">
     </div>
 
