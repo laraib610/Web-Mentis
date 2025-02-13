@@ -23,42 +23,60 @@ if (navItems.length > 0) {
   // Load partners content
 
   $("#partners").load("/shared/partners/partners.html", function() {
-    const cardsPerSlide_testimonial = 3;
-      const partnerimgUrls = [
-          { src: "/assets/samsung.png", width: "60%",  class:"partner-img"},
-          { src: "/assets/amazon.png", width: "60%" ,  class:"partner-img-2"},
-          { src: "/assets/apple.png", class:"partner-img-1" },
-          { src: "/assets/samsung.png", width: "60%" ,  class:"partner-img"},
-          { src: "/assets/amazon.png", width: "60%" ,  class:"partner-img-2"},
-          { src: "/assets/apple.png", class:"partner-img-1" },
-      ];
+    const partnerimgUrls = [
+      { src: "/assets/softosol.png", width: "60%", class:"partner-img"},
+      { src: "/assets/Nexa.png", width: "70%", class:"partner-img-2"},
+      // Add more images as needed
+  ];
 
-      const partnerContainer = document.getElementById('partners-container');
-      if (partnerContainer) {
-         for(let i=0; i<partnerimgUrls.length ;  i += cardsPerSlide_testimonial){
-            const activeClass = i === 0 ? 'active' : ''; 
-              const cardHTML = `
-               <div class="carousel-item ${activeClass}" data-bs-interval="100">
-                <div class="d-flex justify-content-between">
-                   
-                    ${ createCard(i)}
-                    ${ createCard(i + 1)}
-                    ${ createCard(i + 2) }
+  const partnerContainer = document.getElementById('partners-container');
+  const isLargeScreen = window.innerWidth >= 992;
+  
+  if (partnerContainer) {
+    let firstSlide = true; // Flag to apply "active" class to the first slide
+    for (let i = 0; i < partnerimgUrls.length; i++) {
+      const activeClass = firstSlide ? 'active' : ''; 
+      firstSlide = false; // After the first slide, set the flag to false
+
+      // Generate the HTML for each carousel slide
+      if(!isLargeScreen){
+        const cardHTML = `
+                <div class="carousel-item ${activeClass}">
+                  <div class="d-flex justify-content-between">
+                    ${createCard(i, 'col-lg-4 col-12')} <!-- Col for large and small screens -->
+                  </div>
                 </div>
-            </div>
               `;
               partnerContainer.insertAdjacentHTML('beforeend', cardHTML);
-          };
+      }else{
+        const cardHTML = `
+        <div class="carousel-item ${activeClass}">
+          <div class="d-flex justify-content-between">
+            ${createCard(i, 'col-lg-4 col-12')} <!-- Col for large and small screens -->
+            ${createCard(i+1, 'col-lg-4 col-12')} <!-- Col for large and small screens -->
+          </div>
+        </div>
+      `;
+      partnerContainer.insertAdjacentHTML('beforeend', cardHTML);
+
+      }
       
     }
-      function createCard(index) {
-        return `
-         <div class="">
-                          <img loading="lazy"  src="${partnerimgUrls[index].src}" class=${partnerimgUrls[index].class} alt="">
-            </div>
-                 
-        `;
+  }
+
+  function createCard(index, colClass) {
+    // Check if the index is within the bounds of the array
+    if (index < partnerimgUrls.length) {
+      return `
+        <div class="${colClass} d-flex justify-content-center">
+          <div class=" d-flex justify-content-center">
+            <img loading="lazy" src="${partnerimgUrls[index].src}" class="${partnerimgUrls[index].class}" alt="Partner Image">
+          </div>
+        </div>
+      `;
     }
+    return ''; // Return empty string if index is out of bounds
+  }
       // Dynamically populate global offices
       const globalOffices = [
           { heading: "PAKISTAN", image: "/assets/pakistan.png", description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.", imagesize: "60%" },

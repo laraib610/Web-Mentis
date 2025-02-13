@@ -61,7 +61,7 @@ html,body{
    
     .cards {
         width: 750px;
-        background: url('/assets/card-img loading="lazy" .png'), linear-gradient(180deg, #1C2373 50.6%, #0C0F2D 337.3%);
+        background: url('/assets/card-img.png'), linear-gradient(180deg, #1C2373 50.6%, #0C0F2D 337.3%);
         background-repeat: no-repeat;
         background-size: cover;
         border: 2px solid #DAE810;
@@ -194,7 +194,10 @@ hr{
 }
 
 .carousel{
-    width: 100%;
+    width: 50%;
+}
+.carousel1{
+    width: 100% !important;
 }
 .carousel-control-next-icon {
     background-image: url('/assets/Caret_Circle_right.png');
@@ -216,6 +219,10 @@ hr{
 }
 .testimonial-card{
     padding: 10px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     border-radius: 15px;
     background: linear-gradient(136.71deg, rgba(67, 67, 67, 0.86) -24.05%, rgba(0, 0, 0, 0) 115.5%);
     backdrop-filter: blur(216.2393035888672px)
@@ -329,7 +336,10 @@ hr{
     .our-partners{
         background-position-y: -209px !important;
         padding-bottom: 78% !important;
-        margin-top: -280px !important;
+        margin-top: -230px !important;
+    }
+    .carousel{
+        width: 100%;
     }
 
 }

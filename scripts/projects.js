@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Array for content to be inserted into the elements
 
   // Projects Cards
-const projectTexts = [
+  const projectTexts = [
     {
         heading:"UI/UX",
         heading2:"Design",
@@ -67,57 +67,64 @@ const projectTexts = [
         color:"#DAE810",
         description:"Integrating AI to automate processes, enhance decision-making, and improve user experiences."
     },
-
-
 ];
-
 
 // Select the container element where content will be inserted
 const service_container = document.getElementById('services_card');
 
-// Group size for each carousel item (3 cards per slide)
-const cardsPerSlide = 3;
+// Group size for each carousel item (3 cards per slide for large screens, 1 card per slide for small screens)
+const cardsPerSlideLg = 3; // For large screens, 3 cards per slide
+const cardsPerSlideSm = 1; // For small screens, 1 card per slide
+
+// Check for screen size to determine how many cards to display per slide
+const isLargeScreen = window.innerWidth >= 992; // Bootstrap's breakpoint for large screens is 992px
+
+// Determine the number of cards per slide based on the screen size
+const cardsPerSlide = isLargeScreen ? cardsPerSlideLg : cardsPerSlideSm;
 
 for (let i = 0; i < projectTexts.length; i += cardsPerSlide) {
-    // For each group of 3 cards, create a single carousel item
+    // For each group of 3 or 1 cards, create a single carousel item
     const activeClass = i === 0 ? 'active' : ''; // Set the first item as active for carousel
 
-    // Create the carousel item and group 3 cards inside it
+    // Create the carousel item and group cards inside it
     const cardHTML2 = `
         <div class="carousel-item ${activeClass}">
             <div class="d-flex justify-content-between">
-               
-                ${ createCard(i)}
-                ${ createCard(i + 1)}
-                ${ createCard(i + 2) }
+                ${createCard(i, 'col-lg-4 col-12')}
+                ${createCard(i+1, 'col-lg-4 col-12')}
+                ${createCard(i+2, 'col-lg-4 col-12')}
             </div>
         </div>
     `;
-    service_container.innerHTML += cardHTML2;
+
+    // Append carousel item to container using insertAdjacentHTML
+    service_container.insertAdjacentHTML('beforeend', cardHTML2);
 }
 
 // Function to create an individual card
-function createCard(index) {
+function createCard(index, colClass) {
+    if (index >= projectTexts.length) return ''; // Avoid accessing out-of-bound indices
+
+    const cardData = projectTexts[index];
     return `
-     <div class="col-lg-4 col-12 d-flex justify-content-center">
-       <div class="flip-card my-4">
-                            <div class="flip-card-inner" >
-                                <div class="flip-card-front "
-                                 style="background:url('${projectTexts[index]?.image}'); background-size:cover; background-repeat:no-repeat">
-                                 <div class="p-3">
-                                    <h4 class="w-50 m-0 text-light ">${projectTexts[index]?.heading}</h4>
-                                    <h4 class="w-50 " style="color:${projectTexts[index]?.color}" >${projectTexts[index]?.heading2}</h4>
-                                 </div>
-                                    
-                                </div>
-                                <div class="flip-card-back flex align-items-center">
-                                    <p class="my-3 text-center mx-2">${projectTexts[index]?.description}
-                                </div>
-                            </div>
+        <div class="${colClass} d-flex justify-content-center">
+            <div class="flip-card my-4">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front" style="background:url('${cardData.image}'); background-size:cover; background-repeat:no-repeat">
+                        <div class="p-3">
+                            <h4 class="w-50 m-0 text-light">${cardData.heading}</h4>
+                            <h4 class="w-50" style="color:${cardData.color}">${cardData.heading2}</h4>
                         </div>
+                    </div>
+                    <div class="flip-card-back flex align-items-center">
+                        <p class="my-3 text-center mx-2">${cardData.description}</p>
+                    </div>
+                </div>
             </div>
+        </div>
     `;
 }
+
 
 
     // community blobs cards

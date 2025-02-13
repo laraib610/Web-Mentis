@@ -82,15 +82,18 @@ label{
     box-shadow: 0 0 0 .2rem #d8078b3f;
 }
 .carousel{
-    width: 65%;
+    padding-top: 20px;
+    width: 50%;
 }
 .carousel-control-next-icon {
     background-image: url('/assets/Caret_Circle_right.png');
 }
 .carousel-control-next {
+    top: 20px;
     right: -82px;
 }
 .carousel-control-prev {
+    top: 20px;
     left: -82px;
 }
 .carousel-control-prev-icon {
@@ -118,5 +121,12 @@ label{
         padding-bottom: 78% !important;
         margin-top: -80px !important;
     }
-
+    .carousel-control-next {
+        top: 0px;
+        right: 0px;
+    }
+    .carousel-control-prev {
+        top: 0px;
+        left: 0px;
+    }
 }

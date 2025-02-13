@@ -47,22 +47,28 @@ const Testimonials = [
     
     // Select the container element where content will be inserted
     const testimonials_container = document.getElementById('testimonialss_card');
+    // Group size for each carousel item (3 cards per slide for large screens, 1 card per slide for small screens)
+const cardsPerSlideLg = 3; // For large screens, 3 cards per slide
+const cardsPerSlideSm = 1; // For small screens, 1 card per slide
+
+// Check for screen size to determine how many cards to display per slide
+const isLargeScreen = window.innerWidth >= 992; // Bootstrap's breakpoint for large screens is 992px
+
+// Determine the number of cards per slide based on the screen size
+const cardsPerSlide = isLargeScreen ? cardsPerSlideLg : cardsPerSlideSm;
     
-    // Group size for each carousel item (3 cards per slide)
-    const cardsPerSlide_testimonial = 3;
-    
-    for (let i = 0; i < Testimonials.length; i += cardsPerSlide_testimonial) {
+    for (let i = 0; i < Testimonials.length; i += cardsPerSlide) {
         // For each group of 3 cards, create a single carousel item
         const activeClass = i === 0 ? 'active' : ''; // Set the first item as active for carousel
     
         // Create the carousel item and group 3 cards inside it
         const cardHTML2 = `
             <div class="carousel-item ${activeClass}">
-                <div class="d-flex justify-content-between">
+                <div class="d-flex justify-content-between align-items-stretch">
                    
-                    ${ createCard(i)}
-                    ${ createCard(i + 1)}
-                    ${ createCard(i + 2) }
+                    ${ createCard(i , 'col-lg-4 col-12')}
+                    ${ createCard(i + 1, 'col-lg-4 col-12')}
+                    ${ createCard(i + 2, 'col-lg-4 col-12')}
                 </div>
             </div>
         `;
@@ -70,11 +76,12 @@ const Testimonials = [
     }
     
     // Function to create an individual card
-    function createCard(index) {
+    function createCard(index, colClass) {
+        if (index >= Testimonials.length) return ''; // Avoid accessing out-of-bound indices
+
         return `
-         <div class="col-lg-4 col-12 d-flex justify-content-center">
+         <div class="${colClass} d-flex justify-content-center ">
            <div class="testimonial-card my-4">
-                                
                 <p class="text-white py-3 px-1">${Testimonials[index]?.description}
                 <div class="d-flex justify-content-center">
                    <div class="ratings d-flex">
