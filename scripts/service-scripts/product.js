@@ -1,28 +1,42 @@
   
-    const saasservices=[
+    const productservices=[
         {
-            heading:"Cloud Base Saas",
-            image:"/assets/saas/cloud.png",
+            heading:"Cloud Base product",
+            image:"/assets/UI-Icons/testing.svg",
             description:"Offers a wide range of website-building, hosting, and management tools through a subscription-based service model."
         },
         {
             heading:"MicroServices",
-            image:"/assets/saas/micro-services.png",
+            image:"/assets/UI-Icons/testing.svg",
             description:"Approach to software development where a large application is built as a collection of small, independently deployable services."
         },
         {
             heading:"Subscription Billing Integration",
-            image:"/assets/saas/billing-integration.png",
+            image:"/assets/UI-Icons/testing.svg",
             description:"Implementing a system or service that manages the billing, invoicing, and payments for users who subscribe to a product or service."
         },
     ];
 
-    const saastechnology=[
+    const producttechnology=[
         {
-            id: 'frontend',
-            heading: "Frontend Development",
+            id: 'development',
+            heading: "Development",
             techs:[
-               
+                {
+                    heading: "Html 5",
+                    image: "/assets/UI-Icons/html-5.png",
+                    class: " col-lg-4 "
+                },
+                {
+                    heading: "CSS",
+                    image: "/assets/UI-Icons/testing.svg",
+                    class: " col-lg-4 "
+                },
+                {
+                    heading: "JS",
+                    image: "/assets/UI-Icons/testing.svg",
+                    class: " col-lg-4 "
+                },
                 {
                     heading: "React",
                     image: "/assets/UI-Icons/react.png",
@@ -39,98 +53,49 @@
                     class: " col-lg-4"
                 },
                 {
-                    heading: "Svelte",
-                    image: "/assets/UI-Icons/html-5.png",
-                    class: " col-lg-4 "
-                },
-                {
-                    heading: "Bootstrap",
-                    image: "/assets/UI-Icons/bootstrap.png",
+                    heading: "PHP (Laravel)",
+                    image: "/assets/UI-Icons/testing.svg",
                     class: " col-lg-4 "
                 },
                 
-                {
-                    heading: "Material UI",
-                    image: "/assets/UI-Icons/testing.svg",
-                    class: " col-lg-4"
-                },
-            
-                {
-                    heading: "Tailwind CSS",
-                    image: "/assets/UI-Icons/testing.svg",
-                    class: " col-lg-4"
-                },
-                {
-                    heading: "Redux",
-                    image: "/assets/UI-Icons/testing.svg",
-                    class: " col-lg-4"
-                },
-                {
-                    heading: "Vuex",
-                    image: "/assets/UI-Icons/testing.svg",
-                    class: " col-lg-4"
-                },
-                {
-                    heading: "Zustand",
-                    image: "/assets/UI-Icons/testing.svg",
-                    class: " col-lg-4"
-                },
-            
-            ],
-        },
-        {
-            id: 'backend',
-            heading: "Backend Development",
-            techs: [
-                {
-                    heading: "PHP",
-                    image: "/assets/UI-Icons/testing.svg",
-                    class: " col-lg-4 "
-                },
-                {
-                    heading: "Python",
-                    image: "/assets/software/python.png",
-                    class: " col-lg-4 "
-                },
                 {
                     heading: "NodeJS",
                     image: "/assets/UI-Icons/testing.svg",
                     class: " col-lg-4 "
                 },
                 {
-                    heading: "Ruby",
-                    image: "/assets/UI-Icons/testing.svg",
-                    class: " col-lg-4 "
-                },
-                {
-                    heading: "Java",
-                    image: "/assets/software/java.png",
-                    class: " col-lg-4"
-                },
-                {
-                    heading: "Laravel",
-                    image: "/assets/UI-Icons/testing.svg",
-                    class: " col-lg-4"
-                },
-                {
-                    heading: "Django",
-                    image: "/assets/UI-Icons/testing.svg",
-                    class: " col-lg-4"
-                },
-                {
-                    heading: "Express.js",
-                    image: "/assets/UI-Icons/testing.svg",
-                    class: " col-lg-4"
-                },
-                {
-                    heading: "Spring Boot",
-                    image: "/assets/UI-Icons/testing.svg",
-                    class: " col-lg-4"
-                },
-                {
                     heading: "Ruby on Rails",
                     image: "/assets/UI-Icons/testing.svg",
-                    class: "col-lg-6"
+                    class: " col-lg-4 "
+                },{
+                    heading: "Python (Django/ Flask)",
+                    image: "/assets/software/python.png",
+                    class: " col-lg-6 "
+                },
+                {
+                    heading: " Java (Spring Boot)",
+                    image: "/assets/UI-Icons/testing.svg",
+                    class: " col-lg-6"
+                },                         
+                {
+                    heading: "React Native",
+                    image: "/assets/UI-Icons/testing.svg",
+                    class: " col-lg-4"
+                },
+                {
+                    heading: "Flutter",
+                    image: "/assets/UI-Icons/testing.svg",
+                    class: " col-lg-4"
+                },
+                {
+                    heading: "Swift (iOS)",
+                    image: "/assets/software/swift.png",
+                    class: " col-lg-4"
+                },
+                {
+                    heading: "Kotlin (Android)",
+                    image: "/assets/software/kotlin.png",
+                    class: " col-lg-4"
                 },
             
             ],
@@ -170,12 +135,17 @@
                     class: " col-lg-4"
                 },
                 {
-                    heading: "Redis",
+                    heading: "AWS S3",
                     image: "/assets/UI-Icons/testing.svg",
                     class: " col-lg-4"
                 },
                 {
-                    heading: "Memcached",
+                    heading: "Google Cloud Storage",
+                    image: "/assets/UI-Icons/testing.svg",
+                    class: " col-lg-4"
+                },
+                {
+                    heading: "Azure Blob Storage",
                     image: "/assets/UI-Icons/testing.svg",
                     class: " col-lg-4"
                 },
@@ -183,28 +153,188 @@
             ],
         },
         {
-            id: 'cloudComp',
-            heading: "Cloud Computing & Hosting",
-            techs:[
+            id: 'devops',
+            heading: "DevOps & CI/CD",
+            techs: [
                 {
-                    heading: "AWS (EC2, S3, RDS)",
-                    image: "/assets/saas/aws.png",
-                    class: " col-lg-4 "
+                    heading: "Docker",
+                    image: "/assets/software/docker.png",
+                    class: " col-lg-4"
+                },
+                {
+                    heading: "Kubernetes",
+                    image: "/assets/UI-Icons/testing.svg",
+                    class: " col-lg-4"
+                },
+                {
+                    heading: "Jenkins",
+                    image: "/assets/UI-Icons/testing.svg",
+                    class: " col-lg-4"
+                },
+                
+                {
+                    heading: "GitHub Actions",
+                    image: "/assets/UI-Icons/testing.svg",
+                    class: " col-lg-4"
+                },
+                {
+                    heading: "Git",
+                    image: "/assets/UI-Icons/testing.svg",
+                    class: " col-lg-4"
+                },
+                {
+                    heading: "GitHub",
+                    image: "/assets/UI-Icons/testing.svg",
+                    class: " col-lg-4"
+                },
+                {
+                    heading: "GitLab",
+                    image: "/assets/UI-Icons/testing.svg",
+                    class: " col-lg-4"
+                },
+                {
+                    heading: "Bitbucket",
+                    image: "/assets/UI-Icons/testing.svg",
+                    class: " col-lg-4"
+                },
+                {
+                    heading: "CircleCI",
+                    image: "/assets/UI-Icons/testing.svg",
+                    class: " col-lg-4"
+                },
+                {
+                    heading: "GitLab CI/CD",
+                    image: "/assets/UI-Icons/testing.svg",
+                    class: " col-lg-4"
+                },
+            
+            ],
+        },
+        {
+            id: 'testing',
+            heading: "Testing & Quality Assurance",
+            techs: [
+                {
+                    heading: "Jest",
+                    image: "/assets/UI-Icons/testing.svg",
+                    class: " col-lg-4"
+                },
+                {
+                    heading: "Mocha",
+                    image: "/assets/UI-Icons/testing.svg",
+                    class: " col-lg-4"
+                },
+                
+                {
+                    heading: "PyTest ",
+                    image: "/assets/UI-Icons/testing.svg",
+                    class: " col-lg-4"
+                },
+                {
+                    heading: "JUnit",
+                    image: "/assets/UI-Icons/testing.svg",
+                    class: " col-lg-4"
+                },
+                {
+                    heading: "Selenium",
+                    image: "/assets/UI-Icons/testing.svg",
+                    class: " col-lg-4"
+                },
+                {
+                    heading: " Cypress",
+                    image: "/assets/UI-Icons/testing.svg",
+                    class: " col-lg-4"
+                },
+                {
+                    heading: "Appium",
+                    image: "/assets/UI-Icons/testing.svg",
+                    class: " col-lg-4"
+                },
+                {
+                    heading: "JMeter",
+                    image: "/assets/UI-Icons/testing.svg",
+                    class: " col-lg-4"
+                },
+                {
+                    heading: "Locust",
+                    image: "/assets/UI-Icons/testing.svg",
+                    class: " col-lg-4"
+                },
+            
+            ],
+        },
+        {
+            id: 'security',
+            heading: "Security & Compliance",
+            techs: [
+                {
+                    heading: "OAuth",
+                    image: "/assets/UI-Icons/testing.svg",
+                    class: " col-lg-4"
+                },
+                {
+                    heading: "JWT",
+                    image: "/assets/UI-Icons/testing.svg",
+                    class: " col-lg-4"
+                },
+                
+                {
+                    heading: "SAML",
+                    image: "/assets/UI-Icons/testing.svg",
+                    class: " col-lg-4"
+                },
+                {
+                    heading: "AES-256 Encryption",
+                    image: "/assets/UI-Icons/testing.svg",
+                    class: " col-lg-4"
+                },
+                {
+                    heading: "SSL/TLS",
+                    image: "/assets/UI-Icons/testing.svg",
+                    class: " col-lg-4"
+                },
+                {
+                    heading: "GDPR",
+                    image: "/assets/UI-Icons/testing.svg",
+                    class: " col-lg-4"
+                },
+                {
+                    heading: "HIPAA",
+                    image: "/assets/UI-Icons/testing.svg",
+                    class: " col-lg-4"
+                },
+                {
+                    heading: "ISO 27001",
+                    image: "/assets/UI-Icons/testing.svg",
+                    class: " col-lg-4"
+                },
+            
+            ],
+        },
+        {
+            id: 'deployment',
+            heading: "Deployment & Scaling",
+            techs: [
+                {
+                    heading: "AWS (EC2, Lambda)",
+                    image: "/assets/UI-Icons/testing.svg",
+                    class: " col-lg-4"
                 },
                 {
                     heading: "Google Cloud",
                     image: "/assets/saas/google-cloud.png",
-                    class: " col-lg-4 "
+                    class: " col-lg-4"
                 },
+                
                 {
                     heading: "Microsoft Azure",
                     image: "/assets/saas/azure.png",
-                    class: " col-lg-4 "
+                    class: " col-lg-4"
                 },
                 {
                     heading: "DigitalOcean",
                     image: "/assets/UI-Icons/testing.svg",
-                    class: " col-lg-4 "
+                    class: " col-lg-4"
                 },
                 {
                     heading: "AWS Lambda",
@@ -217,17 +347,55 @@
                     class: " col-lg-4"
                 },
                 {
-                    heading: "Azure Functions",
+                    heading: "Nginx",
                     image: "/assets/UI-Icons/testing.svg",
                     class: " col-lg-4"
                 },
                 {
-                    heading: "Docker",
-                    image: "/assets/software/docker.png",
+                    heading: "Prometheus",
+                    image: "/assets/UI-Icons/testing.svg",
                     class: " col-lg-4"
                 },
                 {
-                    heading: "Kubernetes",
+                    heading: " Grafana",
+                    image: "/assets/UI-Icons/testing.svg",
+                    class: " col-lg-4"
+                },
+            
+            ],
+        },
+        {
+            id: 'user',
+            heading: "User Analytics & Feedback",
+            techs: [
+                {
+                    heading: "Google Analytics",
+                    image: "/assets/UI-Icons/testing.svg",
+                    class: " col-lg-4"
+                },
+                {
+                    heading: "Mixpanel",
+                    image: "/assets/UI-Icons/testing.svg",
+                    class: " col-lg-4"
+                },
+                
+                {
+                    heading: "Amplitude",
+                    image: "/assets/UI-Icons/testing.svg",
+                    class: " col-lg-4"
+                },
+                {
+                    heading: "Hotjar",
+                    image: "/assets/UI-Icons/testing.svg",
+                    class: " col-lg-4"
+                },
+                {
+                    heading: "SurveyMonkey",
+                    image: "/assets/UI-Icons/testing.svg",
+                    class: " col-lg-4"
+                },
+                {
+                    heading: "Typeform",
                     image: "/assets/UI-Icons/testing.svg",
                     class: " col-lg-4"
                 },
@@ -235,66 +403,67 @@
             ],
         },
 
+
     ];
     const processes=[
         {
             id:'01',
             img :'/assets/UI-Icons/testing.svg',
-            heading:'Market Research & Requirement Analysis  '
+            heading:'Idea Generation & Market Research '
         },
         {
             id:'02',
             img :'/assets/UI-Icons/testing.svg',
-            heading:'Product Planning & Design   '
+            heading:'Concept Development & Feasibility Study  '
         },
         {
             id:'03',
             img :'/assets/UI-Icons/testing.svg',
-            heading:'Frontend Development  '
+            heading:'Prototyping & Wireframing   '
         },
         {
             id:'04',
             img :'/assets/UI-Icons/testing.svg',
-            heading:'Backend Development '
+            heading:'Product Design & UI/UX '
         },
         {
             id:'05',
             img :'/assets/UI-Icons/testing.svg',
-            heading:'Database Management  '
+            heading:'MVP Development  '
         },
         {
             id:'06',
             img :'/assets/UI-Icons/testing.svg',
-            heading:'Cloud Hosting & Deployment  '
+            heading:'Agile Development & Iterations '
         },
         {
             id:'07',
             img :'/assets/UI-Icons/testing.svg',
-            heading:'Security & Compliance '
+            heading:'Testing & Quality Assurance (QA).'
         },
         {
             id:'08',
             img :'/assets/UI-Icons/testing.svg',
-            heading:'Subscription & Billing Integration  '
+            heading:'Deployment & Launch   '
         },
         {
             id:'09',
             img :'/assets/UI-Icons/testing.svg',
-            heading:'Monitoring & Performance Optimization  '
+            heading:'Feedback Collection & Continuous Improvement '
         },
         {
             id:'10',
             img :'/assets/UI-Icons/testing.svg',
-            heading:'Continuous Updates & Maintenance  '
+            heading:'Scaling & Maintenance '
         },
     ];
 
 
 document.addEventListener('DOMContentLoaded', function () {
-        const saasserviceContainer = document.getElementById('saas-service-container');
+        const productserviceContainer = document.getElementById('product-service-container');
     
     // Generate the HTML structure dynamically using a for loop
-    saasservices.forEach(service => {
+    productservices.forEach(service => {
         const cardHTML = `
                     <div class="col-lg-3 d-flex justify-content-center" data-aos="fade-left" data-aos-duration="3000">
                             <div class="flip-card my-4">
@@ -313,7 +482,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     
     
         `;
-        saasserviceContainer.innerHTML += cardHTML;
+        productserviceContainer.innerHTML += cardHTML;
     });
     const TechContainer=document.getElementById('technology');
     const techHtml=`
@@ -330,11 +499,11 @@ document.addEventListener('DOMContentLoaded', function () {
     TechContainer.innerHTML +=techHtml;
     // Generate the HTML structure dynamically using a for loop
     window.getApps = getApps; // Attach to global scope
-    getApps(saastechnology[0].id); // Default call to load 'front-end'
+    getApps(producttechnology[0].id); // Default call to load 'front-end'
 
     function getTechs() {
         let data = '';
-        saastechnology.forEach(tech => {
+        producttechnology.forEach(tech => {
             const cardHTML = `
             <div>
                 <a href="#${tech.id}" id="${tech.id}" class="tech-link d-flex justify-content-between" onclick="getApps('${tech.id}')">
@@ -538,7 +707,7 @@ processContainer.innerHTML+=processHtml;
 
 // Move the function OUTSIDE the event listener
 function getApps(techId) {
-    let tech = saastechnology.find(t => t.id === techId);
+    let tech = producttechnology.find(t => t.id === techId);
     let link = document.getElementById(techId); // Get the link by its unique ID
     let container = document.getElementById("tech-app");
     if (!container) return;
