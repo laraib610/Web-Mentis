@@ -389,7 +389,7 @@ const softwaretechnology=[
                 class: " col-lg-4 "
             },
             {
-                heading: "Google Cloud",
+                heading: "Google Cloud Platform (GCP)",
                 image: "/assets/saas/google-cloud.png",
                 class: " col-lg-4 "
             },
@@ -419,18 +419,138 @@ const softwaretechnology=[
                 class: " col-lg-4"
             },
             {
-                heading: "Docker",
+                heading: "AWS ELB",
                 image: "/assets/software/docker.png",
                 class: " col-lg-4"
             },
             {
-                heading: "Kubernetes",
+                heading: "Nginx",
+                image: "/assets/UI-Icons/testing.svg",
+                class: " col-lg-4"
+            },
+            {
+                heading: "Redis",
+                image: "/assets/UI-Icons/testing.svg",
+                class: " col-lg-4"
+            },
+            {
+                heading: "Google Cloud Functions",
+                image: "/assets/UI-Icons/testing.svg",
+                class: " col-lg-4"
+            },
+            {
+                heading: "Firebase Functions",
+                image: "/assets/UI-Icons/testing.svg",
+                class: " col-lg-4"
+            },
+           
+        
+        ],
+    },
+    {
+        id: 'testing',
+        heading: "Testing & Quality Assurance",
+        techs: [
+            {
+                heading: "Jest",
+                image: "/assets/UI-Icons/testing.svg",
+                class: " col-lg-4"
+            },
+            {
+                heading: "Mocha",
+                image: "/assets/UI-Icons/testing.svg",
+                class: " col-lg-4"
+            },
+            
+            {
+                heading: "PyTest ",
+                image: "/assets/UI-Icons/testing.svg",
+                class: " col-lg-4"
+            },
+            {
+                heading: "JUnit",
+                image: "/assets/UI-Icons/testing.svg",
+                class: " col-lg-4"
+            },
+            {
+                heading: "Selenium",
+                image: "/assets/UI-Icons/testing.svg",
+                class: " col-lg-4"
+            },
+            {
+                heading: " Cypress",
+                image: "/assets/UI-Icons/testing.svg",
+                class: " col-lg-4"
+            },
+            {
+                heading: "Appium",
+                image: "/assets/UI-Icons/testing.svg",
+                class: " col-lg-4"
+            },
+            {
+                heading: "JMeter",
+                image: "/assets/UI-Icons/testing.svg",
+                class: " col-lg-4"
+            },
+            {
+                heading: "Locust",
                 image: "/assets/UI-Icons/testing.svg",
                 class: " col-lg-4"
             },
         
         ],
     },
+    {
+        id: 'monitoring',
+        heading: "Monitoring & Analytics",
+        techs: [
+            {
+                heading: "Prometheus",
+                image: "/assets/UI-Icons/testing.svg",
+                class: " col-lg-4"
+            },
+            {
+                heading: "Grafana",
+                image: "/assets/UI-Icons/testing.svg",
+                class: " col-lg-4"
+            },
+            
+            {
+                heading: "New Relic",
+                image: "/assets/UI-Icons/testing.svg",
+                class: " col-lg-4"
+            },
+            {
+                heading: "Sentry",
+                image: "/assets/UI-Icons/testing.svg",
+                class: " col-lg-4"
+            },
+            {
+                heading: "LogRocket",
+                image: "/assets/UI-Icons/testing.svg",
+                class: " col-lg-4"
+            },
+            {
+                heading: "Google Analytics",
+                image: "/assets/UI-Icons/testing.svg",
+                class: " col-lg-4"
+            },
+            {
+                heading: "Mixpanel",
+                image: "/assets/UI-Icons/testing.svg",
+                class: " col-lg-4"
+            },
+            {
+                heading: "Hotjar",
+                image: "/assets/UI-Icons/testing.svg",
+                class: " col-lg-4"
+            },
+
+        
+        ],
+    },
+    
+    
 ];
 
 

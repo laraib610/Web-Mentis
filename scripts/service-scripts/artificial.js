@@ -1,17 +1,17 @@
-const digitalservices=[
+const artificialservices=[
     {
-        heading:"PPC campaigns",
-        image:"/assets/digital-marketing/PPC.png",
+        heading:"Integrating AI to automate processes",
+        image:"/assets/artificial-marketing/PPC.png",
         description:"Create, optimize, and manage highly successful PPC campaigns that deliver results. "
     },
     {
         heading:"SEO OPtimization",
-        image:"/assets/digital-marketing/CEO.png",
+        image:"/assets/artificial-marketing/CEO.png",
         description:"Improve your website’s rankings, visibility, and overall online presence."
-    },
+    },                   
     {
         heading:"Email Marketing",
-        image:"/assets/digital-marketing/email-marketing.png",
+        image:"/assets/artificial-marketing/email-marketing.png",
         description:"Create personalized, engaging, and impactful email campaigns."
     },
 
@@ -19,174 +19,120 @@ const digitalservices=[
 
 const UItechnology=[
     {
-        id:'seo',
-        heading:"SEO & Web Analytics",
+        id:'machine',
+        heading:"AI & Machine Learning Frameworks",
         techs: [
             {
-                heading: "Google Search Console",
+                heading: "TensorFlow",
                 image: "/assets/UI-Icons/testing.svg",
-                class: " col-lg-6"
+                class: " col-lg-4"
             },
              {
-                heading: "Screaming Frog",
+                heading: "PyTorch",
                 image: "/assets/UI-Icons/testing.svg",
-                class: " col-lg-6"
+                class: " col-lg-4"
             },
             {
-                heading: "Ahrefs",
+                heading: "Scikit-learn",
                 image: "/assets/UI-Icons/testing.svg",
                 class: " col-lg-4"
             },
             
             {
-                heading: "SEMrush",
+                heading: "XGBoost",
                 image: "/assets/UI-Icons/testing.svg",
                 class: " col-lg-4"
             },
             {
-                heading: "Moz",
+                heading: "Keras",
                 image: "/assets/UI-Icons/testing.svg",
                 class: " col-lg-4"
             },
            
             
             {
-                heading: "Mixpanel",
+                heading: "FastAI",
                 image: "/assets/UI-Icons/testing.svg",
                 class: " col-lg-4"
             },
             {
-                heading: "Hotjar",
+                heading: "Theano",
                 image: "/assets/UI-Icons/testing.svg",
                 class: " col-lg-4"
             },
             {
-                heading: "Microsoft Clarity",
+                heading: "Google AutoML",
                 image: "/assets/UI-Icons/testing.svg",
-                class: " col-lg-6"
+                class: " col-lg-4"
             },
             {
-                heading: "Google Analytics 4",
+                heading: " H2O.ai",
                 image: "/assets/UI-Icons/testing.svg",
-                class: " col-lg-6"
+                class: " col-lg-4"
+            },
+            {
+                heading: " DataRobot",
+                image: "/assets/UI-Icons/testing.svg",
+                class: " col-lg-4"
             },
 
         
         ],
     },
     {
-        id:'content',
-        heading:"Content Creation & Management",
+        id:'processing',
+        heading:"Data Processing & Storage",
         techs: [
             {
-                heading: "Wordpress",
-                image: "/assets/UI-Icons/wordpress.png",
+                heading: "Apache Spark",
+                image: "/assets/UI-Icons/testing.svg",
                 class: " col-lg-4 "
             },
             {
-                heading: "Webflow",
+                heading: "Hadoop",
                 image: "/assets/UI-Icons/testing.svg",
                 class: " col-lg-4"
             },
             
             {
-                heading: "Wix",
+                heading: "Dask",
                 image: "/assets/UI-Icons/testing.svg",
                 class: " col-lg-4"
             },
             {
-                heading: "Shopify",
+                heading: " PostgreSQL",
                 image: "/assets/UI-Icons/testing.svg",
                 class: " col-lg-4"
             },
             {
-                heading:"Photoshop",
-                image:"/assets/UI-Icons/photoshop.svg",
-                class:" col-lg-4"
-            },
-            {
-                heading: "Canva",
-                image: "/assets/UI-Icons/testing.svg",
-                class: " col-lg-4"
-            },
-            {
-                heading:"Figma",
-                image:"/assets/UI-Icons/figma.svg",
-                class:" col-lg-4 "
-            },
-            {
-                heading: "Crello",
-                image: "/assets/UI-Icons/testing.svg",
-                class: " col-lg-4"
-            },
-            {
-                heading:"Premiere Pr",
-                image:"/assets/event/premiere-pro.png",
-                class:" col-lg-4 ",
-                width:"20%"
-            },
-            {
-                heading:"Final Cut Pro ",
-                image:"/assets/event/final-cut.png",
-                class:" col-lg-4 ",
-                width:"20%"
-            },
-            {
-                heading: "CapCut",
-                image: "/assets/UI-Icons/testing.svg",
-                class: " col-lg-4"
-            },
-        
-        ],
-    },
-    {
-        id:'smm',
-        heading:"Social Media Marketing (SMM)",
-        techs: [
-            {
-                heading: "Hootsuite",
-                image: "/assets/UI-Icons/testing.svg",
-                class: " col-lg-4 "
-            },
-            {
-                heading: "Buffer",
-                image: "/assets/UI-Icons/testing.svg",
-                class: " col-lg-4"
-            },
-            
-            {
-                heading: "Sprout Social",
-                image: "/assets/UI-Icons/testing.svg",
-                class: " col-lg-4"
-            },
-            {
-                heading: " Later",
-                image: "/assets/UI-Icons/testing.svg",
-                class: " col-lg-4"
-            },
-            {
-                heading:"SocialBee",
+                heading:"MongoDB",
                 image:"/assets/UI-Icons/testing.svg",
                 class:" col-lg-4"
             },
             {
-                heading: "Planoly",
+                heading: "Cassandra",
                 image: "/assets/UI-Icons/testing.svg",
                 class: " col-lg-4"
             },
             {
-                heading:" Upfluence",
+                heading:"Amazon DynamoDB",
                 image:"/assets/UI-Icons/testing.svg",
                 class:" col-lg-4 "
             },
             {
-                heading: "AspireIQ",
+                heading: "Google BigQuery",
                 image: "/assets/UI-Icons/testing.svg",
                 class: " col-lg-4"
             },
             {
-                heading:"Heepsy",
-                image: "/assets/UI-Icons/testing.svg",
+                heading:"AWS Redshift",
+                image:"/assets/UI-Icons/testing.svg",
+                class:" col-lg-4 ",
+                width:"20%"
+            },
+            {
+                heading:"Azure Data Lake.",
+                image:"/assets/UI-Icons/testing.svg",
                 class:" col-lg-4 ",
                 width:"20%"
             },
@@ -194,90 +140,160 @@ const UItechnology=[
         ],
     },
     {
-        id:'ppc',
-        heading:"PPC & Ad Platforms",
+        id:'nlp',
+        heading:"Natural Language Processing (NLP)",
         techs: [
             {
-                heading: "Google Ads",
+                heading: "spaCy",
                 image: "/assets/UI-Icons/testing.svg",
                 class: " col-lg-4 "
             },
             {
-                heading: " Bing Ads",
+                heading: "NLTK",
+                image: "/assets/UI-Icons/testing.svg",
+                class: " col-lg-4"
+            },
+             {
+                heading: "OpenAI GPT",
                 image: "/assets/UI-Icons/testing.svg",
                 class: " col-lg-4"
             },
             
             {
-                heading: "Facebook Ads",
+                heading: "Hugging Face Transformers",
+                image: "/assets/UI-Icons/testing.svg",
+                class: "col-lg-12"
+            },{
+                heading:"Google Speech-to-Text",
+                image:"/assets/UI-Icons/testing.svg",
+                class:"col-lg-12"
+            },
+           
+            {
+                heading: "IBM Watson",
                 image: "/assets/UI-Icons/testing.svg",
                 class: " col-lg-4"
             },
             {
-                heading: "LinkedIn Ads",
+                heading: " Rasak",
                 image: "/assets/UI-Icons/testing.svg",
                 class: " col-lg-4"
             },
             {
-                heading:"TikTok Ads",
+                heading:"Dialogflow",
+                image: "/assets/UI-Icons/testing.svg",
+                class:" col-lg-4 ",
+                width:"20%"
+            },{
+                heading:"AWS Transcribe",
+                image:"/assets/UI-Icons/testing.svg",
+                class:"col-lg-6"
+            },
+            {
+                heading:"Microsoft Bot Framewor",
+                image: "/assets/UI-Icons/testing.svg",
+                class:"col-lg-12",
+                width:"20%"
+            },
+        
+        ],
+    },
+    {
+        id:'vision',
+        heading:"Computer Vision",
+        techs: [
+            {
+                heading: "OpenCV",
+                image: "/assets/UI-Icons/testing.svg",
+                class: " col-lg-4 "
+            },
+            {
+                heading: "Dlib",
+                image: "/assets/UI-Icons/testing.svg",
+                class: " col-lg-4"
+            },
+            
+            {
+                heading: "PIL (Pillow)",
+                image: "/assets/UI-Icons/testing.svg",
+                class: " col-lg-4"
+            },
+            {
+                heading: "YOLO",
+                image: "/assets/UI-Icons/testing.svg",
+                class: " col-lg-4"
+            },
+            {
+                heading:"Faster R-CNN",
                 image:"/assets/UI-Icons/testing.svg",
                 class:" col-lg-4"
             },
             {
-                heading: "AdRoll",
+                heading: "SSD",
                 image: "/assets/UI-Icons/testing.svg",
                 class: " col-lg-4"
             },
             {
-                heading:"Criteo",
+                heading:" FaceNet",
                 image:"/assets/UI-Icons/testing.svg",
                 class:" col-lg-4 "
             },
             {
-                heading: "Perfect Audience",
+                heading: "DeepFace",
+                image: "/assets/UI-Icons/testing.svg",
+                class: " col-lg-4"
+            },
+            {
+                heading: "Amazon Rekognition",
                 image: "/assets/UI-Icons/testing.svg",
                 class: " col-lg-4"
             },
         
+        
         ],
     },
     {
-        id:'email',
-        heading:"Email Marketing & Automation",
+        id:'deployment',
+        heading:"AI Deployment & Integration",
         techs: [
             {
-                heading: "Mailchimp",
+                heading: "Google AI",
                 image: "/assets/UI-Icons/testing.svg",
                 class: " col-lg-4 "
             },
             {
-                heading: " HubSpot",
+                heading: "AWS AI/ML",
                 image: "/assets/UI-Icons/testing.svg",
                 class: " col-lg-4"
+            },
+            {
+                heading: "Docker",
+                image: "/assets/UI-Icons/testing.svg",
+                class: "col-lg-4"
+            },
+            {
+                heading: "Microsoft Azure AI",
+                image: "/assets/UI-Icons/testing.svg",
+                class: "col-lg-8"
             },
             
             {
-                heading: "Klaviyo",
-                image: "/assets/UI-Icons/testing.svg",
-                class: " col-lg-4"
-            },
-            {
-                heading: "SendGrid",
-                image: "/assets/UI-Icons/testing.svg",
-                class: " col-lg-6"
-            },
-            {
-                heading:"ActiveCampaign",
+                heading:"Kubernetes",
                 image:"/assets/UI-Icons/testing.svg",
-                class:" col-lg-6"
+                class:"col-lg-4"
             },
             {
-                heading: "Marketo",
+                heading: "RESTful APIs",
                 image: "/assets/UI-Icons/testing.svg",
                 class: " col-lg-4"
             },
             {
-                heading:"ConvertKit",
+                heading:"GraphQL",
+                image:"/assets/UI-Icons/testing.svg",
+                class:" col-lg-4 "
+            },
+            {
+                heading:"WebSockets",
                 image:"/assets/UI-Icons/testing.svg",
                 class:" col-lg-4 "
             },
@@ -285,113 +301,41 @@ const UItechnology=[
         ],
     },
     {
-        id:'cro',
-        heading:"Conversion Rate Optimization (CRO)",
+        id:'security',
+        heading:"AI Security & Compliance",
         techs: [
             {
-                heading: " Google Optimize",
+                heading: "IBM AI Fairness 360",
                 image: "/assets/UI-Icons/testing.svg",
-                class: " col-lg-4 "
+                class: "col-lg-8"
             },
             {
-                heading: " Optimizely",
+                heading: "CCPA",
                 image: "/assets/UI-Icons/testing.svg",
                 class: " col-lg-4"
+            },
+            {
+                heading: " AI Explainability 360",
+                image: "/assets/UI-Icons/testing.svg",
+                class: "col-lg-8"
             },
             
             {
-                heading: "VWO",
+                heading: "GDPR",
                 image: "/assets/UI-Icons/testing.svg",
-                class: " col-lg-4"
-            },
-            {
-                heading: "Crazy Egg",
-                image: "/assets/UI-Icons/testing.svg",
-                class: " col-lg-4"
-            },
-            {
-                heading:"Hotjar",
-                image:"/assets/UI-Icons/testing.svg",
-                class:" col-lg-4"
-            },
-            {
-                heading: "FullStory",
-                image: "/assets/UI-Icons/testing.svg",
-                class: " col-lg-4"
-            },
-        
-        ],
-    },
-    {
-        id:'brand',
-        heading:"Reputation & Brand Management",
-        techs: [
-            {
-                heading: "Trustpilot",
-                image: "/assets/UI-Icons/testing.svg",
-                class: " col-lg-4 "
-            },
-            {
-                heading: "Google My Business",
-                image: "/assets/UI-Icons/testing.svg",
-                class: " col-lg-4"
+                class: "col-lg-4"
             },
             
             {
-                heading: "Yotpo",
-                image: "/assets/UI-Icons/testing.svg",
-                class: " col-lg-4"
-            },
-            {
-                heading: "Brand24",
-                image: "/assets/UI-Icons/testing.svg",
-                class: " col-lg-4"
-            },
-            {
-                heading:"Mention",
+                heading:"ISO/IEC 27001",
                 image:"/assets/UI-Icons/testing.svg",
-                class:" col-lg-4"
+                class:"col-lg-6"
             },
-            {
-                heading: "Sprinklr",
-                image: "/assets/UI-Icons/testing.svg",
-                class: " col-lg-4"
-            },
+
         
         ],
     },
-    {
-        id:'chatbot',
-        heading:"AI & Chatbot Marketing",
-        techs: [
-            {
-                heading: "Drift",
-                image: "/assets/UI-Icons/testing.svg",
-                class: " col-lg-4 "
-            },
-            {
-                heading: "ManyChat",
-                image: "/assets/UI-Icons/testing.svg",
-                class: " col-lg-4"
-            },
-            {
-                heading: "Jasper AI",
-                image: "/assets/UI-Icons/testing.svg",
-                class: " col-lg-4"
-            },
-            {
-                heading: "Copy.ai",
-                image: "/assets/UI-Icons/testing.svg",
-                class: " col-lg-4"
-            },
-            {
-                heading:" Writesonic",
-                image:"/assets/UI-Icons/testing.svg",
-                class:" col-lg-4"
-            },
-        
-        ],
-    },
+
 
 
 
@@ -400,53 +344,53 @@ const UItechnology=[
 const processes=[
     {
         id:'01',
-        img :'/assets/digital-marketing/calendar.png',
-        heading:'Strategy & Planning '
+        img :'/assets/artificial-marketing/calendar.png',
+        heading:'Consultation & Requirement Analysis'
     },
     {
         id:'02',
-        img :'/assets/digital-marketing/Paid-ad.png',
-        heading:'Search Engine Optimization (SEO)'
+        img :'/assets/artificial-marketing/Paid-ad.png',
+        heading:'Data Collection & Preparation'
     },
     {
         id:'03',
-        img :'/assets/digital-marketing/video-reels.png',
+        img :'/assets/artificial-marketing/video-reels.png',
         heading:'Content Marketing.'
     },
     {
         id:'04',
-        img :'/assets/digital-marketing/calendar.png',
-        heading:'Social Media Marketing (SMM) '
+        img :'/assets/artificial-marketing/calendar.png',
+        heading:'Model Selection & Development'
     },
     {
         id:'05',
-        img :'/assets/digital-marketing/Paid-ad.png',
-        heading:'Pay-Per-Click (PPC) Advertising'
+        img :'/assets/artificial-marketing/Paid-ad.png',
+        heading:'AI Model Training & Testing'
     },
     {
         id:'06',
-        img :'/assets/digital-marketing/video-reels.png',
-        heading:'Email Marketing & Automation'
+        img :'/assets/artificial-marketing/video-reels.png',
+        heading:'Deployment & Integration'
     },
     {
         id:'07',
-        img :'/assets/digital-marketing/calendar.png',
-        heading:'Video & Multimedia Marketing'
+        img :'/assets/artificial-marketing/calendar.png',
+        heading:'AI Model Monitoring & Maintenance'
     },
     {
         id:'08',
-        img :'/assets/digital-marketing/Paid-ad.png',
-        heading:'Conversion Rate Optimization (CRO)'
+        img :'/assets/artificial-marketing/Paid-ad.png',
+        heading:'AI-Driven Automation & Optimization'
     },
     {
         id:'09',
-        img :'/assets/digital-marketing/video-reels.png',
-        heading:'Analytics & Performance Monitoring'
+        img :'/assets/artificial-marketing/video-reels.png',
+        heading:'Security, Compliance & Ethical AI'
     },
     {
         id:'10',
-        img :'/assets/digital-marketing/video-reels.png',
-        heading:'Reputation & Brand Management'
+        img :'/assets/artificial-marketing/video-reels.png',
+        heading:'AI-Powered Analytics & Insights'
     },
 ];
 
@@ -454,10 +398,10 @@ const processes=[
 
 document.addEventListener('DOMContentLoaded', function () {
   
-        const digitalserviceContainer = document.getElementById('digital-service-container');
+        const artificialserviceContainer = document.getElementById('artificial-service-container');
     
     // Generate the HTML structure dynamically using a for loop
-    digitalservices.forEach(service => {
+    artificialservices.forEach(service => {
         const cardHTML = `
                     <div class="col-lg-3 d-flex justify-content-center" data-aos="fade-left" data-aos-duration="3000">
                             <div class="flip-card my-4">
@@ -475,22 +419,22 @@ document.addEventListener('DOMContentLoaded', function () {
                         </div>        
     
         `;
-        digitalserviceContainer.innerHTML += cardHTML;
+        artificialserviceContainer.innerHTML += cardHTML;
     });
     const UItechApps=[
         {
             heading:"Google Ads",
-            image:"/assets/digital-marketing/adwords.png",
+            image:"/assets/artificial-marketing/adwords.png",
             class:" col-lg-4 "
         },
         {
             heading:"Hubspot",
-            image:"/assets/digital-marketing/hubspot.png",
+            image:"/assets/artificial-marketing/hubspot.png",
             class:" col-lg-4 "
         },
         {
             heading:"SEMrush",
-            image:"/assets/digital-marketing/semrush_logo.jpg",
+            image:"/assets/artificial-marketing/semrush_logo.jpg",
             class:" col-lg-4 "
         },
       
@@ -739,7 +683,7 @@ function getApps(techId) {
         data += `
             <div class="${app.class.trim()} p-2">
                 <div class="app py-1 px-1 d-flex align-items-center">
-                    <img loading="lazy" width="20%"  src="${app.image}" alt="${app.heading}">
+                    <img loading="lazy" width="${app.class==='col-lg-6'?'13%':app.class=='col-lg-12'?'6%':app.class=='col-lg-8'?'9%':'20%'}"  src="${app.image}" alt="${app.heading}">
                     <h5 class="m-0 px-1">${app.heading}</h5>
                 </div>
             </div>

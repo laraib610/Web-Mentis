@@ -239,52 +239,52 @@
     const processes=[
         {
             id:'01',
-            img :'/assets/UI-Icons/testing.svg',
+            img :'/assets/saas/market-research.png',
             heading:'Market Research & Requirement Analysis  '
         },
         {
             id:'02',
-            img :'/assets/UI-Icons/testing.svg',
+            img :'/assets/saas/product-planning.png',
             heading:'Product Planning & Design   '
         },
         {
             id:'03',
-            img :'/assets/UI-Icons/testing.svg',
+            img :'/assets/saas/frontend-development.png',
             heading:'Frontend Development  '
         },
         {
             id:'04',
-            img :'/assets/UI-Icons/testing.svg',
+            img :'/assets/saas/backend-development.png',
             heading:'Backend Development '
         },
         {
             id:'05',
-            img :'/assets/UI-Icons/testing.svg',
+            img :'/assets/saas/database-management.png',
             heading:'Database Management  '
         },
         {
             id:'06',
-            img :'/assets/UI-Icons/testing.svg',
+            img :'/assets/saas/cloud-hosting.png',
             heading:'Cloud Hosting & Deployment  '
         },
         {
             id:'07',
-            img :'/assets/UI-Icons/testing.svg',
+            img :'/assets/saas/security-compliance.png',
             heading:'Security & Compliance '
         },
         {
             id:'08',
-            img :'/assets/UI-Icons/testing.svg',
+            img :'/assets/saas/subscription-billing.png',
             heading:'Subscription & Billing Integration  '
         },
         {
             id:'09',
-            img :'/assets/UI-Icons/testing.svg',
+            img :'/assets/saas/monitoring.png',
             heading:'Monitoring & Performance Optimization  '
         },
         {
             id:'10',
-            img :'/assets/UI-Icons/testing.svg',
+            img :'/assets/saas/continuous-updates.png',
             heading:'Continuous Updates & Maintenance  '
         },
     ];
@@ -362,7 +362,7 @@ const processHtml=`
                     ${processes[0].id}
                     </h1>
                     <div class="data d-flex flex-column justify-content-center">
-                        <img loading="lazy" src="${processes[0].img }" alt="Avatar" >
+                        <img loading="lazy" class="w-25" src="${processes[0].img }" alt="Avatar" >
                         <p class="w-75 text-center px-4 py-2 m-0">Research & Strategy</p>
                     </div> 
                 </div>
@@ -379,7 +379,7 @@ const processHtml=`
                     ${processes[1].id}
                     </h1>
                     <div class="data d-flex flex-column justify-content-center">
-                        <img loading="lazy"  src="${processes[1].img}" alt="Avatar" >
+                        <img loading="lazy" class="w-25" src="${processes[1].img}" alt="Avatar" >
                         <p class="w-75 text-center px-4 py-2 m-0">${processes[1].heading}</p>
                     </div> 
                 </div>
@@ -396,7 +396,7 @@ const processHtml=`
                     ${processes[2].id}
                     </h1>
                     <div class="data d-flex flex-column justify-content-center">
-                        <img loading="lazy"  src="${processes[2].img}" alt="Avatar" >
+                        <img loading="lazy" class="w-25" src="${processes[2].img}" alt="Avatar" >
                         <p class="w-75 text-center px-4 py-2 m-0">${processes[2].heading}</p>
                     </div> 
                 </div>
@@ -414,7 +414,7 @@ const processHtml=`
                        ${processes[3].id}
                     </h1>
                     <div class="data d-flex flex-column justify-content-center">
-                        <img loading="lazy"  src="${processes[3].img}" alt="Avatar" >
+                        <img loading="lazy" class="w-25" src="${processes[3].img}" alt="Avatar" >
                         <p class="w-75 text-center px-4 py-2 m-0">${processes[3].heading}</p>
                     </div> 
                 </div>
@@ -431,7 +431,7 @@ const processHtml=`
                     ${processes[4].id}
                     </h1>
                     <div class="data d-flex flex-column justify-content-center">
-                        <img loading="lazy"  src="${processes[4].img}" alt="Avatar" >
+                        <img loading="lazy" class="w-25" src="${processes[4].img}" alt="Avatar" >
                         <p class="w-75 text-center px-4 py-2 m-0">${processes[4].heading}</p>
                     </div> 
                 </div>
@@ -448,7 +448,7 @@ const processHtml=`
                     ${processes[5].id}
                     </h1>
                     <div class="data d-flex flex-column justify-content-center">
-                        <img loading="lazy"  src="${processes[5].img}" alt="Avatar" >
+                        <img loading="lazy" class="w-25" src="${processes[5].img}" alt="Avatar" >
                         <p class="w-75 text-center px-4 py-2 m-0">${processes[5].heading}</p>
                     </div> 
                 </div>
@@ -466,7 +466,7 @@ const processHtml=`
                        ${processes[6].id}
                     </h1>
                     <div class="data d-flex flex-column justify-content-center">
-                        <img loading="lazy"  src="${processes[6].img}" alt="Avatar" >
+                        <img loading="lazy" class="w-25" src="${processes[6].img}" alt="Avatar" >
                         <p class="w-75 text-center px-4 py-2 m-0">${processes[6].heading}</p>
                     </div> 
                 </div>
@@ -483,7 +483,7 @@ const processHtml=`
                     ${processes[7].id}
                     </h1>
                     <div class="data d-flex flex-column justify-content-center">
-                        <img loading="lazy"  src="${processes[7].img}" alt="Avatar" >
+                        <img loading="lazy" class="w-25" src="${processes[7].img}" alt="Avatar" >
                         <p class="w-75 text-center px-4 py-2 m-0">${processes[7].heading}</p>
                     </div> 
                 </div>
@@ -500,7 +500,7 @@ const processHtml=`
                     ${processes[8].id}
                     </h1>
                     <div class="data d-flex flex-column justify-content-center">
-                        <img loading="lazy"  src="${processes[8].img}" alt="Avatar" >
+                        <img loading="lazy" class="w-25" src="${processes[8].img}" alt="Avatar" >
                         <p class="w-75 text-center px-4 py-2 m-0">${processes[8].heading}</p>
                     </div> 
                 </div>
@@ -518,7 +518,7 @@ const processHtml=`
                        ${processes[9].id}
                     </h1>
                     <div class="data d-flex flex-column justify-content-center">
-                        <img loading="lazy"  src="${processes[9].img}" alt="Avatar" >
+                        <img loading="lazy" class="w-25" src="${processes[9].img}" alt="Avatar" >
                         <p class="w-75 text-center px-4 py-2 m-0">${processes[9].heading}</p>
                     </div> 
                 </div>

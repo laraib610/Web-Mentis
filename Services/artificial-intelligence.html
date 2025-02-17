@@ -29,11 +29,15 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
     <script src="/services.js"></script>
-    <script src="/scripts/services.js"></script>
+    <script src="/scripts/service-scripts/artificial.js"></script>
     <script
     src="https://code.jquery.com/jquery-3.3.1.js"
     integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
     crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
 
 </head>
 <body>
@@ -68,60 +72,39 @@
     <section class="checkout-blob">
         <img loading="lazy"  src="/assets/gradient-wave.svg" class="blue-wave" alt=""> 
         <div class="blob">
-           <div class="container py-5">
-             <div class="offer ">
-                <div class="card my-5">
-                    <div class="card-body list-style-disc">
-                        <h5>What We Offer</h5>
-                        <ul class="ml-5">
-                            <li class="m-0"> 	
-                            	AI-powered chatbots and virtual assistants.
-                            </li>
-                            <li class="m-0">
-                                Predictive analytics and data-driven insights.
-                            </li>
-                            <li class="m-0">
-                                Natural language processing for text and speech.
-                            </li>
-                            <li class="m-0">
-                                Image recognition and computer vision solutions.
-                            </li>
-                        </ul>
-                    </div>
+           <div class="container py-5 mt-5">
+                <div class="d-lg-flex flex-wrap justify-content-between align-items-center" id="artificial-service-container">
 
                 </div>
-                <div class="card my-5">
-                    <div class="card-body list-style-disc">
-                        <h5>Tools & Technologies  </h5>
-                        <div class="d-flex flex-wrap align-items-center ">
-                            <div class="bg-dark m-2">
-                                <p class="text-white m-0 py-1 px-1">Python </p>
-                            </div>
-                            <div class="bg-dark m-2">
-                                <p class="text-white m-0 py-1 px-1">TensorFlow </p>
-                            </div>
-                            <div class="bg-dark m-2">
-                                <p class="text-white m-0 py-1 px-1">PyTorch</p>
-                            </div>
-                            <div class="bg-dark m-2">
-                                <p class="text-white m-0 py-1 px-1">OpenAI</p>
-                            </div>
-                            <div class="bg-dark m-2">
-                                <p class="text-white m-0 py-1 px-1">NLP APIs</p>
-                            </div>
-                            
-                           
-                        </div>
+            </div> 
+            <div class="technologies py-5 mt-3">
+                <div class="d-flex justify-content-center">
+                    <h1 class="text-center w-75 py-5">Technologies We Use for Artificial Intelligence</h1>
+                </div>
+                    
+                    <div class="d-lg-flex justify-content-center align-items-center" id="technology">
+                     
+
                     </div>
 
-                </div>
-                
-               
-
-             </div>
             </div>
 
         </div>
+        <div class="container py-5">
+            <h1 class="text-center py-5">
+                Our Artificial Intelligence Process
+            </h1>
+            <div id="process">
+                
+            </div>
+                
+
+
+            </div>
+
+
+        </div>
+
 
         
 
@@ -130,7 +113,10 @@
 <!-- 
     <div id="partners">
     </div> -->
-    
+    <script>
+
+        AOS.init();
+    </script>
     <div id="footer">
     </div>
 
