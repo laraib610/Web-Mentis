@@ -22,54 +22,54 @@ const UItechnology = [
         techs:[
             {
                 heading: "Html 5",
-                image: "/assets/UI-Icons/html-5.png",
-                class: " col-lg-4 "
+                image: "/assets/Logo/html-5.png",
+                class: "col-lg-4 "
             },
             {
                 heading: "CSS",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/css.png",
                 class: " col-lg-4 "
             },
             {
                 heading: "JS",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/js.png",
                 class: " col-lg-4 "
             },
             {
                 heading: "Bootstrap",
-                image: "/assets/UI-Icons/bootstrap.png",
+                image: "/assets/Logo/bootstrap.png",
                 class: " col-lg-4 "
             },
             {
                 heading: "React",
-                image: "/assets/UI-Icons/react.png",
+                image: "/assets/Logo/react.png",
                 class: " col-lg-4"
             },
             {
                 heading: "Angular",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/angular.png",
                 class: " col-lg-4"
             },
             {
                 heading: "Vue JS",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/vue.png",
                 class: " col-lg-4"
             },
             
             {
                 heading: "Figma",
-                image: "/assets/UI-Icons/figma.svg",
+                image: "/assets/Logo/figma.svg",
                 class: " col-lg-4"
             },
             {
                 heading: "Adob XD",
-                image: "/assets/UI-Icons/adobexd.svg",
+                image: "/assets/Logo/adobexd.svg",
                 class: " col-lg-4"
             },
             {
                 heading: "Tailwind CSS",
-                image: "/assets/UI-Icons/testing.svg",
-                class: " col-lg-6"
+                image: "/assets/Logo/tailwind.png",
+                class: "col-lg-6"
             },
         
         ],
@@ -80,52 +80,52 @@ const UItechnology = [
         techs: [
             {
                 heading: "PHP",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/php.png",
                 class: " col-lg-4 "
             },
             {
                 heading: "Python",
-                image: "/assets/software/python.png",
+                image: "/assets/Logo/python.png",
                 class: " col-lg-4 "
             },
             {
                 heading: "NodeJS",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/js.png",
                 class: " col-lg-4 "
             },
             {
                 heading: "Ruby",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/ruby.svg",
                 class: " col-lg-4 "
             },
             {
                 heading: "Java",
-                image: "/assets/software/java.png",
+                image: "/assets/Logo/java.png",
                 class: " col-lg-4"
             },
             {
                 heading: "Laravel",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/laravel.png",
                 class: " col-lg-4"
             },
             {
                 heading: "Django",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/django.svg",
                 class: " col-lg-4"
             },
             {
                 heading: "Express.js",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/express.png",
                 class: " col-lg-4"
             },
             {
                 heading: "Spring Boot",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/spring.png",
                 class: " col-lg-4"
             },
             {
                 heading: "Ruby on Rails",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/ruby-rails.png",
                 class: "col-lg-6"
             },
         
@@ -137,7 +137,7 @@ const UItechnology = [
         techs:[
             {
                 heading: "MySQL",
-                image: "/assets/software/mysql-database.png",
+                image: "/assets/Logo/mysql-database.png",
                 class: " col-lg-4 "
             },
             {
@@ -584,7 +584,7 @@ function getApps(techId) {
         data += `
             <div class="${app.class.trim()} p-2">
                 <div class="app py-1 px-1 d-flex align-items-center">
-                    <img loading="lazy" width="20%"  src="${app.image}" alt="${app.heading}">
+                    <img loading="lazy" width="${app.class==='col-lg-6'?'13%':app.class=='col-lg-12'?'6%':app.class=='col-lg-8'?'10%':'20%'}"  src="${app.image}" alt="${app.heading}">
                     <h5 class="m-0 px-1">${app.heading}</h5>
                 </div>
             </div>

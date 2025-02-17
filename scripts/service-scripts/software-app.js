@@ -35,37 +35,37 @@ const softwareservices=[
 const processes=[
     {
         id:'01',
-        img :'/assets/UI-Icons/testing.svg',
+        img :'/assets/software/requirement.png',
         heading:'Requirement Analysis & Planning'
     },
     {
         id:'02',
-        img :'/assets/UI-Icons/testing.svg',
+        img :'/assets/software/UIUX.png',
         heading:'UI/UX Design & Prototyping '
     },
     {
         id:'03',
-        img :'/assets/UI-Icons/testing.svg',
+        img :'/assets/software/software.png',
         heading:'Software Architecture & Development'
     },
     {
         id:'04',
-        img :'/assets/UI-Icons/testing.svg',
+        img :'/assets/software/database.png',
         heading:'Database Design & Integration'
     },
     {
         id:'05',
-        img :'/assets/UI-Icons/testing.svg',
+        img :'/assets/software/testing.png',
         heading:'Testing & Quality Assurance (QA)'
     },
     {
         id:'06',
-        img :'/assets/UI-Icons/testing.svg',
+        img :'/assets/software/deployment.png',
         heading:' Deployment & Continuous Integration (CI/CD) '
     },
     {
         id:'07',
-        img :'/assets/UI-Icons/testing.svg',
+        img :'/assets/software/maintenance.png',
         heading:' Maintenance & Support'
     },
     
@@ -127,7 +127,7 @@ const softwaretechnology=[
             {
                 heading: "Tailwind CSS",
                 image: "/assets/UI-Icons/testing.svg",
-                class: " col-lg-6"
+                class: "col-lg-6"
             },
         
         ]
@@ -263,12 +263,12 @@ const softwaretechnology=[
             {
                 heading: "Google Cloud Storage",
                 image: "/assets/UI-Icons/testing.svg",
-                class: " col-lg-4"
+                class: "col-lg-6"
             },
             {
                 heading: "Azure Blob Storage",
                 image: "/assets/UI-Icons/testing.svg",
-                class: " col-lg-4"
+                class: "col-lg-6"
             },
         
         ],
@@ -326,7 +326,7 @@ const softwaretechnology=[
             {
                 heading: "GitLab CI/CD",
                 image: "/assets/UI-Icons/testing.svg",
-                class: " col-lg-4"
+                class: "col-lg-4"
             },
         
         ],
@@ -454,48 +454,48 @@ const softwaretechnology=[
             {
                 heading: "Jest",
                 image: "/assets/UI-Icons/testing.svg",
-                class: " col-lg-4"
+                class: "col-lg-4"
             },
             {
                 heading: "Mocha",
                 image: "/assets/UI-Icons/testing.svg",
-                class: " col-lg-4"
+                class: "col-lg-4"
             },
             
             {
                 heading: "PyTest ",
                 image: "/assets/UI-Icons/testing.svg",
-                class: " col-lg-4"
+                class: "col-lg-4"
             },
             {
                 heading: "JUnit",
                 image: "/assets/UI-Icons/testing.svg",
-                class: " col-lg-4"
+                class: "col-lg-4"
             },
             {
                 heading: "Selenium",
                 image: "/assets/UI-Icons/testing.svg",
-                class: " col-lg-4"
+                class: "col-lg-4"
             },
             {
                 heading: " Cypress",
                 image: "/assets/UI-Icons/testing.svg",
-                class: " col-lg-4"
+                class: "col-lg-4"
             },
             {
                 heading: "Appium",
                 image: "/assets/UI-Icons/testing.svg",
-                class: " col-lg-4"
+                class: "col-lg-4"
             },
             {
                 heading: "JMeter",
                 image: "/assets/UI-Icons/testing.svg",
-                class: " col-lg-4"
+                class: "col-lg-4"
             },
             {
                 heading: "Locust",
                 image: "/assets/UI-Icons/testing.svg",
-                class: " col-lg-4"
+                class: "col-lg-4"
             },
         
         ],
@@ -507,43 +507,43 @@ const softwaretechnology=[
             {
                 heading: "Prometheus",
                 image: "/assets/UI-Icons/testing.svg",
-                class: " col-lg-4"
+                class: "col-lg-4"
             },
             {
                 heading: "Grafana",
                 image: "/assets/UI-Icons/testing.svg",
-                class: " col-lg-4"
+                class: "col-lg-4"
             },
             
             {
                 heading: "New Relic",
                 image: "/assets/UI-Icons/testing.svg",
-                class: " col-lg-4"
+                class: "col-lg-4"
             },
             {
                 heading: "Sentry",
                 image: "/assets/UI-Icons/testing.svg",
-                class: " col-lg-4"
+                class: "col-lg-4"
             },
             {
                 heading: "LogRocket",
                 image: "/assets/UI-Icons/testing.svg",
-                class: " col-lg-4"
+                class: "col-lg-4"
             },
             {
                 heading: "Google Analytics",
                 image: "/assets/UI-Icons/testing.svg",
-                class: " col-lg-4"
+                class: "col-lg-4"
             },
             {
                 heading: "Mixpanel",
                 image: "/assets/UI-Icons/testing.svg",
-                class: " col-lg-4"
+                class: "col-lg-4"
             },
             {
                 heading: "Hotjar",
                 image: "/assets/UI-Icons/testing.svg",
-                class: " col-lg-4"
+                class: "col-lg-4"
             },
 
         
@@ -627,7 +627,7 @@ const processHtml=`
                     ${processes[0].id}
                     </h1>
                     <div class="data d-flex flex-column justify-content-center">
-                        <img loading="lazy" src="${processes[0].img }" alt="Avatar" >
+                        <img loading="lazy" class="w-25" src="${processes[0].img }" alt="Avatar" >
                         <p class="w-75 text-center px-4 py-2 m-0">Research & Strategy</p>
                     </div> 
                 </div>
@@ -644,7 +644,7 @@ const processHtml=`
                     ${processes[1].id}
                     </h1>
                     <div class="data d-flex flex-column justify-content-center">
-                        <img loading="lazy"  src="${processes[1].img}" alt="Avatar" >
+                        <img loading="lazy" class="w-25" src="${processes[1].img}" alt="Avatar" >
                         <p class="w-75 text-center px-4 py-2 m-0">${processes[1].heading}</p>
                     </div> 
                 </div>
@@ -661,7 +661,7 @@ const processHtml=`
                     ${processes[2].id}
                     </h1>
                     <div class="data d-flex flex-column justify-content-center">
-                        <img loading="lazy"  src="${processes[2].img}" alt="Avatar" >
+                        <img loading="lazy" class="w-25" src="${processes[2].img}" alt="Avatar" >
                         <p class="w-75 text-center px-4 py-2 m-0">${processes[2].heading}</p>
                     </div> 
                 </div>
@@ -679,7 +679,7 @@ const processHtml=`
                        ${processes[3].id}
                     </h1>
                     <div class="data d-flex flex-column justify-content-center">
-                        <img loading="lazy"  src="${processes[3].img}" alt="Avatar" >
+                        <img loading="lazy" class="w-25" src="${processes[3].img}" alt="Avatar" >
                         <p class="w-75 text-center px-4 py-2 m-0">${processes[3].heading}</p>
                     </div> 
                 </div>
@@ -696,7 +696,7 @@ const processHtml=`
                     ${processes[4].id}
                     </h1>
                     <div class="data d-flex flex-column justify-content-center">
-                        <img loading="lazy"  src="${processes[4].img}" alt="Avatar" >
+                        <img loading="lazy" class="w-25" src="${processes[4].img}" alt="Avatar" >
                         <p class="w-75 text-center px-4 py-2 m-0">${processes[4].heading}</p>
                     </div> 
                 </div>
@@ -713,7 +713,7 @@ const processHtml=`
                     ${processes[5].id}
                     </h1>
                     <div class="data d-flex flex-column justify-content-center">
-                        <img loading="lazy"  src="${processes[5].img}" alt="Avatar" >
+                        <img loading="lazy" class="w-25" src="${processes[5].img}" alt="Avatar" >
                         <p class="w-75 text-center px-4 py-2 m-0">${processes[5].heading}</p>
                     </div> 
                 </div>
@@ -731,7 +731,7 @@ const processHtml=`
                        ${processes[6].id}
                     </h1>
                     <div class="data d-flex flex-column justify-content-center">
-                        <img loading="lazy"  src="${processes[6].img}" alt="Avatar" >
+                        <img loading="lazy" class="w-25" src="${processes[6].img}" alt="Avatar" >
                         <p class="w-75 text-center px-4 py-2 m-0">${processes[6].heading}</p>
                     </div> 
                 </div>
@@ -739,9 +739,6 @@ const processHtml=`
         </div>  
        
 `
-
-
-
 processContainer.innerHTML+=processHtml;
  });
  
@@ -820,7 +817,7 @@ function getApps(techId) {
         data += `
             <div class="${app.class.trim()} p-2">
                 <div class="app py-1 px-1 d-flex align-items-center">
-                    <img loading="lazy" width="20%"  src="${app.image}" alt="${app.heading}">
+                    <img loading="lazy" width="${app.class==='col-lg-6'?'13%':app.class=='col-lg-12'?'6%':app.class=='col-lg-8'?'10%':'20%'}"   src="${app.image}" alt="${app.heading}">
                     <h5 class="m-0 px-1">${app.heading}</h5>
                 </div>
             </div>

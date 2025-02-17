@@ -19,52 +19,52 @@
     const processes=[
         {
             id:'01',
-            img :'/assets/UI-Icons/testing.svg',
+            img :'/assets/CRM/requirement.png',
             heading:'Requirement Analysis & CRM Selection  '
         },
         {
             id:'02',
-            img :'/assets/UI-Icons/testing.svg',
+            img :'/assets/CRM/data-migration.png',
             heading:'Data Migration & Cleaning  '
         },
         {
             id:'03',
-            img :'/assets/UI-Icons/testing.svg',
+            img :'/assets/CRM/API-integration.png',
             heading:'API Integration & Customization '
         },
         {
             id:'04',
-            img :'/assets/UI-Icons/testing.svg',
+            img :'/assets/CRM/user.png',
             heading:'User Authentication & Role-Based Access   '
         },
         {
             id:'05',
-            img :'/assets/UI-Icons/testing.svg',
+            img :'/assets/CRM/automation-process.png',
             heading:'Automation & Workflow Setup '
         },
         {
             id:'06',
-            img :'/assets/UI-Icons/testing.svg',
+            img :'/assets/CRM/email.png',
             heading:'Email & Communication Integration '
         },
         {
             id:'07',
-            img :'/assets/UI-Icons/testing.svg',
+            img :'/assets/CRM/analytics.png',
             heading:'Analytics & Reporting '
         },
         {
             id:'08',
-            img :'/assets/UI-Icons/testing.svg',
+            img :'/assets/CRM/testing.png',
             heading:'Testing & Security Compliance  '
         },
         {
             id:'09',
-            img :'/assets/UI-Icons/testing.svg',
+            img :'/assets/CRM/deployment.png',
             heading:'Deployment & Training   '
         },
         {
             id:'10',
-            img :'/assets/UI-Icons/testing.svg',
+            img :'/assets/CRM/maintenance.png',
             heading:'Maintenance & Optimization '
         },
     ];
@@ -79,37 +79,37 @@
                 {
                     heading:"Salesforce",
                     image:"/assets/CRM/salesforce.png",
-                    class:" col-lg-6 ",
+                    class:"col-lg-4",
                     width:"15%"
                 },
                 {
                     heading:"Zoho CRM",
                     image:"/assets/CRM/zoho.jpg",
-                    class:" col-lg-6 ",
+                    class:"col-lg-4",
                     width:"15%"
                 },
                 {
                     heading:"Pipedrive",
                     image:"/assets/CRM/pipedrive.jpg",
-                    class:" col-lg-6 ",
+                    class:"col-lg-4",
                     width:"23%"
                 },
                 {
                     heading:"Hubspot",
                     image:"/assets/digital-marketing/hubspot.png",
-                    class:" col-lg-6",
+                    class:"col-lg-4",
                     width:"15%"
                 },
                 {
                     heading:"Microsoft Dynamics 365",
                     image:"/assets/UI-Icons/testing.svg",
-                    class:" col-lg-6",
+                    class:"col-lg-8",
                     width:"15%"
                 },
                 {
                     heading:"SugarCRM",
                     image:"/assets/UI-Icons/testing.svg",
-                    class:" col-lg-6",
+                    class:"col-lg-6",
                     width:"15%"
                 },
             
@@ -122,49 +122,49 @@
                 {
                     heading:" Zapier",
                     image:"/assets/UI-Icons/testing.svg",
-                    class:" col-lg-6 ",
+                    class:"col-lg-4",
                     width:"15%"
                 },
                 {
                     heading:"MuleSoft",
                     image:"/assets/UI-Icons/testing.svg",
-                    class:" col-lg-6 ",
+                    class:"col-lg-4",
                     width:"15%"
                 },
                 {
                     heading:"REST API's",
                     image:"/assets/UI-Icons/testing.svg",
-                    class:" col-lg-6 ",
+                    class:"col-lg-6",
                     width:"23%"
                 },
                 {
                     heading:"GraphQL APIs",
                     image:"/assets/UI-Icons/testing.svg",
-                    class:" col-lg-6",
+                    class:"col-lg-6",
                     width:"15%"
                 },
                 {
                     heading:"Apache Camel",
                     image:"/assets/UI-Icons/testing.svg",
-                    class:" col-lg-6",
+                    class:"col-lg-6",
                     width:"15%"
                 },
                 {
                     heading:"OAuth 2.0",
                     image:"/assets/UI-Icons/testing.svg",
-                    class:" col-lg-6",
+                    class:"col-lg-6",
                     width:"15%"
                 },
                 {
                     heading:"JWT",
                     image:"/assets/UI-Icons/testing.svg",
-                    class:" col-lg-6",
+                    class:" col-lg-4",
                     width:"15%"
                 },
                 {
                     heading:" SAML",
                     image:"/assets/UI-Icons/testing.svg",
-                    class:" col-lg-6",
+                    class:" col-lg-4",
                     width:"15%"
                 },
             
@@ -213,31 +213,31 @@
                 {
                     heading:" UiPath",
                     image:"/assets/UI-Icons/testing.svg",
-                    class:" col-lg-6 ",
+                    class:"col-lg-6",
                     width:"15%"
                 },
                 {
                     heading:"Salesforce Einstein",
                     image:"/assets/UI-Icons/testing.svg",
-                    class:" col-lg-6 ",
+                    class:"col-lg-6",
                     width:"15%"
                 },
                 {
                     heading:"HubSpot AI",
                     image:"/assets/UI-Icons/testing.svg",
-                    class:" col-lg-6 ",
+                    class:"col-lg-6",
                     width:"23%"
                 },
                 {
                     heading:"Microsoft AI for Dynamics",
                     image:"/assets/UI-Icons/testing.svg",
-                    class:" col-lg-6",
+                    class:"col-lg-6",
                     width:"15%"
                 },
                 {
                     heading:"Automation Anywhere",
                     image:"/assets/UI-Icons/testing.svg",
-                    class:" col-lg-6",
+                    class:"col-lg-6",
                     width:"15%"
                 },
                
@@ -251,43 +251,43 @@
                 {
                     heading:"SendGrid",
                     image:"/assets/UI-Icons/testing.svg",
-                    class:" col-lg-6 ",
+                    class:"col-lg-6",
                     width:"15%"
                 },
                 {
                     heading:" Mailgun",
                     image:"/assets/UI-Icons/testing.svg",
-                    class:" col-lg-6 ",
+                    class:"col-lg-6",
                     width:"15%"
                 },
                 {
                     heading:"Postmark",
                     image:"/assets/UI-Icons/testing.svg",
-                    class:" col-lg-6 ",
+                    class:"col-lg-6",
                     width:"23%"
                 },
                 {
                     heading:"Twilio",
                     image:"/assets/UI-Icons/testing.svg",
-                    class:" col-lg-6",
+                    class:"col-lg-6",
                     width:"15%"
                 },
                 {
                     heading:"Vonage",
                     image:"/assets/UI-Icons/testing.svg",
-                    class:" col-lg-6",
+                    class:"col-lg-6",
                     width:"15%"
                 },
                 {
                     heading:" WhatsApp Business API",
                     image:"/assets/UI-Icons/testing.svg",
-                    class:" col-lg-6",
+                    class:"col-lg-6",
                     width:"15%"
                 },
                 {
                     heading:" Slack",
                     image:"/assets/UI-Icons/testing.svg",
-                    class:" col-lg-6",
+                    class:"col-lg-6",
                     width:"15%"
                 },
                
@@ -302,37 +302,37 @@
                 {
                     heading:"Power BI",
                     image:"/assets/UI-Icons/testing.svg",
-                    class:" col-lg-6 ",
+                    class:"col-lg-6",
                     width:"15%"
                 },
                 {
                     heading:"Google Data Studio",
                     image:"/assets/UI-Icons/testing.svg",
-                    class:" col-lg-6 ",
+                    class:"col-lg-6",
                     width:"15%"
                 },
                 {
                     heading:"Tableau",
                     image:"/assets/UI-Icons/testing.svg",
-                    class:" col-lg-6 ",
+                    class:"col-lg-6",
                     width:"23%"
                 },
                 {
                     heading:"Google Analytics",
                     image:"/assets/UI-Icons/testing.svg",
-                    class:" col-lg-6",
+                    class:"col-lg-6",
                     width:"15%"
                 },
                 {
                     heading:"Mixpanel",
                     image:"/assets/UI-Icons/testing.svg",
-                    class:" col-lg-6",
+                    class:"col-lg-6",
                     width:"15%"
                 },
                 {
                     heading:"Segment",
                     image:"/assets/UI-Icons/testing.svg",
-                    class:" col-lg-6",
+                    class:"col-lg-6",
                     width:"15%"
                 },
             
@@ -412,7 +412,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         ${processes[0].id}
                         </h1>
                         <div class="data d-flex flex-column justify-content-center">
-                            <img loading="lazy" src="${processes[0].img }" alt="Avatar" >
+                            <img loading="lazy"  class="w-25" src="${processes[0].img }" alt="Avatar" >
                             <p class="w-75 text-center px-4 py-2 m-0">Research & Strategy</p>
                         </div> 
                     </div>
@@ -429,7 +429,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         ${processes[1].id}
                         </h1>
                         <div class="data d-flex flex-column justify-content-center">
-                            <img loading="lazy"  src="${processes[1].img}" alt="Avatar" >
+                            <img loading="lazy"  class="w-25" src="${processes[1].img}" alt="Avatar" >
                             <p class="w-75 text-center px-4 py-2 m-0">${processes[1].heading}</p>
                         </div> 
                     </div>
@@ -446,7 +446,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         ${processes[2].id}
                         </h1>
                         <div class="data d-flex flex-column justify-content-center">
-                            <img loading="lazy"  src="${processes[2].img}" alt="Avatar" >
+                            <img loading="lazy"  class="w-25" src="${processes[2].img}" alt="Avatar" >
                             <p class="w-75 text-center px-4 py-2 m-0">${processes[2].heading}</p>
                         </div> 
                     </div>
@@ -464,7 +464,7 @@ document.addEventListener('DOMContentLoaded', function () {
                            ${processes[3].id}
                         </h1>
                         <div class="data d-flex flex-column justify-content-center">
-                            <img loading="lazy"  src="${processes[3].img}" alt="Avatar" >
+                            <img loading="lazy"  class="w-25" src="${processes[3].img}" alt="Avatar" >
                             <p class="w-75 text-center px-4 py-2 m-0">${processes[3].heading}</p>
                         </div> 
                     </div>
@@ -481,7 +481,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         ${processes[4].id}
                         </h1>
                         <div class="data d-flex flex-column justify-content-center">
-                            <img loading="lazy"  src="${processes[4].img}" alt="Avatar" >
+                            <img loading="lazy" class="w-25"  src="${processes[4].img}" alt="Avatar" >
                             <p class="w-75 text-center px-4 py-2 m-0">${processes[4].heading}</p>
                         </div> 
                     </div>
@@ -498,7 +498,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         ${processes[5].id}
                         </h1>
                         <div class="data d-flex flex-column justify-content-center">
-                            <img loading="lazy"  src="${processes[5].img}" alt="Avatar" >
+                            <img loading="lazy"  class="w-25" src="${processes[5].img}" alt="Avatar" >
                             <p class="w-75 text-center px-4 py-2 m-0">${processes[5].heading}</p>
                         </div> 
                     </div>
@@ -516,7 +516,7 @@ document.addEventListener('DOMContentLoaded', function () {
                            ${processes[6].id}
                         </h1>
                         <div class="data d-flex flex-column justify-content-center">
-                            <img loading="lazy"  src="${processes[6].img}" alt="Avatar" >
+                            <img loading="lazy" class="w-25"  src="${processes[6].img}" alt="Avatar" >
                             <p class="w-75 text-center px-4 py-2 m-0">${processes[6].heading}</p>
                         </div> 
                     </div>
@@ -533,7 +533,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         ${processes[7].id}
                         </h1>
                         <div class="data d-flex flex-column justify-content-center">
-                            <img loading="lazy"  src="${processes[7].img}" alt="Avatar" >
+                            <img loading="lazy"  class="w-25" src="${processes[7].img}" alt="Avatar" >
                             <p class="w-75 text-center px-4 py-2 m-0">${processes[7].heading}</p>
                         </div> 
                     </div>
@@ -550,7 +550,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         ${processes[8].id}
                         </h1>
                         <div class="data d-flex flex-column justify-content-center">
-                            <img loading="lazy"  src="${processes[8].img}" alt="Avatar" >
+                            <img loading="lazy"  class="w-25" src="${processes[8].img}" alt="Avatar" >
                             <p class="w-75 text-center px-4 py-2 m-0">${processes[8].heading}</p>
                         </div> 
                     </div>
@@ -568,7 +568,7 @@ document.addEventListener('DOMContentLoaded', function () {
                            ${processes[9].id}
                         </h1>
                         <div class="data d-flex flex-column justify-content-center">
-                            <img loading="lazy"  src="${processes[9].img}" alt="Avatar" >
+                            <img loading="lazy"  class="w-25" src="${processes[9].img}" alt="Avatar" >
                             <p class="w-75 text-center px-4 py-2 m-0">${processes[9].heading}</p>
                         </div> 
                     </div>
@@ -630,7 +630,7 @@ function getApps(techId) {
         data += `
             <div class="${app.class.trim()} p-2">
                 <div class="app py-1 px-1 d-flex align-items-center">
-                    <img loading="lazy" width="20%"  src="${app.image}" alt="${app.heading}">
+                    <img loading="lazy" width="${app.class==='col-lg-6'?'13%':app.class=='col-lg-12'?'6%':app.class=='col-lg-8'?'10%':'20%'}" src="${app.image}" alt="${app.heading}">
                     <h5 class="m-0 px-1">${app.heading}</h5>
                 </div>
             </div>

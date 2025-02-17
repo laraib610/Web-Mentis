@@ -19,47 +19,47 @@ const eventservices=[
 const processes=[
     {
         id:'01',
-        img :'/assets/UI-Icons/testing.svg',
+        img :'/assets/event/planning.png',
         heading:'Planning & Strategy Development'
     },
     {
         id:'02',
-        img :'/assets/UI-Icons/testing.svg',
+        img :'/assets/event/event-design.png',
         heading:'Event Design & Branding'
     },
     {
         id:'03',
-        img :'/assets/UI-Icons/testing.svg',
+        img :'/assets/event/logistics.png',
         heading:'Logistics & Vendor Management'
     },
     {
         id:'04',
-        img :'/assets/UI-Icons/testing.svg',
+        img :'/assets/event/event-marketing.png',
         heading:'Event Marketing & Promotion'
     },
     {
         id:'05',
-        img :'/assets/UI-Icons/testing.svg',
+        img :'/assets/event/registration.png',
         heading:'Registration & Ticketing'
     },
     {
         id:'06',
-        img :'/assets/UI-Icons/testing.svg',
+        img :'/assets/event/technical.png',
         heading:'Technical & Production Setup'
     },
     {
         id:'07',
-        img :'/assets/UI-Icons/testing.svg',
+        img :'/assets/event/on-site.png',
         heading:'On-Site Event Management'
     },
     {
         id:'08',
-        img :'/assets/UI-Icons/testing.svg',
+        img :'/assets/event/engagement.png',
         heading:'Engagement & Networking Activities'
     },
     {
         id:'09',
-        img :'/assets/UI-Icons/testing.svg',
+        img :'/assets/event/post-event.png',
         heading:'Post-Event Analysis & Reporting'
     },
     
@@ -418,7 +418,7 @@ const processHtml=`
                     ${processes[0].id}
                     </h1>
                     <div class="data d-flex flex-column justify-content-center">
-                        <img loading="lazy" src="${processes[0].img }" alt="Avatar" >
+                        <img loading="lazy" class="w-25" src="${processes[0].img }" alt="Avatar" >
                         <p class="w-75 text-center px-4 py-2 m-0">Research & Strategy</p>
                     </div> 
                 </div>
@@ -435,7 +435,7 @@ const processHtml=`
                     ${processes[1].id}
                     </h1>
                     <div class="data d-flex flex-column justify-content-center">
-                        <img loading="lazy"  src="${processes[1].img}" alt="Avatar" >
+                        <img loading="lazy" class="w-25"  src="${processes[1].img}" alt="Avatar" >
                         <p class="w-75 text-center px-4 py-2 m-0">${processes[1].heading}</p>
                     </div> 
                 </div>
@@ -452,7 +452,7 @@ const processHtml=`
                     ${processes[2].id}
                     </h1>
                     <div class="data d-flex flex-column justify-content-center">
-                        <img loading="lazy"  src="${processes[2].img}" alt="Avatar" >
+                        <img loading="lazy" class="w-25"  src="${processes[2].img}" alt="Avatar" >
                         <p class="w-75 text-center px-4 py-2 m-0">${processes[2].heading}</p>
                     </div> 
                 </div>
@@ -470,7 +470,7 @@ const processHtml=`
                        ${processes[3].id}
                     </h1>
                     <div class="data d-flex flex-column justify-content-center">
-                        <img loading="lazy"  src="${processes[3].img}" alt="Avatar" >
+                        <img loading="lazy" class="w-25" src="${processes[3].img}" alt="Avatar" >
                         <p class="w-75 text-center px-4 py-2 m-0">${processes[3].heading}</p>
                     </div> 
                 </div>
@@ -487,7 +487,7 @@ const processHtml=`
                     ${processes[4].id}
                     </h1>
                     <div class="data d-flex flex-column justify-content-center">
-                        <img loading="lazy"  src="${processes[4].img}" alt="Avatar" >
+                        <img loading="lazy" class="w-25" src="${processes[4].img}" alt="Avatar" >
                         <p class="w-75 text-center px-4 py-2 m-0">${processes[4].heading}</p>
                     </div> 
                 </div>
@@ -504,7 +504,7 @@ const processHtml=`
                     ${processes[5].id}
                     </h1>
                     <div class="data d-flex flex-column justify-content-center">
-                        <img loading="lazy"  src="${processes[5].img}" alt="Avatar" >
+                        <img loading="lazy" class="w-25" src="${processes[5].img}" alt="Avatar" >
                         <p class="w-75 text-center px-4 py-2 m-0">${processes[5].heading}</p>
                     </div> 
                 </div>
@@ -522,7 +522,7 @@ const processHtml=`
                        ${processes[6].id}
                     </h1>
                     <div class="data d-flex flex-column justify-content-center">
-                        <img loading="lazy"  src="${processes[6].img}" alt="Avatar" >
+                        <img loading="lazy" class="w-25" src="${processes[6].img}" alt="Avatar" >
                         <p class="w-75 text-center px-4 py-2 m-0">${processes[6].heading}</p>
                     </div> 
                 </div>
@@ -539,7 +539,7 @@ const processHtml=`
                     ${processes[7].id}
                     </h1>
                     <div class="data d-flex flex-column justify-content-center">
-                        <img loading="lazy"  src="${processes[7].img}" alt="Avatar" >
+                        <img loading="lazy" class="w-25" src="${processes[7].img}" alt="Avatar" >
                         <p class="w-75 text-center px-4 py-2 m-0">${processes[7].heading}</p>
                     </div> 
                 </div>
@@ -556,7 +556,7 @@ const processHtml=`
                     ${processes[8].id}
                     </h1>
                     <div class="data d-flex flex-column justify-content-center">
-                        <img loading="lazy"  src="${processes[8].img}" alt="Avatar" >
+                        <img loading="lazy" class="w-25" src="${processes[8].img}" alt="Avatar" >
                         <p class="w-75 text-center px-4 py-2 m-0">${processes[8].heading}</p>
                     </div> 
                 </div>

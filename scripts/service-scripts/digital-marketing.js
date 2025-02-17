@@ -25,50 +25,49 @@ const UItechnology=[
             {
                 heading: "Google Search Console",
                 image: "/assets/UI-Icons/testing.svg",
-                class: " col-lg-6"
+                class: "col-lg-8"
+            },{
+                heading: "Ahrefs",
+                image: "/assets/UI-Icons/testing.svg",
+                class: "col-lg-4"
             },
              {
                 heading: "Screaming Frog",
                 image: "/assets/UI-Icons/testing.svg",
-                class: " col-lg-6"
-            },
-            {
-                heading: "Ahrefs",
-                image: "/assets/UI-Icons/testing.svg",
-                class: " col-lg-4"
+                class: "col-lg-8"
             },
             
             {
                 heading: "SEMrush",
                 image: "/assets/UI-Icons/testing.svg",
-                class: " col-lg-4"
+                class: "col-lg-4"
             },
             {
                 heading: "Moz",
                 image: "/assets/UI-Icons/testing.svg",
-                class: " col-lg-4"
+                class: "col-lg-4"
             },
            
             
             {
                 heading: "Mixpanel",
                 image: "/assets/UI-Icons/testing.svg",
-                class: " col-lg-4"
+                class: "col-lg-4"
             },
             {
                 heading: "Hotjar",
                 image: "/assets/UI-Icons/testing.svg",
-                class: " col-lg-4"
+                class: "col-lg-4"
             },
             {
                 heading: "Microsoft Clarity",
                 image: "/assets/UI-Icons/testing.svg",
-                class: " col-lg-6"
+                class: "col-lg-6"
             },
             {
                 heading: "Google Analytics 4",
                 image: "/assets/UI-Icons/testing.svg",
-                class: " col-lg-6"
+                class: "col-lg-6"
             },
 
         
@@ -128,7 +127,7 @@ const UItechnology=[
             {
                 heading:"Final Cut Pro ",
                 image:"/assets/event/final-cut.png",
-                class:" col-lg-4 ",
+                class:"col-lg-8",
                 width:"20%"
             },
             {
@@ -264,12 +263,12 @@ const UItechnology=[
             {
                 heading: "SendGrid",
                 image: "/assets/UI-Icons/testing.svg",
-                class: " col-lg-6"
+                class: "col-lg-6"
             },
             {
                 heading:"ActiveCampaign",
                 image:"/assets/UI-Icons/testing.svg",
-                class:" col-lg-6"
+                class:"col-lg-6"
             },
             {
                 heading: "Marketo",
@@ -400,52 +399,52 @@ const UItechnology=[
 const processes=[
     {
         id:'01',
-        img :'/assets/digital-marketing/calendar.png',
+        img :'/assets/digital-marketing/strategy.png',
         heading:'Strategy & Planning '
     },
     {
         id:'02',
-        img :'/assets/digital-marketing/Paid-ad.png',
+        img :'/assets/digital-marketing/search.png',
         heading:'Search Engine Optimization (SEO)'
     },
     {
         id:'03',
-        img :'/assets/digital-marketing/video-reels.png',
+        img :'/assets/digital-marketing/content.png',
         heading:'Content Marketing.'
     },
     {
         id:'04',
-        img :'/assets/digital-marketing/calendar.png',
+        img :'/assets/digital-marketing/social.png',
         heading:'Social Media Marketing (SMM) '
     },
     {
         id:'05',
-        img :'/assets/digital-marketing/Paid-ad.png',
+        img :'/assets/digital-marketing/pay-per-click.png',
         heading:'Pay-Per-Click (PPC) Advertising'
     },
     {
         id:'06',
-        img :'/assets/digital-marketing/video-reels.png',
+        img :'/assets/digital-marketing/email.png',
         heading:'Email Marketing & Automation'
     },
     {
         id:'07',
-        img :'/assets/digital-marketing/calendar.png',
+        img :'/assets/digital-marketing/video.png',
         heading:'Video & Multimedia Marketing'
     },
     {
         id:'08',
-        img :'/assets/digital-marketing/Paid-ad.png',
+        img :'/assets/digital-marketing/conversion.png',
         heading:'Conversion Rate Optimization (CRO)'
     },
     {
         id:'09',
-        img :'/assets/digital-marketing/video-reels.png',
+        img :'/assets/digital-marketing/analytics.png',
         heading:'Analytics & Performance Monitoring'
     },
     {
         id:'10',
-        img :'/assets/digital-marketing/video-reels.png',
+        img :'/assets/digital-marketing/reputation.png',
         heading:'Reputation & Brand Management'
     },
 ];
@@ -739,7 +738,7 @@ function getApps(techId) {
         data += `
             <div class="${app.class.trim()} p-2">
                 <div class="app py-1 px-1 d-flex align-items-center">
-                    <img loading="lazy" width="20%"  src="${app.image}" alt="${app.heading}">
+                    <img loading="lazy" width="${app.class==='col-lg-6'?'13%':app.class=='col-lg-12'?'6%':app.class=='col-lg-8'?'10%':'20%'}"  src="${app.image}" alt="${app.heading}">
                     <h5 class="m-0 px-1">${app.heading}</h5>
                 </div>
             </div>

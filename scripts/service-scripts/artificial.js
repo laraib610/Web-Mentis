@@ -1,19 +1,25 @@
 const artificialservices=[
     {
-        heading:"Integrating AI to automate processes",
-        image:"/assets/artificial-marketing/PPC.png",
-        description:"Create, optimize, and manage highly successful PPC campaigns that deliver results. "
+        heading:"AI-powered chatbots and virtual assistants",
+        image:"/assets/AI/AI-powered.png",
+        description:"Use artificial intelligence to interact with users in natural language."
     },
     {
-        heading:"SEO OPtimization",
-        image:"/assets/artificial-marketing/CEO.png",
-        description:"Improve your website’s rankings, visibility, and overall online presence."
+        heading:"Image recognition and computer vision solutions",
+        image:"/assets/AI/Image-recognition.png",
+        description:"Enable machines to interpret and understand visual data from the world, such as images and videos."
     },                   
     {
-        heading:"Email Marketing",
-        image:"/assets/artificial-marketing/email-marketing.png",
-        description:"Create personalized, engaging, and impactful email campaigns."
+        heading:"Natural language processing for text and speech",
+        image:"/assets/AI/Natural-language.png",
+        description:"Enabling computers to understand, interpret, and generate human language in both text and speech formats."
     },
+    {
+        heading:"Predictive analytics and data-driven insights",
+        image:"/assets/AI/Predictive-analytics.png",
+        description:"Powerful tools that help businesses and organizations make informed decisions based on data."
+    },
+    
 
 ];
 
@@ -344,52 +350,47 @@ const UItechnology=[
 const processes=[
     {
         id:'01',
-        img :'/assets/artificial-marketing/calendar.png',
+        img :'/assets/AI/consultation.png',
         heading:'Consultation & Requirement Analysis'
     },
     {
         id:'02',
-        img :'/assets/artificial-marketing/Paid-ad.png',
+        img :'/assets/AI/collection.png',
         heading:'Data Collection & Preparation'
     },
     {
         id:'03',
-        img :'/assets/artificial-marketing/video-reels.png',
-        heading:'Content Marketing.'
-    },
-    {
-        id:'04',
-        img :'/assets/artificial-marketing/calendar.png',
+        img :'/assets/AI/selection.png',
         heading:'Model Selection & Development'
     },
     {
-        id:'05',
-        img :'/assets/artificial-marketing/Paid-ad.png',
+        id:'04',
+        img :'/assets/AI/training.png',
         heading:'AI Model Training & Testing'
     },
     {
-        id:'06',
-        img :'/assets/artificial-marketing/video-reels.png',
+        id:'05',
+        img :'/assets/AI/deployment.png',
         heading:'Deployment & Integration'
     },
     {
-        id:'07',
-        img :'/assets/artificial-marketing/calendar.png',
+        id:'06',
+        img :'/assets/AI/monitoring.png',
         heading:'AI Model Monitoring & Maintenance'
     },
     {
-        id:'08',
-        img :'/assets/artificial-marketing/Paid-ad.png',
+        id:'07',
+        img :'/assets/AI/automation.png',
         heading:'AI-Driven Automation & Optimization'
     },
     {
-        id:'09',
-        img :'/assets/artificial-marketing/video-reels.png',
+        id:'08',
+        img :'/assets/AI/security.png',
         heading:'Security, Compliance & Ethical AI'
     },
     {
-        id:'10',
-        img :'/assets/artificial-marketing/video-reels.png',
+        id:'09',
+        img :'/assets/AI/analytics.png',
         heading:'AI-Powered Analytics & Insights'
     },
 ];
@@ -637,24 +638,7 @@ const processHtml=`
             </div>
         </div>       
     </div> 
-    <div class="arrow pt-2 d-none d-lg-block" data-aos="fade-down" data-aos-delay="2000" data-aos-duration="2000">
-        <img loading="lazy"  src="/assets/UI-Icons/hori-line.svg" width="100%" alt="">
-    </div>
-    <div class="d-lg-flex flex-wrap justify-content-between align-items-center" data-aos="fade-right" data-aos-delay="2000" data-aos-duration="2000">
-        <div class="col-lg-3 d-flex justify-content-center">
-            <div class="flip-card my-4">
-                <div class="process-card">
-                    <h1 class="h1-gradient">
-                       ${processes[9].id}
-                    </h1>
-                    <div class="data d-flex flex-column justify-content-center">
-                        <img loading="lazy" class="w-25"  src="${processes[9].img}" alt="Avatar" >
-                        <p class="w-75 text-center px-4 py-2 m-0">${processes[9].heading}</p>
-                    </div> 
-                </div>
-            </div>
-        </div>  
-    </div>
+
 `
 
 

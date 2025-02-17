@@ -1,19 +1,19 @@
   
     const productservices=[
         {
-            heading:"Cloud Base product",
-            image:"/assets/UI-Icons/testing.svg",
-            description:"Offers a wide range of website-building, hosting, and management tools through a subscription-based service model."
+            heading:"Custom Software Development",
+            image:"/assets/software/cross-platform.png",
+            description:"End-to-end development of web, mobile, and desktop applications, tailor-made solutions for businesses based on specific requirements"
         },
         {
-            heading:"MicroServices",
-            image:"/assets/UI-Icons/testing.svg",
-            description:"Approach to software development where a large application is built as a collection of small, independently deployable services."
+            heading:"Web Application Development",
+            image:"/assets/web-Icons/frontend.png",
+            description:"Full-stack web application development, single-page applications (SPA) and Progressive Web Apps (PWA)"
         },
         {
-            heading:"Subscription Billing Integration",
-            image:"/assets/UI-Icons/testing.svg",
-            description:"Implementing a system or service that manages the billing, invoicing, and payments for users who subscribe to a product or service."
+            heading:"Mobile App Development",
+            image:"/assets/software/native.png",
+            description:"Native and cross-platform mobile applications, android and iOS app development, app UI/UX design and optimization."
         },
     ];
 
@@ -55,47 +55,47 @@
                 {
                     heading: "PHP (Laravel)",
                     image: "/assets/UI-Icons/testing.svg",
-                    class: " col-lg-4 "
+                    class: "col-lg-6"
                 },
                 
-                {
-                    heading: "NodeJS",
-                    image: "/assets/UI-Icons/testing.svg",
-                    class: " col-lg-4 "
-                },
+                
                 {
                     heading: "Ruby on Rails",
                     image: "/assets/UI-Icons/testing.svg",
-                    class: " col-lg-4 "
+                    class: "col-lg-6"
                 },{
                     heading: "Python (Django/ Flask)",
                     image: "/assets/software/python.png",
-                    class: " col-lg-6 "
-                },
-                {
-                    heading: " Java (Spring Boot)",
-                    image: "/assets/UI-Icons/testing.svg",
-                    class: " col-lg-6"
-                },                         
-                {
-                    heading: "React Native",
-                    image: "/assets/UI-Icons/testing.svg",
-                    class: " col-lg-4"
-                },
-                {
+                    class: "col-lg-8"
+                }, {
                     heading: "Flutter",
                     image: "/assets/UI-Icons/testing.svg",
                     class: " col-lg-4"
                 },
                 {
-                    heading: "Swift (iOS)",
-                    image: "/assets/software/swift.png",
-                    class: " col-lg-4"
-                },
+                    heading: " Java (Spring Boot)",
+                    image: "/assets/UI-Icons/testing.svg",
+                    class: "col-lg-6"
+                },                    
+                {
+                    heading: "React Native",
+                    image: "/assets/UI-Icons/testing.svg",
+                    class: "col-lg-6"
+                }, 
+                
                 {
                     heading: "Kotlin (Android)",
                     image: "/assets/software/kotlin.png",
+                    class: "col-lg-6"
+                },{
+                    heading: "Swift (iOS)",
+                    image: "/assets/software/swift.png",
                     class: " col-lg-4"
+                },    
+               {
+                    heading: "NodeJS",
+                    image: "/assets/UI-Icons/testing.svg",
+                    class: " col-lg-4 "
                 },
             
             ],
@@ -113,16 +113,29 @@
                     heading: "PostgreSQL",
                     image: "/assets/UI-Icons/testing.svg",
                     class: " col-lg-4 "
+                },{
+                    heading: "MongoDB",
+                    image: "/assets/software/mongodb.svg",
+                    class: " col-lg-4 "
                 },
                 {
                     heading: "Microsoft SQL Server",
                     image: "/assets/UI-Icons/testing.svg",
-                    class: " col-lg-4 "
+                    class: "col-lg-6"
+                },{
+                    heading: "Azure Blob Storage",
+                    image: "/assets/UI-Icons/testing.svg",
+                    class: "col-lg-6"
+                },
+                 {
+                    heading: "Google Cloud Storage",
+                    image: "/assets/UI-Icons/testing.svg",
+                    class: "col-lg-8"
                 },
                 {
-                    heading: "MongoDB",
-                    image: "/assets/software/mongodb.svg",
-                    class: " col-lg-4 "
+                    heading: "AWS S3",
+                    image: "/assets/UI-Icons/testing.svg",
+                    class: " col-lg-4"
                 },
                 {
                     heading: "Firebase",
@@ -134,21 +147,8 @@
                     image: "/assets/UI-Icons/testing.svg",
                     class: " col-lg-4"
                 },
-                {
-                    heading: "AWS S3",
-                    image: "/assets/UI-Icons/testing.svg",
-                    class: " col-lg-4"
-                },
-                {
-                    heading: "Google Cloud Storage",
-                    image: "/assets/UI-Icons/testing.svg",
-                    class: " col-lg-4"
-                },
-                {
-                    heading: "Azure Blob Storage",
-                    image: "/assets/UI-Icons/testing.svg",
-                    class: " col-lg-4"
-                },
+               
+                
             
             ],
         },
@@ -408,54 +408,45 @@
     const processes=[
         {
             id:'01',
-            img :'/assets/UI-Icons/testing.svg',
+            img :'/assets/product/idea.png',
             heading:'Idea Generation & Market Research '
         },
         {
             id:'02',
-            img :'/assets/UI-Icons/testing.svg',
+            img :'/assets/product/concept.png',
             heading:'Concept Development & Feasibility Study  '
         },
         {
             id:'03',
-            img :'/assets/UI-Icons/testing.svg',
+            img :'/assets/product/prototyping.png',
             heading:'Prototyping & Wireframing   '
         },
         {
             id:'04',
-            img :'/assets/UI-Icons/testing.svg',
+            img :'/assets/product/product.png',
             heading:'Product Design & UI/UX '
         },
         {
             id:'05',
-            img :'/assets/UI-Icons/testing.svg',
+            img :'/assets/product/MVP.png',
             heading:'MVP Development  '
         },
         {
             id:'06',
-            img :'/assets/UI-Icons/testing.svg',
+            img :'/assets/product/agile.png',
             heading:'Agile Development & Iterations '
         },
         {
             id:'07',
-            img :'/assets/UI-Icons/testing.svg',
+            img :'/assets/product/testing.png',
             heading:'Testing & Quality Assurance (QA).'
         },
         {
             id:'08',
-            img :'/assets/UI-Icons/testing.svg',
+            img :'/assets/product/deployment.png',
             heading:'Deployment & Launch   '
         },
-        {
-            id:'09',
-            img :'/assets/UI-Icons/testing.svg',
-            heading:'Feedback Collection & Continuous Improvement '
-        },
-        {
-            id:'10',
-            img :'/assets/UI-Icons/testing.svg',
-            heading:'Scaling & Maintenance '
-        },
+
     ];
 
 
@@ -522,7 +513,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     
     const processContainer=document.getElementById('process');
-const processHtml=`
+    const processHtml=`
     <div class="d-lg-flex flex-wrap justify-content-between align-items-center" >
         <div class="col-lg-3 d-flex justify-content-center" data-aos="fade-right" data-aos-duration="1000">
             <div class="flip-card my-4">
@@ -531,7 +522,7 @@ const processHtml=`
                     ${processes[0].id}
                     </h1>
                     <div class="data d-flex flex-column justify-content-center">
-                        <img loading="lazy" src="${processes[0].img }" alt="Avatar" >
+                        <img loading="lazy" class="w-25" src="${processes[0].img }" alt="Avatar" >
                         <p class="w-75 text-center px-4 py-2 m-0">Research & Strategy</p>
                     </div> 
                 </div>
@@ -548,7 +539,7 @@ const processHtml=`
                     ${processes[1].id}
                     </h1>
                     <div class="data d-flex flex-column justify-content-center">
-                        <img loading="lazy"  src="${processes[1].img}" alt="Avatar" >
+                        <img loading="lazy" class="w-25" src="${processes[1].img}" alt="Avatar" >
                         <p class="w-75 text-center px-4 py-2 m-0">${processes[1].heading}</p>
                     </div> 
                 </div>
@@ -565,7 +556,7 @@ const processHtml=`
                     ${processes[2].id}
                     </h1>
                     <div class="data d-flex flex-column justify-content-center">
-                        <img loading="lazy"  src="${processes[2].img}" alt="Avatar" >
+                        <img loading="lazy" class="w-25" src="${processes[2].img}" alt="Avatar" >
                         <p class="w-75 text-center px-4 py-2 m-0">${processes[2].heading}</p>
                     </div> 
                 </div>
@@ -583,7 +574,7 @@ const processHtml=`
                        ${processes[3].id}
                     </h1>
                     <div class="data d-flex flex-column justify-content-center">
-                        <img loading="lazy"  src="${processes[3].img}" alt="Avatar" >
+                        <img loading="lazy" class="w-25" src="${processes[3].img}" alt="Avatar" >
                         <p class="w-75 text-center px-4 py-2 m-0">${processes[3].heading}</p>
                     </div> 
                 </div>
@@ -600,7 +591,7 @@ const processHtml=`
                     ${processes[4].id}
                     </h1>
                     <div class="data d-flex flex-column justify-content-center">
-                        <img loading="lazy"  src="${processes[4].img}" alt="Avatar" >
+                        <img loading="lazy" class="w-25" src="${processes[4].img}" alt="Avatar" >
                         <p class="w-75 text-center px-4 py-2 m-0">${processes[4].heading}</p>
                     </div> 
                 </div>
@@ -617,7 +608,7 @@ const processHtml=`
                     ${processes[5].id}
                     </h1>
                     <div class="data d-flex flex-column justify-content-center">
-                        <img loading="lazy"  src="${processes[5].img}" alt="Avatar" >
+                        <img loading="lazy" class="w-25" src="${processes[5].img}" alt="Avatar" >
                         <p class="w-75 text-center px-4 py-2 m-0">${processes[5].heading}</p>
                     </div> 
                 </div>
@@ -635,7 +626,7 @@ const processHtml=`
                        ${processes[6].id}
                     </h1>
                     <div class="data d-flex flex-column justify-content-center">
-                        <img loading="lazy"  src="${processes[6].img}" alt="Avatar" >
+                        <img loading="lazy" class="w-25" src="${processes[6].img}" alt="Avatar" >
                         <p class="w-75 text-center px-4 py-2 m-0">${processes[6].heading}</p>
                     </div> 
                 </div>
@@ -652,48 +643,13 @@ const processHtml=`
                     ${processes[7].id}
                     </h1>
                     <div class="data d-flex flex-column justify-content-center">
-                        <img loading="lazy"  src="${processes[7].img}" alt="Avatar" >
+                        <img loading="lazy" class="w-25" src="${processes[7].img}" alt="Avatar" >
                         <p class="w-75 text-center px-4 py-2 m-0">${processes[7].heading}</p>
                     </div> 
                 </div>
             </div>
         </div>   
-        <div class="col-lg-1 p-0 d-none d-lg-block" data-aos="fade-right" data-aos-delay="1000" data-aos-duration="1000" >
-            <img loading="lazy"  src="/assets/UI-Icons/arrow-line.svg" width="100%"  alt="">
 
-        </div>
-        <div class="col-lg-3 d-flex justify-content-center" data-aos="fade-right" data-aos-delay="3000" data-aos-duration="3000">
-            <div class="flip-card my-4">
-                <div class="process-card">
-                    <h1 class="h1-gradient">
-                    ${processes[8].id}
-                    </h1>
-                    <div class="data d-flex flex-column justify-content-center">
-                        <img loading="lazy"  src="${processes[8].img}" alt="Avatar" >
-                        <p class="w-75 text-center px-4 py-2 m-0">${processes[8].heading}</p>
-                    </div> 
-                </div>
-            </div>
-        </div>       
-    </div> 
-    <div class="arrow pt-2 d-none d-lg-block" data-aos="fade-down" data-aos-delay="2000" data-aos-duration="2000">
-        <img loading="lazy"  src="/assets/UI-Icons/hori-line.svg" width="100%" alt="">
-    </div>
-    <div class="d-lg-flex flex-wrap justify-content-between align-items-center" data-aos="fade-right" data-aos-delay="2000" data-aos-duration="2000">
-        <div class="col-lg-3 d-flex justify-content-center">
-            <div class="flip-card my-4">
-                <div class="process-card">
-                    <h1 class="h1-gradient">
-                       ${processes[9].id}
-                    </h1>
-                    <div class="data d-flex flex-column justify-content-center">
-                        <img loading="lazy"  src="${processes[9].img}" alt="Avatar" >
-                        <p class="w-75 text-center px-4 py-2 m-0">${processes[9].heading}</p>
-                    </div> 
-                </div>
-            </div>
-        </div>  
-    </div>
 `
 
 
@@ -720,7 +676,7 @@ function getApps(techId) {
         data += `
             <div class="${app.class.trim()} p-2">
                 <div class="app py-1 px-1 d-flex align-items-center">
-                    <img loading="lazy" width="20%"  src="${app.image}" alt="${app.heading}">
+                    <img loading="lazy" width="${app.class==='col-lg-6'?'13%':app.class=='col-lg-12'?'6%':app.class=='col-lg-8'?'10%':'20%'}"  src="${app.image}" alt="${app.heading}">
                     <h5 class="m-0 px-1">${app.heading}</h5>
                 </div>
             </div>
