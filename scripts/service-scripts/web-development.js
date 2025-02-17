@@ -15,36 +15,6 @@ const webservices = [
         description: "Keep your website fully functional, up-to-date, and optimized to meet the changing needs of your business and users."
     },
 ];
-
-const webApps = [
-    {
-        heading: "Html 5",
-        image: "/assets/UI-Icons/html-5.png",
-        class: " col-lg-4 "
-    },
-    {
-        heading: "Bootstrap",
-        image: "/assets/UI-Icons/bootstrap.png",
-        class: " col-lg-4 "
-    },
-    {
-        heading: "Wordpress",
-        image: "/assets/UI-Icons/wordpress.png",
-        class: " col-lg-4 "
-    },
-    {
-        heading: "React",
-        image: "/assets/UI-Icons/react.png",
-        class: " col-lg-6"
-    },
-    {
-        heading: "Drupal",
-        image: "/assets/UI-Icons/drupal.png",
-        class: " col-lg-6"
-    },
-
-];
-
 const UItechnology = [
     {
         id: 'frontend',
@@ -329,47 +299,47 @@ const UItechnology = [
 const processes=[
     {
         id:'01',
-        img :'/assets/UI-Icons/testing.svg',
+        img :'/assets/web-Icons/requirement.png',
         heading:'Requirement Analysis '
     },
     {
         id:'02',
-        img :'/assets/UI-Icons/testing.svg',
+        img :'/assets/web-Icons/planning.png',
         heading:'Planning & Wireframing  '
     },
     {
         id:'03',
-        img :'/assets/UI-Icons/testing.svg',
+        img :'/assets/web-Icons/frontend.png',
         heading:'Frontend Development '
     },
     {
         id:'04',
-        img :'/assets/UI-Icons/testing.svg',
+        img :'/assets/web-Icons/backend.png',
         heading:'Backend Development'
     },
     {
         id:'05',
-        img :'/assets/UI-Icons/testing.svg',
+        img :'/assets/web-Icons/database.png',
         heading:'Database Design & Integration '
     },
     {
         id:'06',
-        img :'/assets/UI-Icons/testing.svg',
+        img :'/assets/web-Icons/API.png',
         heading:'API Integration '
     },
     {
         id:'07',
-        img :'/assets/UI-Icons/testing.svg',
+        img :'/assets/web-Icons/testing.png',
         heading:'Testing & QA'
     },
     {
         id:'08',
-        img :'/assets/UI-Icons/testing.svg',
+        img :'/assets/web-Icons/deployment.png',
         heading:'Deployment & Hosting  '
     },
     {
         id:'09',
-        img :'/assets/UI-Icons/testing.svg',
+        img :'/assets/web-Icons/maintenance-process.png',
         heading:'Maintenance & Updates '
     },
 ];
@@ -434,7 +404,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
     const processContainer=document.getElementById('process');
-const processHtml=`
+    const processHtml=`
     <div class="d-lg-flex flex-wrap justify-content-between align-items-center" >
         <div class="col-lg-3 d-flex justify-content-center" data-aos="fade-right" data-aos-duration="1000">
             <div class="flip-card my-4">
@@ -443,7 +413,7 @@ const processHtml=`
                     ${processes[0].id}
                     </h1>
                     <div class="data d-flex flex-column justify-content-center">
-                        <img loading="lazy" src="${processes[0].img }" alt="Avatar" >
+                        <img loading="lazy" class="w-25" src="${processes[0].img }" alt="Avatar" >
                         <p class="w-75 text-center px-4 py-2 m-0">Research & Strategy</p>
                     </div> 
                 </div>
@@ -460,7 +430,7 @@ const processHtml=`
                     ${processes[1].id}
                     </h1>
                     <div class="data d-flex flex-column justify-content-center">
-                        <img loading="lazy"  src="${processes[1].img}" alt="Avatar" >
+                        <img loading="lazy" class="w-25" src="${processes[1].img}" alt="Avatar" >
                         <p class="w-75 text-center px-4 py-2 m-0">${processes[1].heading}</p>
                     </div> 
                 </div>
@@ -477,7 +447,7 @@ const processHtml=`
                     ${processes[2].id}
                     </h1>
                     <div class="data d-flex flex-column justify-content-center">
-                        <img loading="lazy"  src="${processes[2].img}" alt="Avatar" >
+                        <img loading="lazy" class="w-25" src="${processes[2].img}" alt="Avatar" >
                         <p class="w-75 text-center px-4 py-2 m-0">${processes[2].heading}</p>
                     </div> 
                 </div>
@@ -495,7 +465,7 @@ const processHtml=`
                        ${processes[3].id}
                     </h1>
                     <div class="data d-flex flex-column justify-content-center">
-                        <img loading="lazy"  src="${processes[3].img}" alt="Avatar" >
+                        <img loading="lazy" class="w-25" src="${processes[3].img}" alt="Avatar" >
                         <p class="w-75 text-center px-4 py-2 m-0">${processes[3].heading}</p>
                     </div> 
                 </div>
@@ -512,7 +482,7 @@ const processHtml=`
                     ${processes[4].id}
                     </h1>
                     <div class="data d-flex flex-column justify-content-center">
-                        <img loading="lazy"  src="${processes[4].img}" alt="Avatar" >
+                        <img loading="lazy" class="w-25" src="${processes[4].img}" alt="Avatar" >
                         <p class="w-75 text-center px-4 py-2 m-0">${processes[4].heading}</p>
                     </div> 
                 </div>
@@ -529,7 +499,7 @@ const processHtml=`
                     ${processes[5].id}
                     </h1>
                     <div class="data d-flex flex-column justify-content-center">
-                        <img loading="lazy"  src="${processes[5].img}" alt="Avatar" >
+                        <img loading="lazy" class="w-25" src="${processes[5].img}" alt="Avatar" >
                         <p class="w-75 text-center px-4 py-2 m-0">${processes[5].heading}</p>
                     </div> 
                 </div>
@@ -547,7 +517,7 @@ const processHtml=`
                        ${processes[6].id}
                     </h1>
                     <div class="data d-flex flex-column justify-content-center">
-                        <img loading="lazy"  src="${processes[6].img}" alt="Avatar" >
+                        <img loading="lazy" class="w-25" src="${processes[6].img}" alt="Avatar" >
                         <p class="w-75 text-center px-4 py-2 m-0">${processes[6].heading}</p>
                     </div> 
                 </div>
@@ -564,7 +534,7 @@ const processHtml=`
                     ${processes[7].id}
                     </h1>
                     <div class="data d-flex flex-column justify-content-center">
-                        <img loading="lazy"  src="${processes[7].img}" alt="Avatar" >
+                        <img loading="lazy" class="w-25" src="${processes[7].img}" alt="Avatar" >
                         <p class="w-75 text-center px-4 py-2 m-0">${processes[7].heading}</p>
                     </div> 
                 </div>
@@ -581,15 +551,15 @@ const processHtml=`
                     ${processes[8].id}
                     </h1>
                     <div class="data d-flex flex-column justify-content-center">
-                        <img loading="lazy"  src="${processes[8].img}" alt="Avatar" >
+                        <img loading="lazy" class="w-25" src="${processes[8].img}" alt="Avatar" >
                         <p class="w-75 text-center px-4 py-2 m-0">${processes[8].heading}</p>
                     </div> 
                 </div>
             </div>
         </div>       
     </div> 
+ 
 `
-
 
 
 processContainer.innerHTML+=processHtml;
