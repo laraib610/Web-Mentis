@@ -80,55 +80,54 @@ const softwaretechnology=[
         techs:[
             {
                 heading: "Html 5",
-                image: "/assets/UI-Icons/html-5.png",
+                image: "/assets/Logo/html-5.png",
                 class: " col-lg-4 "
             },
             {
                 heading: "CSS",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/css.png",
                 class: " col-lg-4 "
             },
             {
                 heading: "JS",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/js.png",
+                class: " col-lg-4 "
+            },
+            {
+                heading: "Typescript",
+                image: "/assets/Logo/ts.png",
                 class: " col-lg-4 "
             },
             {
                 heading: "Bootstrap",
-                image: "/assets/UI-Icons/bootstrap.png",
+                image: "/assets/Logo/bootstrap.png",
                 class: " col-lg-4 "
             },
             {
                 heading: "React",
-                image: "/assets/UI-Icons/react.png",
+                image: "/assets/Logo/react.png",
                 class: " col-lg-4"
             },
             {
                 heading: "Angular",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/angular.png",
                 class: " col-lg-4"
             },
             {
                 heading: "Vue JS",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/vue.png",
                 class: " col-lg-4"
-            },
-            
-            {
-                heading: "Figma",
-                image: "/assets/UI-Icons/figma.svg",
-                class: " col-lg-4"
-            },
-            {
-                heading: "Adob XD",
-                image: "/assets/UI-Icons/adobexd.svg",
-                class: " col-lg-4"
+            },{
+                heading: "Material UI",
+                image: "/assets/Logo/material.png",
+                class: "col-lg-4"
             },
             {
                 heading: "Tailwind CSS",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/tailwind.png",
                 class: "col-lg-6"
             },
+            
         
         ]
     },
@@ -138,54 +137,71 @@ const softwaretechnology=[
         techs: [
             {
                 heading: "PHP",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/php.png",
                 class: " col-lg-4 "
             },
             {
                 heading: "Python",
-                image: "/assets/software/python.png",
+                image: "/assets/Logo/python.png",
                 class: " col-lg-4 "
             },
             {
                 heading: "NodeJS",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/js.png",
                 class: " col-lg-4 "
             },
             {
                 heading: "Ruby",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/ruby.svg",
                 class: " col-lg-4 "
             },
             {
                 heading: "Java",
-                image: "/assets/software/java.png",
+                image: "/assets/Logo/java.png",
                 class: " col-lg-4"
             },
             {
                 heading: "Laravel",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/laravel.png",
                 class: " col-lg-4"
             },
             {
                 heading: "Django",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/django.svg",
                 class: " col-lg-4"
             },
             {
                 heading: "Express.js",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/express.png",
                 class: " col-lg-4"
             },
             {
                 heading: "Spring Boot",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/spring.png",
                 class: " col-lg-4"
+            },
+           
+            {
+                heading: "RESTful APIs",
+                image: "/assets/Logo/rest.png",
+                class: " col-lg-4 "
+            },
+            {
+                heading: "GraphQL",
+                image: "/assets/Logo/graphql.png",
+                class: " col-lg-4 "
+            },
+            {
+                heading: "WebSockets",
+                image: "/assets/Logo/websocket.png",
+                class: " col-lg-4 "
             },
             {
                 heading: "Ruby on Rails",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/ruby-rails.png",
                 class: "col-lg-6"
             },
+        
         
         ],
     },
@@ -195,27 +211,27 @@ const softwaretechnology=[
         techs: [
             {
                 heading: "React Native",
-                image: "/assets/UI-Icons/testing.svg",
-                class: " col-lg-4"
+                image: "/assets/Logo/react.png",
+                class: "col-lg-8"
             },
             {
                 heading: "Flutter",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/flutter.png",
                 class: " col-lg-4"
             },
             {
                 heading: "Swift (iOS)",
-                image: "/assets/software/swift.png",
+                image: "/assets/Logo/swift.png",
                 class: " col-lg-4"
             },
             {
                 heading: "Kotlin (Android)",
-                image: "/assets/software/kotlin.png",
-                class: " col-lg-4"
+                image: "/assets/Logo/kotlin.png",
+                class: "col-lg-8"
             },
             {
                 heading: "Xamarin",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/xamarine.png",
                 class: "col-lg-6"
             },
         
@@ -227,47 +243,47 @@ const softwaretechnology=[
         techs:[
             {
                 heading: "MySQL",
-                image: "/assets/software/mysql-database.png",
+                image: "/assets/Logo/mysql-database.png",
                 class: " col-lg-4 "
             },
             {
                 heading: "PostgreSQL",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/postgree.png",
                 class: " col-lg-4 "
             },
             {
                 heading: "Microsoft SQL Server",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/sql.png",
                 class: " col-lg-4 "
             },
             {
                 heading: "MongoDB",
-                image: "/assets/software/mongodb.svg",
+                image: "/assets/Logo/mongodb.svg",
                 class: " col-lg-4 "
             },
             {
                 heading: "Firebase",
-                image: "/assets/software/firebase.png",
+                image: "/assets/Logo/firebase.png",
                 class: " col-lg-4"
             },
             {
                 heading: "DynamoDB",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/dynamodb.png",
                 class: " col-lg-4"
             },
             {
                 heading: "AWS S3",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/aws-s3.png",
                 class: " col-lg-4"
             },
             {
                 heading: "Google Cloud Storage",
-                image: "/assets/UI-Icons/testing.svg",
-                class: "col-lg-6"
+                image: "/assets/Logo/google-cloud-storage.png",
+                class: "col-lg-8"
             },
             {
                 heading: "Azure Blob Storage",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/azure-blob.png",
                 class: "col-lg-6"
             },
         
@@ -279,53 +295,53 @@ const softwaretechnology=[
         techs: [
             {
                 heading: "Docker",
-                image: "/assets/software/docker.png",
+                image: "/assets/Logo/docker.png",
                 class: " col-lg-4"
             },
             {
                 heading: "Kubernetes",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/kubernets.png",
                 class: " col-lg-4"
             },
             {
                 heading: "Jenkins",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/jenkins.png",
                 class: " col-lg-4"
             },
             
             {
                 heading: "GitHub Actions",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/github-actions.png",
                 class: " col-lg-4"
             },
             {
                 heading: "Git",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/git.png",
                 class: " col-lg-4"
             },
             {
                 heading: "GitHub",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/github.png",
                 class: " col-lg-4"
             },
             {
                 heading: "GitLab",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/gitlab.png",
                 class: " col-lg-4"
             },
             {
                 heading: "Bitbucket",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/bitbucket.png",
                 class: " col-lg-4"
             },
             {
                 heading: "CircleCI",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/circle.png",
                 class: " col-lg-4"
             },
             {
                 heading: "GitLab CI/CD",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/gitlab-CICD.png",
                 class: "col-lg-4"
             },
         
@@ -337,43 +353,43 @@ const softwaretechnology=[
         techs: [
             {
                 heading: "OAuth",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/O-auth.png",
                 class: " col-lg-4"
             },
             {
                 heading: "JWT",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/jwt.png",
                 class: " col-lg-4"
             },
             
             {
                 heading: "SAML",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/saml.png",
                 class: " col-lg-4"
             },
             {
                 heading: "AES-256 Encryption",
-                image: "/assets/UI-Icons/testing.svg",
-                class: " col-lg-4"
+                image: "/assets/Logo/aes.png",
+                class: "col-lg-8"
             },
             {
                 heading: "SSL/TLS",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/ssl.png",
                 class: " col-lg-4"
             },
             {
                 heading: "GDPR",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/GDPR.png",
                 class: " col-lg-4"
             },
             {
                 heading: "HIPAA",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/testing.svg",
                 class: " col-lg-4"
             },
             {
                 heading: "ISO 27001",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/Iso.png",
                 class: " col-lg-4"
             },
         
@@ -383,67 +399,65 @@ const softwaretechnology=[
         id: 'cloudComp',
         heading: "Cloud Computing & Hosting",
         techs:[
-            {
-                heading: "AWS (EC2, S3, RDS)",
-                image: "/assets/saas/aws.png",
-                class: " col-lg-4 "
-            },
+            
             {
                 heading: "Google Cloud Platform (GCP)",
-                image: "/assets/saas/google-cloud.png",
-                class: " col-lg-4 "
-            },
-            {
-                heading: "Microsoft Azure",
-                image: "/assets/saas/azure.png",
-                class: " col-lg-4 "
+                image: "/assets/Logo/google-cloud.png",
+                class: "col-lg-8"
             },
             {
                 heading: "DigitalOcean",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/digital-ocean.png",
                 class: " col-lg-4 "
             },
             {
+                heading: "AWS (EC2, S3, RDS)",
+                image: "/assets/Logo/aws.png",
+                class: "col-lg-6"
+            },
+            {
+                heading: "Microsoft Azure",
+                image: "/assets/Logo/azure.png",
+                class: "col-lg-6"
+            },
+            
+            {
                 heading: "AWS Lambda",
-                image: "/assets/UI-Icons/testing.svg",
-                class: " col-lg-4"
+                image: "/assets/Logo/testing.svg",
+                class: "col-lg-6"
             },
             {
                 heading: "Firebase Functions",
-                image: "/assets/UI-Icons/testing.svg",
-                class: " col-lg-4"
+                image: "/assets/Logo/firebase.png",
+                class: "col-lg-6"
             },
             {
                 heading: "Azure Functions",
-                image: "/assets/UI-Icons/testing.svg",
-                class: " col-lg-4"
+                image: "/assets/Logo/testing.svg",
+                class: "col-lg-6"
             },
             {
                 heading: "AWS ELB",
-                image: "/assets/software/docker.png",
+                image: "/assets/Logo/testing.svg",
                 class: " col-lg-4"
             },
             {
                 heading: "Nginx",
-                image: "/assets/UI-Icons/testing.svg",
-                class: " col-lg-4"
-            },
-            {
-                heading: "Redis",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/testing.svg",
                 class: " col-lg-4"
             },
             {
                 heading: "Google Cloud Functions",
-                image: "/assets/UI-Icons/testing.svg",
-                class: " col-lg-4"
+                image: "/assets/Logo/testing.svg",
+                class: "col-lg-8"
             },
             {
-                heading: "Firebase Functions",
-                image: "/assets/UI-Icons/testing.svg",
-                class: " col-lg-4"
+                heading: "Redis",
+                image: "/assets/Logo/redis.png",
+                class: "col-lg-4"
             },
-           
+            
+            
         
         ],
     },
@@ -453,48 +467,48 @@ const softwaretechnology=[
         techs: [
             {
                 heading: "Jest",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/testing.svg",
                 class: "col-lg-4"
             },
             {
                 heading: "Mocha",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/testing.svg",
                 class: "col-lg-4"
             },
             
             {
                 heading: "PyTest ",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/testing.svg",
                 class: "col-lg-4"
             },
             {
                 heading: "JUnit",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/testing.svg",
                 class: "col-lg-4"
             },
             {
                 heading: "Selenium",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/testing.svg",
                 class: "col-lg-4"
             },
             {
                 heading: " Cypress",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/testing.svg",
                 class: "col-lg-4"
             },
             {
                 heading: "Appium",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/testing.svg",
                 class: "col-lg-4"
             },
             {
                 heading: "JMeter",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/testing.svg",
                 class: "col-lg-4"
             },
             {
                 heading: "Locust",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/testing.svg",
                 class: "col-lg-4"
             },
         
@@ -506,43 +520,43 @@ const softwaretechnology=[
         techs: [
             {
                 heading: "Prometheus",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/testing.svg",
                 class: "col-lg-4"
             },
             {
                 heading: "Grafana",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/testing.svg",
                 class: "col-lg-4"
             },
             
             {
                 heading: "New Relic",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/testing.svg",
                 class: "col-lg-4"
             },
             {
                 heading: "Sentry",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/testing.svg",
                 class: "col-lg-4"
             },
             {
                 heading: "LogRocket",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/testing.svg",
                 class: "col-lg-4"
             },
             {
                 heading: "Google Analytics",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/testing.svg",
                 class: "col-lg-4"
             },
             {
                 heading: "Mixpanel",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/testing.svg",
                 class: "col-lg-4"
             },
             {
                 heading: "Hotjar",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/testing.svg",
                 class: "col-lg-4"
             },
 
@@ -742,63 +756,7 @@ const processHtml=`
 processContainer.innerHTML+=processHtml;
  });
  
-const softwareApps=[
-    {
-        heading:"C#",
-        image:"/assets/software/c-sharp.png",
-        class:" col-lg-4 ",
-        width:"20%"
-    },
-    {
-        heading:"Java",
-        image:"/assets/software/java.png",
-        class:" col-lg-4 ",
-        width:"20%"
-    },
-    {
-        heading:"Python",
-        image:"/assets/software/python.png",
-        class:" col-lg-4 ",
-        width:"20%"
-    },
-    {
-        heading:"MySql",
-        image:"/assets/software/mysql-database.png",
-        class:" col-lg-4",
-        width:"20%"
-    },
-    {
-        heading:"Mongodb",
-        image:"/assets/software/mongodb.svg",
-        class:" col-lg-4",
-        width:"20%"
-    },
-    {
-        heading:"Kotlin",
-        image:"/assets/software/kotlin.png",
-        class:" col-lg-4",
-        width:"20%"
-    },
-    {
-        heading:"Swift",
-        image:"/assets/software/swift.png",
-        class:" col-lg-4",
-        width:"20%"
-    },
-    {
-        heading:"Docker",
-        image:"/assets/software/docker.png",
-        class:" col-lg-4",
-        width:"20%"
-    },
-    {
-        heading:"Firebase",
-        image:"/assets/software/firebase.png",
-        class:" col-lg-4",
-        width:"20%"
-    },
 
-];
  
  
 

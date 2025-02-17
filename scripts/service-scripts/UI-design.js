@@ -69,27 +69,27 @@ document.addEventListener('DOMContentLoaded', function () {
     const UItechApps=[
         {
             heading:"Figma",
-            image:"/assets/UI-Icons/figma.svg",
+            image:"/assets/Logo/figma.svg",
             class:" col-lg-4 "
         },
         {
             heading:"Adobe XD",
-            image:"/assets/UI-Icons/adobexd.svg",
+            image:"/assets/Logo/adobexd.svg",
             class:" col-lg-4 "
         },
         {
             heading:"Sketch",
-            image:"/assets/UI-Icons/sketch.svg",
+            image:"/assets/Logo/sketch.svg",
             class:" col-lg-4 "
         },
         {
             heading:"Photoshop",
-            image:"/assets/UI-Icons/photoshop.svg",
+            image:"/assets/Logo/photoshop.svg",
             class:" col-lg-6"
         },
         {
             heading:"Illustrator",
-            image:"/assets/UI-Icons/illustrator.svg",
+            image:"/assets/Logo/illustrator.svg",
             class:" col-lg-6"
         },
     

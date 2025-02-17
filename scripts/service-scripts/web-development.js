@@ -142,27 +142,27 @@ const UItechnology = [
             },
             {
                 heading: "PostgreSQL",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/postgree.png",
                 class: " col-lg-4 "
             },
             {
                 heading: "SQL Server",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/sql.png",
                 class: " col-lg-4 "
             },
             {
                 heading: "MongoDB",
-                image: "/assets/software/mongodb.svg",
+                image: "/assets/Logo/mongodb.svg",
                 class: " col-lg-4 "
             },
             {
                 heading: "Firebase",
-                image: "/assets/software/firebase.png",
+                image: "/assets/Logo/firebase.png",
                 class: " col-lg-4"
             },
             {
                 heading: "Redis",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/redis.png",
                 class: " col-lg-4"
             },
         
@@ -174,17 +174,17 @@ const UItechnology = [
         techs: [
             {
                 heading: "RESTful APIs",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/rest.png",
                 class: " col-lg-4 "
             },
             {
                 heading: "GraphQL",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/graphql.png",
                 class: " col-lg-4 "
             },
             {
                 heading: "WebSockets",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/websocket.png",
                 class: " col-lg-4 "
             },
         
@@ -197,63 +197,63 @@ const UItechnology = [
         techs: [
             {
                 heading: "AWS",
-                image: "/assets/saas/aws.png",
+                image: "/assets/Logo/aws.png",
                 class: " col-lg-4 "
             },
             {
                 heading: "Azure",
-                image: "/assets/saas/azure.png",
+                image: "/assets/Logo/azure.png",
                 class: " col-lg-4 "
             },
             {
                 heading: "Google Cloud",
-                image: "/assets/saas/google-cloud.png",
+                image: "/assets/Logo/google-cloud.png",
                 class: " col-lg-4 "
             },
             {
                 heading: "DigitalOcean",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/digital-ocean.png",
                 class: " col-lg-4 "
             },
             {
                 heading: "Docker",
-                image: "/assets/software/docker.png",
+                image: "/assets/Logo/docker.png",
                 class: " col-lg-4"
             },
             {
                 heading: "Kubernetes",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/kubernets.png",
                 class: " col-lg-4"
             },
             {
                 heading: "Jenkins",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/jenkins.png",
                 class: " col-lg-4"
             },
             
             {
                 heading: "GitHub Actions",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/github-actions.png",
                 class: " col-lg-4"
             },
             {
                 heading: "Git",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/git.png",
                 class: " col-lg-4"
             },
             {
                 heading: "GitHub",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/github.png",
                 class: " col-lg-4"
             },
             {
                 heading: "GitLab",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/gitlab.png",
                 class: " col-lg-4"
             },
             {
                 heading: "Bitbucket",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/bitbucket.png",
                 class: " col-lg-4"
             },
         
@@ -266,28 +266,28 @@ const UItechnology = [
         techs: [
             {
                 heading: "SSL",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/ssl.png",
                 class: " col-lg-4 "
             },
             {
                 heading: "OAuth",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/O-auth.png",
                 class: " col-lg-4 "
             },
             {
                 heading: "JWT",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/jwt.png",
                 class: " col-lg-4 "
             },
             {
                 heading: "Firewall Protection",
-                image: "/assets/UI-Icons/testing.svg",
-                class: " col-lg-4 "
+                image: "/assets/Logo/firewall.png",
+                class: "col-lg-6"
             },
             {
                 heading: "Load Balancers",
-                image: "/assets/UI-Icons/testing.svg",
-                class: " col-lg-4 "
+                image: "/assets/Logo/load-balancer.png",
+                class: "col-lg-6"
             },
         
         ],

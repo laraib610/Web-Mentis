@@ -78,25 +78,25 @@
             techs:[
                 {
                     heading:"Salesforce",
-                    image:"/assets/CRM/salesforce.png",
+                    image:"/assets/Logo/salesforce.png",
                     class:"col-lg-4",
                     width:"15%"
                 },
                 {
                     heading:"Zoho CRM",
-                    image:"/assets/CRM/zoho.jpg",
+                    image:"/assets/Logo/zoho.jpg",
                     class:"col-lg-4",
                     width:"15%"
                 },
                 {
                     heading:"Pipedrive",
-                    image:"/assets/CRM/pipedrive.jpg",
+                    image:"/assets/Logo/pipedrive.jpg",
                     class:"col-lg-4",
                     width:"23%"
                 },
                 {
                     heading:"Hubspot",
-                    image:"/assets/digital-marketing/hubspot.png",
+                    image:"/assets/Logo/hubspot.png",
                     class:"col-lg-4",
                     width:"15%"
                 },
@@ -176,7 +176,7 @@
             techs:[
                 {
                     heading: "MySQL",
-                    image: "/assets/software/mysql-database.png",
+                    image: "/assets/Logo/mysql-database.png",
                     class: " col-lg-4 "
                 },
                 {
@@ -191,12 +191,12 @@
                 },
                 {
                     heading: "MongoDB",
-                    image: "/assets/software/mongodb.svg",
+                    image: "/assets/Logo/mongodb.svg",
                     class: " col-lg-4 "
                 },
                 {
                     heading: "Firebase",
-                    image: "/assets/software/firebase.png",
+                    image: "/assets/Logo/firebase.png",
                     class: " col-lg-4"
                 },
                 {
@@ -606,7 +606,7 @@ const CRMApps=[
     },
     {
         heading:"Hubspot",
-        image:"/assets/digital-marketing/hubspot.png",
+        image:"/assets/Logo/hubspot.png",
         class:" col-lg-6",
         width:"15%"
     },

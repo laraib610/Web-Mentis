@@ -79,54 +79,54 @@ const UItechnology=[
         techs: [
             {
                 heading: "Wordpress",
-                image: "/assets/UI-Icons/wordpress.png",
+                image: "/assets/Logo/wordpress.png",
                 class: " col-lg-4 "
             },
             {
                 heading: "Webflow",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/testing.svg",
                 class: " col-lg-4"
             },
             
             {
                 heading: "Wix",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/testing.svg",
                 class: " col-lg-4"
             },
             {
                 heading: "Shopify",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/testing.svg",
                 class: " col-lg-4"
             },
             {
                 heading:"Photoshop",
-                image:"/assets/UI-Icons/photoshop.svg",
+                image:"/assets/Logo/photoshop.svg",
                 class:" col-lg-4"
             },
             {
                 heading: "Canva",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/testing.svg",
                 class: " col-lg-4"
             },
             {
                 heading:"Figma",
-                image:"/assets/UI-Icons/figma.svg",
+                image:"/assets/Logo/figma.svg",
                 class:" col-lg-4 "
             },
             {
                 heading: "Crello",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/testing.svg",
                 class: " col-lg-4"
             },
             {
                 heading:"Premiere Pr",
-                image:"/assets/event/premiere-pro.png",
+                image:"/assets/Logo/premiere-pro.png",
                 class:" col-lg-4 ",
                 width:"20%"
             },
             {
                 heading:"Final Cut Pro ",
-                image:"/assets/event/final-cut.png",
+                image:"/assets/Logo/final-cut.png",
                 class:"col-lg-8",
                 width:"20%"
             },
