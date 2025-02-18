@@ -130,48 +130,48 @@ const eventtechnology=[
         techs: [
             {
                 heading: "Hootsuite",
-                image: "/assets/Logo/testing.svg",
+                image: "/assets/Logo/hootsuite.png",
                 class: " col-lg-4"
             },
             {
                 heading: "Buffer",
-                image: "/assets/Logo/testing.svg",
+                image: "/assets/Logo/buffer.png",
                 class: " col-lg-4"
             },
             
             {
                 heading: "Sprout Social",
-                image: "/assets/Logo/testing.svg",
+                image: "/assets/Logo/social-sprout.png",
                 class: " col-lg-4"
             },
             {
                 heading: "Mailchimp",
-                image: "/assets/Logo/testing.svg",
+                image: "/assets/Logo/mailchimp.png",
                 class: " col-lg-4"
             },
             {
                 heading: "HubSpot",
-                image: "/assets/Logo/testing.svg",
+                image: "/assets/Logo/hubspot.png",
                 class: " col-lg-4"
             },
             {
                 heading: "ActiveCampaign",
-                image: "/assets/Logo/testing.svg",
+                image: "/assets/Logo/active-campaign.png",
                 class: " col-lg-4"
             },
             {
                 heading: "Google Ads",
-                image: "/assets/Logo/testing.svg",
+                image: "/assets/Logo/google-ads.png",
                 class: " col-lg-4"
             },
             {
                 heading: "Facebook Ads",
-                image: "/assets/Logo/testing.svg",
+                image: "/assets/Logo/facebook-adds.png",
                 class: " col-lg-4"
             },
             {
                 heading: "LinkedIn Ads",
-                image: "/assets/Logo/testing.svg",
+                image: "/assets/Logo/linkdin-ad.png",
                 class: " col-lg-4"
             },
         
@@ -183,33 +183,33 @@ const eventtechnology=[
         techs: [
             {
                 heading: "Eventbrite",
-                image: "/assets/Logo/testing.svg",
+                image: "/assets/Logo/eventbrite.png",
                 class: " col-lg-4"
             },
             {
                 heading: "Ticket Tailor",
-                image: "/assets/Logo/testing.svg",
+                image: "/assets/Logo/tickettailor.png",
                 class: " col-lg-4"
             },
             
             {
                 heading: "Eventzilla",
-                image: "/assets/Logo/testing.svg",
+                image: "/assets/Logo/eventzilla.png",
                 class: " col-lg-4"
             },
             {
                 heading: "RSVPify",
-                image: "/assets/Logo/testing.svg",
+                image: "/assets/Logo/rsvpify.svg",
                 class: " col-lg-4"
             },
             {
                 heading: "Eventbee",
-                image: "/assets/Logo/testing.svg",
+                image: "/assets/Logo/eventbee.png",
                 class: " col-lg-4"
             },
             {
                 heading: "RegFox",
-                image: "/assets/Logo/testing.svg",
+                image: "/assets/Logo/regfox.png",
                 class: " col-lg-4"
             },
         
@@ -221,53 +221,53 @@ const eventtechnology=[
         techs: [
             {
                 heading: "Zoom",
-                image: "/assets/Logo/testing.svg",
+                image: "/assets/Logo/zoom.png",
                 class: " col-lg-4"
             },
             {
                 heading: "Webex",
-                image: "/assets/Logo/testing.svg",
+                image: "/assets/Logo/webex.png",
                 class: " col-lg-4"
             },
             
             {
                 heading: "Microsoft Teams",
-                image: "/assets/Logo/testing.svg",
+                image: "/assets/Logo/teams.png",
                 class: " col-lg-4"
             },
             {
                 heading: " StreamYard",
-                image: "/assets/Logo/testing.svg",
+                image: "/assets/Logo/streamyard.png",
                 class: " col-lg-4"
             },
             {
                 heading: " Hopin",
-                image: "/assets/Logo/testing.svg",
+                image: "/assets/Logo/Hopin.png  ",
                 class: " col-lg-4"
             },
             {
                 heading: "Airmeet",
-                image: "/assets/Logo/testing.svg",
+                image: "/assets/Logo/airmeet.svg",
                 class: " col-lg-4"
             },
             {
                 heading: "BigMarker",
-                image: "/assets/Logo/testing.svg",
+                image: "/assets/Logo/bigmarker.png",
                 class: " col-lg-4"
             },
             {
                 heading: "Slido",
-                image: "/assets/Logo/testing.svg",
+                image: "/assets/Logo/slido.png",
                 class: " col-lg-4"
             },
             {
                 heading: "Mentimeter",
-                image: "/assets/Logo/testing.svg",
+                image: "/assets/Logo/Mentimeter.png",
                 class: " col-lg-4"
             },
             {
                 heading: "Kahoo",
-                image: "/assets/Logo/testing.svg",
+                image: "/assets/Logo/kahoo.png",
                 class: " col-lg-4"
             },
         
@@ -279,33 +279,33 @@ const eventtechnology=[
         techs: [
             {
                 heading: "Google Forms",
-                image: "/assets/Logo/testing.svg",
+                image: "/assets/Logo/google-forms.png",
                 class: " col-lg-4"
             },
             {
                 heading: "Typeform",
-                image: "/assets/Logo/testing.svg",
+                image: "/assets/Logo/typeform.png",
                 class: " col-lg-4"
             },
             
             {
                 heading: "SurveyMonkey",
-                image: "/assets/Logo/testing.svg",
+                image: "/assets/Logo/survey.png",
                 class: " col-lg-4"
             },
             {
                 heading: "Google Analytics",
-                image: "/assets/Logo/testing.svg",
+                image: "/assets/Logo/google-analytics.png",
                 class: " col-lg-4"
             },
             {
                 heading: "HubSpot",
-                image: "/assets/Logo/testing.svg",
+                image: "/assets/Logo/hubspot.png",
                 class: " col-lg-4"
             },
             {
                 heading: "Tableau",
-                image: "/assets/Logo/testing.svg",
+                image: "/assets/Logo/tableau.png",
                 class: " col-lg-4"
             },
         ],
@@ -316,23 +316,23 @@ const eventtechnology=[
         techs: [
             {
                 heading: "Bizzabo",
-                image: "/assets/Logo/testing.svg",
+                image: "/assets/Logo/Bizzabo.png",
                 class: " col-lg-4"
             },
             {
                 heading: "Eventdex",
-                image: "/assets/Logo/testing.svg",
+                image: "/assets/Logo/eventdex.jpeg",
                 class: " col-lg-4"
             },
             
             {
                 heading: "Boomset",
-                image: "/assets/Logo/testing.svg",
+                image: "/assets/Logo/boomset.png",
                 class: " col-lg-4"
             },
             {
                 heading: "GDPR-compliant registration platforms",
-                image: "/assets/Logo/testing.svg",
+                image: "/assets/Logo/gdpr.png",
                 width:"7%",
                 class: " col-lg-12"
             },
