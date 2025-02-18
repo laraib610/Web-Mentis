@@ -467,50 +467,50 @@ const softwaretechnology=[
         techs: [
             {
                 heading: "Jest",
-                image: "/assets/Logo/testing.svg",
+                image: "/assets/Logo/jest.png",
                 class: "col-lg-4"
             },
-            {
-                heading: "Mocha",
-                image: "/assets/Logo/testing.svg",
-                class: "col-lg-4"
-            },
+            // {
+            //     heading: "Mocha",
+            //     image: "/assets/Logo/testing.svg",
+            //     class: "col-lg-4"
+            // },
             
             {
                 heading: "PyTest ",
-                image: "/assets/Logo/testing.svg",
+                image: "/assets/Logo/pytest.png",
                 class: "col-lg-4"
             },
             {
                 heading: "JUnit",
-                image: "/assets/Logo/testing.svg",
+                image: "/assets/Logo/junit.png",
                 class: "col-lg-4"
             },
             {
                 heading: "Selenium",
-                image: "/assets/Logo/testing.svg",
+                image: "/assets/Logo/selenium.png",
                 class: "col-lg-4"
             },
             {
                 heading: " Cypress",
-                image: "/assets/Logo/testing.svg",
+                image: "/assets/Logo/cypress.png",
                 class: "col-lg-4"
             },
             {
                 heading: "Appium",
-                image: "/assets/Logo/testing.svg",
+                image: "/assets/Logo/appium.png",
                 class: "col-lg-4"
             },
             {
                 heading: "JMeter",
-                image: "/assets/Logo/testing.svg",
+                image: "/assets/Logo/jmeter.png",
                 class: "col-lg-4"
             },
-            {
-                heading: "Locust",
-                image: "/assets/Logo/testing.svg",
-                class: "col-lg-4"
-            },
+            // {
+            //     heading: "Locust",
+            //     image: "/assets/Logo/testing.svg",
+            //     class: "col-lg-4"
+            // },
         
         ],
     },
@@ -520,43 +520,43 @@ const softwaretechnology=[
         techs: [
             {
                 heading: "Prometheus",
-                image: "/assets/Logo/testing.svg",
+                image: "/assets/Logo/prometheus.png",
                 class: "col-lg-4"
             },
             {
                 heading: "Grafana",
-                image: "/assets/Logo/testing.svg",
+                image: "/assets/Logo/grafana.png",
                 class: "col-lg-4"
             },
             
             {
                 heading: "New Relic",
-                image: "/assets/Logo/testing.svg",
+                image: "/assets/Logo/new-relic.png",
                 class: "col-lg-4"
             },
             {
                 heading: "Sentry",
-                image: "/assets/Logo/testing.svg",
+                image: "/assets/Logo/sentry.png",
                 class: "col-lg-4"
             },
             {
                 heading: "LogRocket",
-                image: "/assets/Logo/testing.svg",
+                image: "/assets/Logo/log-rocket.png",
                 class: "col-lg-4"
             },
             {
                 heading: "Google Analytics",
-                image: "/assets/Logo/testing.svg",
+                image: "/assets/Logo/google-analytics.png",
                 class: "col-lg-4"
             },
             {
                 heading: "Mixpanel",
-                image: "/assets/Logo/testing.svg",
+                image: "/assets/Logo/mixpanel.png",
                 class: "col-lg-4"
             },
             {
                 heading: "Hotjar",
-                image: "/assets/Logo/testing.svg",
+                image: "/assets/Logo/hotjar.png",
                 class: "col-lg-4"
             },
 

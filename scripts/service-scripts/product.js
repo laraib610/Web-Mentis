@@ -29,12 +29,12 @@
                 },
                 {
                     heading: "CSS",
-                    image: "/assets/Logo/testing.svg",
+                    image: "/assets/Logo/css.png",
                     class: " col-lg-4 "
                 },
                 {
                     heading: "JS",
-                    image: "/assets/Logo/testing.svg",
+                    image: "/assets/Logo/js.png",
                     class: " col-lg-4 "
                 },
                 {
@@ -44,24 +44,24 @@
                 },
                 {
                     heading: "Angular",
-                    image: "/assets/Logo/testing.svg",
+                    image: "/assets/Logo/angular.png",
                     class: " col-lg-4"
                 },
                 {
                     heading: "Vue JS",
-                    image: "/assets/Logo/testing.svg",
+                    image: "/assets/Logo/vue.png",
                     class: " col-lg-4"
                 },
                 {
                     heading: "PHP (Laravel)",
-                    image: "/assets/Logo/testing.svg",
+                    image: "/assets/Logo/php.png",
                     class: "col-lg-6"
                 },
                 
                 
                 {
                     heading: "Ruby on Rails",
-                    image: "/assets/Logo/testing.svg",
+                    image: "/assets/Logo/ruby-rails.png",
                     class: "col-lg-6"
                 },{
                     heading: "Python (Django/ Flask)",
@@ -69,17 +69,17 @@
                     class: "col-lg-8"
                 }, {
                     heading: "Flutter",
-                    image: "/assets/Logo/testing.svg",
+                    image: "/assets/Logo/flutter.png",
                     class: " col-lg-4"
                 },
                 {
                     heading: " Java (Spring Boot)",
-                    image: "/assets/Logo/testing.svg",
+                    image: "/assets/Logo/java.png",
                     class: "col-lg-6"
                 },                    
                 {
                     heading: "React Native",
-                    image: "/assets/Logo/testing.svg",
+                    image: "/assets/Logo/react.png",
                     class: "col-lg-6"
                 }, 
                 
@@ -94,7 +94,7 @@
                 },    
                {
                     heading: "NodeJS",
-                    image: "/assets/Logo/testing.svg",
+                    image: "/assets/Logo/js.png",
                     class: " col-lg-4 "
                 },
             
@@ -111,7 +111,7 @@
                 },
                 {
                     heading: "PostgreSQL",
-                    image: "/assets/Logo/testing.svg",
+                    image: "/assets/Logo/postgree.png",
                     class: " col-lg-4 "
                 },{
                     heading: "MongoDB",
@@ -120,21 +120,21 @@
                 },
                 {
                     heading: "Microsoft SQL Server",
-                    image: "/assets/Logo/testing.svg",
+                    image: "/assets/Logo/sql.png",
                     class: "col-lg-6"
                 },{
                     heading: "Azure Blob Storage",
-                    image: "/assets/Logo/testing.svg",
+                    image: "/assets/Logo/azure-blob.png",
                     class: "col-lg-6"
                 },
                  {
                     heading: "Google Cloud Storage",
-                    image: "/assets/Logo/testing.svg",
+                    image: "/assets/Logo/google-cloud.png",
                     class: "col-lg-8"
                 },
                 {
                     heading: "AWS S3",
-                    image: "/assets/Logo/testing.svg",
+                    image: "/assets/Logo/aws-s3.png",
                     class: " col-lg-4"
                 },
                 {
@@ -144,7 +144,7 @@
                 },
                 {
                     heading: "DynamoDB",
-                    image: "/assets/Logo/testing.svg",
+                    image: "/assets/Logo/dynamodb.png",
                     class: " col-lg-4"
                 },
                
@@ -163,48 +163,48 @@
                 },
                 {
                     heading: "Kubernetes",
-                    image: "/assets/Logo/testing.svg",
+                    image: "/assets/Logo/kubernets.png",
                     class: " col-lg-4"
                 },
                 {
                     heading: "Jenkins",
-                    image: "/assets/Logo/testing.svg",
+                    image: "/assets/Logo/jenkins.png",
                     class: " col-lg-4"
                 },
                 
                 {
                     heading: "GitHub Actions",
-                    image: "/assets/Logo/testing.svg",
+                    image: "/assets/Logo/github-actions.png",
                     class: " col-lg-4"
                 },
                 {
                     heading: "Git",
-                    image: "/assets/Logo/testing.svg",
+                    image: "/assets/Logo/git.png",
                     class: " col-lg-4"
                 },
                 {
                     heading: "GitHub",
-                    image: "/assets/Logo/testing.svg",
+                    image: "/assets/Logo/github.png",
                     class: " col-lg-4"
                 },
                 {
                     heading: "GitLab",
-                    image: "/assets/Logo/testing.svg",
+                    image: "/assets/Logo/gitlab.png",
                     class: " col-lg-4"
                 },
                 {
                     heading: "Bitbucket",
-                    image: "/assets/Logo/testing.svg",
+                    image: "/assets/Logo/bitbucket.png",
                     class: " col-lg-4"
                 },
                 {
                     heading: "CircleCI",
-                    image: "/assets/Logo/testing.svg",
+                    image: "/assets/Logo/circle.png",
                     class: " col-lg-4"
                 },
                 {
                     heading: "GitLab CI/CD",
-                    image: "/assets/Logo/testing.svg",
+                    image: "/assets/Logo/gitlab-CICD.png",
                     class: " col-lg-4"
                 },
             
@@ -216,50 +216,50 @@
             techs: [
                 {
                     heading: "Jest",
-                    image: "/assets/Logo/testing.svg",
+                    image: "/assets/Logo/jest.png",
                     class: " col-lg-4"
                 },
-                {
-                    heading: "Mocha",
-                    image: "/assets/Logo/testing.svg",
-                    class: " col-lg-4"
-                },
+                // {
+                //     heading: "Mocha",
+                //     image: "/assets/Logo/testing.svg",
+                //     class: " col-lg-4"
+                // },
                 
                 {
                     heading: "PyTest ",
-                    image: "/assets/Logo/testing.svg",
+                    image: "/assets/Logo/pytest.png",
                     class: " col-lg-4"
                 },
                 {
                     heading: "JUnit",
-                    image: "/assets/Logo/testing.svg",
+                    image: "/assets/Logo/junit.png",
                     class: " col-lg-4"
                 },
                 {
                     heading: "Selenium",
-                    image: "/assets/Logo/testing.svg",
+                    image: "/assets/Logo/selenium.png",
                     class: " col-lg-4"
                 },
                 {
                     heading: " Cypress",
-                    image: "/assets/Logo/testing.svg",
+                    image: "/assets/Logo/cypress.png",
                     class: " col-lg-4"
                 },
                 {
                     heading: "Appium",
-                    image: "/assets/Logo/testing.svg",
+                    image: "/assets/Logo/appium.png",
                     class: " col-lg-4"
                 },
                 {
                     heading: "JMeter",
-                    image: "/assets/Logo/testing.svg",
+                    image: "/assets/Logo/jmeter.png",
                     class: " col-lg-4"
                 },
-                {
-                    heading: "Locust",
-                    image: "/assets/Logo/testing.svg",
-                    class: " col-lg-4"
-                },
+                // {
+                //     heading: "Locust",
+                //     image: "/assets/Logo/testing.svg",
+                //     class: " col-lg-4"
+                // },
             
             ],
         },
@@ -269,43 +269,43 @@
             techs: [
                 {
                     heading: "OAuth",
-                    image: "/assets/Logo/testing.svg",
+                    image: "/assets/Logo/O-auth.png",
                     class: " col-lg-4"
                 },
                 {
                     heading: "JWT",
-                    image: "/assets/Logo/testing.svg",
+                    image: "/assets/Logo/jwt.png",
                     class: " col-lg-4"
                 },
                 
                 {
                     heading: "SAML",
-                    image: "/assets/Logo/testing.svg",
+                    image: "/assets/Logo/saml.png",
                     class: " col-lg-4"
                 },
                 {
                     heading: "AES-256 Encryption",
-                    image: "/assets/Logo/testing.svg",
+                    image: "/assets/Logo/aes.png",
                     class: " col-lg-4"
                 },
                 {
                     heading: "SSL/TLS",
-                    image: "/assets/Logo/testing.svg",
+                    image: "/assets/Logo/ssl.png",
                     class: " col-lg-4"
                 },
                 {
                     heading: "GDPR",
-                    image: "/assets/Logo/testing.svg",
+                    image: "/assets/Logo/GDPR.png",
                     class: " col-lg-4"
                 },
-                {
-                    heading: "HIPAA",
-                    image: "/assets/Logo/testing.svg",
-                    class: " col-lg-4"
-                },
+                // {
+                //     heading: "HIPAA",
+                //     image: "/assets/Logo/testing.svg",
+                //     class: " col-lg-4"
+                // },
                 {
                     heading: "ISO 27001",
-                    image: "/assets/Logo/testing.svg",
+                    image: "/assets/Logo/Iso.png",
                     class: " col-lg-4"
                 },
             
@@ -317,48 +317,48 @@
             techs: [
                 {
                     heading: "AWS (EC2, Lambda)",
-                    image: "/assets/Logo/testing.svg",
+                    image: "/assets/Logo/aws-lambda.png",
                     class: " col-lg-4"
                 },
                 {
                     heading: "Google Cloud",
-                    image: "/assets/saas/google-cloud.png",
+                    image: "/assets/logo/google-cloud.png",
                     class: " col-lg-4"
                 },
                 
                 {
                     heading: "Microsoft Azure",
-                    image: "/assets/saas/azure.png",
+                    image: "/assets/logo/azure.png",
                     class: " col-lg-4"
                 },
                 {
                     heading: "DigitalOcean",
-                    image: "/assets/Logo/testing.svg",
+                    image: "/assets/Logo/digital-ocean.png",
                     class: " col-lg-4"
                 },
-                {
-                    heading: "AWS Lambda",
-                    image: "/assets/Logo/testing.svg",
-                    class: " col-lg-4"
-                },
+                // {
+                //     heading: "AWS Lambda",
+                //     image: "/assets/Logo/",
+                //     class: " col-lg-4"
+                // },
                 {
                     heading: "Firebase Functions",
-                    image: "/assets/Logo/testing.svg",
+                    image: "/assets/Logo/firebase.png",
                     class: " col-lg-4"
                 },
                 {
                     heading: "Nginx",
-                    image: "/assets/Logo/testing.svg",
+                    image: "/assets/Logo/nginx.png",
                     class: " col-lg-4"
                 },
                 {
                     heading: "Prometheus",
-                    image: "/assets/Logo/testing.svg",
+                    image: "/assets/Logo/prometheus.png",
                     class: " col-lg-4"
                 },
                 {
                     heading: " Grafana",
-                    image: "/assets/Logo/testing.svg",
+                    image: "/assets/Logo/grafana.png",
                     class: " col-lg-4"
                 },
             
@@ -368,38 +368,38 @@
             id: 'user',
             heading: "User Analytics & Feedback",
             techs: [
-                {
-                    heading: "Google Analytics",
-                    image: "/assets/Logo/testing.svg",
-                    class: " col-lg-4"
-                },
-                {
-                    heading: "Mixpanel",
-                    image: "/assets/Logo/testing.svg",
-                    class: " col-lg-4"
-                },
+                
+                // {
+                //     heading: "Mixpanel",
+                //     image: "/assets/Logo/mixpanel.png",
+                //     class: " col-lg-4"
+                // },
                 
                 {
                     heading: "Amplitude",
-                    image: "/assets/Logo/testing.svg",
+                    image: "/assets/Logo/amplitude.png",
                     class: " col-lg-4"
-                },
-                {
-                    heading: "Hotjar",
-                    image: "/assets/Logo/testing.svg",
-                    class: " col-lg-4"
-                },
-                {
-                    heading: "SurveyMonkey",
-                    image: "/assets/Logo/testing.svg",
-                    class: " col-lg-4"
-                },
-                {
+                },{
                     heading: "Typeform",
-                    image: "/assets/Logo/testing.svg",
+                    image: "/assets/Logo/typeform.png",
                     class: " col-lg-4"
                 },
             
+                {
+                    heading: "Hotjar",
+                    image: "/assets/Logo/hotjar.png",
+                    class: " col-lg-4"
+                },{
+                    heading: "Google Analytics",
+                    image: "/assets/Logo/google-analytics.png",
+                    class: "col-lg-6"
+                },
+                {
+                    heading: "SurveyMonkey",
+                    image: "/assets/Logo/survey.png",
+                    class: "col-lg-6"
+                },
+                
             ],
         },
 

@@ -90,7 +90,7 @@
                 },
                 {
                     heading:"Pipedrive",
-                    image:"/assets/Logo/pipedrive.jpg",
+                    image:"/assets/Logo/pipe.png",
                     class:"col-lg-4",
                     width:"23%"
                 },
@@ -102,13 +102,13 @@
                 },
                 {
                     heading:"Microsoft Dynamics 365",
-                    image:"/assets/UI-Icons/testing.svg",
+                    image:"/assets/Logo/dynamics.png",
                     class:"col-lg-8",
                     width:"15%"
                 },
                 {
                     heading:"SugarCRM",
-                    image:"/assets/UI-Icons/testing.svg",
+                    image:"/assets/Logo/sugarcrm.png",
                     class:"col-lg-6",
                     width:"15%"
                 },
@@ -121,49 +121,49 @@
             techs:[
                 {
                     heading:" Zapier",
-                    image:"/assets/UI-Icons/testing.svg",
+                    image:"/assets/Logo/zapier.png",
                     class:"col-lg-4",
                     width:"15%"
                 },
                 {
                     heading:"MuleSoft",
-                    image:"/assets/UI-Icons/testing.svg",
+                    image:"/assets/Logo/mulesoft.png",
                     class:"col-lg-4",
                     width:"15%"
                 },
                 {
                     heading:"REST API's",
-                    image:"/assets/UI-Icons/testing.svg",
+                    image:"/assets/Logo/rest.png",
                     class:"col-lg-6",
                     width:"23%"
                 },
                 {
                     heading:"GraphQL APIs",
-                    image:"/assets/UI-Icons/testing.svg",
+                    image:"/assets/Logo/graphql.png",
                     class:"col-lg-6",
                     width:"15%"
                 },
                 {
                     heading:"Apache Camel",
-                    image:"/assets/UI-Icons/testing.svg",
+                    image:"/assets/Logo/apache-camel.png",
                     class:"col-lg-6",
                     width:"15%"
                 },
                 {
                     heading:"OAuth 2.0",
-                    image:"/assets/UI-Icons/testing.svg",
+                    image:"/assets/Logo/O-auth.png",
                     class:"col-lg-6",
                     width:"15%"
                 },
                 {
                     heading:"JWT",
-                    image:"/assets/UI-Icons/testing.svg",
+                    image:"/assets/Logo/jwt.png",
                     class:" col-lg-4",
                     width:"15%"
                 },
                 {
                     heading:" SAML",
-                    image:"/assets/UI-Icons/testing.svg",
+                    image:"/assets/Logo/Saml.png",
                     class:" col-lg-4",
                     width:"15%"
                 },
@@ -181,12 +181,12 @@
                 },
                 {
                     heading: "PostgreSQL",
-                    image: "/assets/UI-Icons/testing.svg",
+                    image: "/assets/Logo/postgree.png",
                     class: " col-lg-4 "
                 },
                 {
                     heading: "Microsoft SQL Server",
-                    image: "/assets/UI-Icons/testing.svg",
+                    image: "/assets/Logo/sql.png",
                     class: " col-lg-4 "
                 },
                 {
@@ -201,7 +201,7 @@
                 },
                 {
                     heading: "DynamoDB",
-                    image: "/assets/UI-Icons/testing.svg",
+                    image: "/assets/Logo/dynamodb.png",
                     class: " col-lg-4"
                 },           
             ],
@@ -212,31 +212,31 @@
             techs:[
                 {
                     heading:" UiPath",
-                    image:"/assets/UI-Icons/testing.svg",
+                    image:"/assets/Logo/Ui-path.png",
                     class:"col-lg-6",
                     width:"15%"
                 },
                 {
                     heading:"Salesforce Einstein",
-                    image:"/assets/UI-Icons/testing.svg",
+                    image:"/assets/Logo/salesforce.png",
                     class:"col-lg-6",
                     width:"15%"
                 },
                 {
                     heading:"HubSpot AI",
-                    image:"/assets/UI-Icons/testing.svg",
+                    image:"/assets/Logo/hubspot.png",
                     class:"col-lg-6",
                     width:"23%"
                 },
                 {
                     heading:"Microsoft AI for Dynamics",
-                    image:"/assets/UI-Icons/testing.svg",
+                    image:"/assets/Logo/dynamics.png",
                     class:"col-lg-6",
                     width:"15%"
                 },
                 {
                     heading:"Automation Anywhere",
-                    image:"/assets/UI-Icons/testing.svg",
+                    image:"/assets/Logo/automation.png",
                     class:"col-lg-6",
                     width:"15%"
                 },
@@ -250,44 +250,44 @@
             techs:[
                 {
                     heading:"SendGrid",
-                    image:"/assets/UI-Icons/testing.svg",
+                    image:"/assets/Logo/sendgrid.png",
                     class:"col-lg-6",
                     width:"15%"
                 },
                 {
                     heading:" Mailgun",
-                    image:"/assets/UI-Icons/testing.svg",
+                    image:"/assets/Logo/mailgun.png",
                     class:"col-lg-6",
                     width:"15%"
                 },
-                {
-                    heading:"Postmark",
-                    image:"/assets/UI-Icons/testing.svg",
-                    class:"col-lg-6",
-                    width:"23%"
-                },
+                // {
+                //     heading:"Postmark",
+                //     image:"/assets/Logo/testing.svg",
+                //     class:"col-lg-6",
+                //     width:"23%"
+                // },
                 {
                     heading:"Twilio",
-                    image:"/assets/UI-Icons/testing.svg",
+                    image:"/assets/Logo/twillio.png",
                     class:"col-lg-6",
                     width:"15%"
                 },
                 {
                     heading:"Vonage",
-                    image:"/assets/UI-Icons/testing.svg",
+                    image:"/assets/Logo/vonage.png",
                     class:"col-lg-6",
                     width:"15%"
                 },
                 {
                     heading:" WhatsApp Business API",
-                    image:"/assets/UI-Icons/testing.svg",
-                    class:"col-lg-6",
+                    image:"/assets/Logo/whatsapp-business.png",
+                    class:"col-lg-8",
                     width:"15%"
                 },
                 {
                     heading:" Slack",
-                    image:"/assets/UI-Icons/testing.svg",
-                    class:"col-lg-6",
+                    image:"/assets/Logo/slack.png",
+                    class:"col-lg-4",
                     width:"15%"
                 },
                
@@ -301,37 +301,37 @@
             techs:[
                 {
                     heading:"Power BI",
-                    image:"/assets/UI-Icons/testing.svg",
+                    image:"/assets/Logo/power-bi.png",
                     class:"col-lg-6",
                     width:"15%"
                 },
                 {
                     heading:"Google Data Studio",
-                    image:"/assets/UI-Icons/testing.svg",
+                    image:"/assets/Logo/google-data.png",
                     class:"col-lg-6",
                     width:"15%"
                 },
                 {
                     heading:"Tableau",
-                    image:"/assets/UI-Icons/testing.svg",
+                    image:"/assets/Logo/tableau.png",
                     class:"col-lg-6",
                     width:"23%"
                 },
                 {
                     heading:"Google Analytics",
-                    image:"/assets/UI-Icons/testing.svg",
+                    image:"/assets/Logo/google-analytics.png",
                     class:"col-lg-6",
                     width:"15%"
                 },
-                {
-                    heading:"Mixpanel",
-                    image:"/assets/UI-Icons/testing.svg",
-                    class:"col-lg-6",
-                    width:"15%"
-                },
+                // {
+                //     heading:"Mixpanel",
+                //     image:"/assets/Logo/mixpanel.png",
+                //     class:"col-lg-6",
+                //     width:"15%"
+                // },
                 {
                     heading:"Segment",
-                    image:"/assets/UI-Icons/testing.svg",
+                    image:"/assets/Logo/segments.png",
                     class:"col-lg-6",
                     width:"15%"
                 },
