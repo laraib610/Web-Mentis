@@ -84,18 +84,18 @@ const UItechnology=[
             },
             {
                 heading: "Webflow",
-                image: "/assets/Logo/testing.svg",
+                image: "/assets/Logo/webflow.png",
                 class: " col-lg-4"
             },
             
             {
                 heading: "Wix",
-                image: "/assets/Logo/testing.svg",
+                image: "/assets/Logo/wix.png",
                 class: " col-lg-4"
             },
             {
                 heading: "Shopify",
-                image: "/assets/Logo/testing.svg",
+                image: "/assets/Logo/shopify.png",
                 class: " col-lg-4"
             },
             {
@@ -105,7 +105,7 @@ const UItechnology=[
             },
             {
                 heading: "Canva",
-                image: "/assets/Logo/testing.svg",
+                image: "/assets/Logo/canva.png",
                 class: " col-lg-4"
             },
             {
@@ -113,11 +113,11 @@ const UItechnology=[
                 image:"/assets/Logo/figma.svg",
                 class:" col-lg-4 "
             },
-            {
-                heading: "Crello",
-                image: "/assets/Logo/testing.svg",
-                class: " col-lg-4"
-            },
+            // {
+            //     heading: "Crello",
+            //     image: "/assets/Logo/testing.svg",
+            //     class: " col-lg-4"
+            // },
             {
                 heading:"Premiere Pr",
                 image:"/assets/Logo/premiere-pro.png",
@@ -132,7 +132,7 @@ const UItechnology=[
             },
             {
                 heading: "CapCut",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/Capcut.png",
                 class: " col-lg-4"
             },
         
@@ -144,48 +144,48 @@ const UItechnology=[
         techs: [
             {
                 heading: "Hootsuite",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/hootsuite.png",
                 class: " col-lg-4 "
             },
             {
                 heading: "Buffer",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/buffer.png",
                 class: " col-lg-4"
             },
             
             {
                 heading: "Sprout Social",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/social-sprout.png",
                 class: " col-lg-4"
             },
-            {
-                heading: " Later",
-                image: "/assets/UI-Icons/testing.svg",
-                class: " col-lg-4"
-            },
+            // {
+            //     heading: " Later",
+            //     image: "/assets/Logo/testing.svg",
+            //     class: " col-lg-4"
+            // },
             {
                 heading:"SocialBee",
-                image:"/assets/UI-Icons/testing.svg",
+                image:"/assets/Logo/social-bee.png",
                 class:" col-lg-4"
             },
             {
                 heading: "Planoly",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/planoly.png",
                 class: " col-lg-4"
             },
             {
                 heading:" Upfluence",
-                image:"/assets/UI-Icons/testing.svg",
+                image:"/assets/Logo/upfluence.png",
                 class:" col-lg-4 "
             },
             {
                 heading: "AspireIQ",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/AspireIQ.png",
                 class: " col-lg-4"
             },
             {
                 heading:"Heepsy",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/heepsy.png",
                 class:" col-lg-4 ",
                 width:"20%"
             },
