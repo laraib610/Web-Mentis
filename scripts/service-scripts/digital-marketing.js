@@ -24,49 +24,49 @@ const UItechnology=[
         techs: [
             {
                 heading: "Google Search Console",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/google-search-console.png",
                 class: "col-lg-8"
             },{
                 heading: "Ahrefs",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/Ahrefs.png",
                 class: "col-lg-4"
             },
              {
                 heading: "Screaming Frog",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/screaming-frog.png",
                 class: "col-lg-8"
             },
             
             {
                 heading: "SEMrush",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/semrush_logo.jpg",
                 class: "col-lg-4"
             },
             {
                 heading: "Moz",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/moz.png",
                 class: "col-lg-4"
             },
            
             
-            {
-                heading: "Mixpanel",
-                image: "/assets/UI-Icons/testing.svg",
-                class: "col-lg-4"
-            },
+            // {
+            //     heading: "Mixpanel",
+            //     image: "/assets/Logo/testing.svg",
+            //     class: "col-lg-4"
+            // },
             {
                 heading: "Hotjar",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/hotjar.png",
                 class: "col-lg-4"
             },
             {
                 heading: "Microsoft Clarity",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/clarity.png",
                 class: "col-lg-6"
             },
             {
                 heading: "Google Analytics 4",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/google-analytics.png",
                 class: "col-lg-6"
             },
 
