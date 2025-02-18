@@ -246,38 +246,38 @@ const UItechnology=[
         techs: [
             {
                 heading: "Mailchimp",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/mailchimp.png",
                 class: " col-lg-4 "
             },
             {
                 heading: " HubSpot",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/hubspot.png",
                 class: " col-lg-4"
             },
             
             {
                 heading: "Klaviyo",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/kalviyo.png",
                 class: " col-lg-4"
             },
             {
                 heading: "SendGrid",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/sendgrid.png",
                 class: "col-lg-6"
             },
             {
                 heading:"ActiveCampaign",
-                image:"/assets/UI-Icons/testing.svg",
+                image:"/assets/Logo/active-campaign.png",
                 class:"col-lg-6"
             },
             {
                 heading: "Marketo",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/marketo.png",
                 class: " col-lg-4"
             },
             {
                 heading:"ConvertKit",
-                image:"/assets/UI-Icons/testing.svg",
+                image:"/assets/Logo/convertkit.png",
                 class:" col-lg-4 "
             },
         
@@ -289,33 +289,33 @@ const UItechnology=[
         techs: [
             {
                 heading: " Google Optimize",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/google-optimize.png",
                 class: " col-lg-4 "
             },
             {
                 heading: " Optimizely",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/optimizely.png",
                 class: " col-lg-4"
             },
             
             {
                 heading: "VWO",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/vwo.png",
                 class: " col-lg-4"
             },
             {
                 heading: "Crazy Egg",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/crazyegg.png",
                 class: " col-lg-4"
             },
             {
                 heading:"Hotjar",
-                image:"/assets/UI-Icons/testing.svg",
+                image:"/assets/Logo/hotjar.png",
                 class:" col-lg-4"
             },
             {
                 heading: "FullStory",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/fullstory.png",
                 class: " col-lg-4"
             },
         
@@ -327,33 +327,33 @@ const UItechnology=[
         techs: [
             {
                 heading: "Trustpilot",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/trustpilot.png",
                 class: " col-lg-4 "
             },
             {
                 heading: "Google My Business",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/google-business.png",
                 class: " col-lg-4"
             },
             
             {
                 heading: "Yotpo",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/yotpo.png",
                 class: " col-lg-4"
             },
             {
                 heading: "Brand24",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/brand24.png",
                 class: " col-lg-4"
             },
             {
                 heading:"Mention",
-                image:"/assets/UI-Icons/testing.svg",
+                image:"/assets/Logo/mention.png",
                 class:" col-lg-4"
             },
             {
                 heading: "Sprinklr",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/sprinklr.png",
                 class: " col-lg-4"
             },
         
@@ -365,27 +365,27 @@ const UItechnology=[
         techs: [
             {
                 heading: "Drift",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/drift.png",
                 class: " col-lg-4 "
             },
             {
                 heading: "ManyChat",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/many-chat.png",
                 class: " col-lg-4"
             },
             {
                 heading: "Jasper AI",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/jasper.png",
                 class: " col-lg-4"
             },
             {
                 heading: "Copy.ai",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/copy-ai.png",
                 class: " col-lg-4"
             },
             {
                 heading:" Writesonic",
-                image:"/assets/UI-Icons/testing.svg",
+                image:"/assets/Logo/writesonic.png",
                 class:" col-lg-4"
             },
         

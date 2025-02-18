@@ -30,55 +30,53 @@ const UItechnology=[
         techs: [
             {
                 heading: "TensorFlow",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/tensorflow.png",
                 class: " col-lg-4"
             },
              {
                 heading: "PyTorch",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/pytorch.png",
                 class: " col-lg-4"
             },
             {
                 heading: "Scikit-learn",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/Scikit.png",
                 class: " col-lg-4"
             },
             
             {
                 heading: "XGBoost",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/xgboost.png",
                 class: " col-lg-4"
             },
             {
                 heading: "Keras",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/keras.png",
                 class: " col-lg-4"
             },
-           
-            
             {
                 heading: "FastAI",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/fastai.png",
                 class: " col-lg-4"
             },
             {
                 heading: "Theano",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/theano.png",
                 class: " col-lg-4"
             },
             {
                 heading: "Google AutoML",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/automl.png",
                 class: " col-lg-4"
             },
             {
                 heading: " H2O.ai",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/h2oai.png",
                 class: " col-lg-4"
             },
             {
                 heading: " DataRobot",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/datarobot.png",
                 class: " col-lg-4"
             },
 
@@ -91,55 +89,55 @@ const UItechnology=[
         techs: [
             {
                 heading: "Apache Spark",
-                image: "/assets/UI-Icons/testing.svg",
-                class: " col-lg-4 "
+                image: "/assets/Logo/apache-spark.png",
+                class: "col-lg-8"
             },
             {
                 heading: "Hadoop",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/hadoop.png",
                 class: " col-lg-4"
             },
             
             {
                 heading: "Dask",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/dask.png",
                 class: " col-lg-4"
             },
             {
                 heading: " PostgreSQL",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/postgree.png",
                 class: " col-lg-4"
             },
             {
                 heading:"MongoDB",
-                image:"/assets/UI-Icons/testing.svg",
+                image:"/assets/Logo/mongodb.svg",
                 class:" col-lg-4"
             },
             {
                 heading: "Cassandra",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/cassandra.png",
                 class: " col-lg-4"
             },
             {
                 heading:"Amazon DynamoDB",
-                image:"/assets/UI-Icons/testing.svg",
+                image:"/assets/Logo/dynamodb.png",
                 class:" col-lg-4 "
             },
             {
                 heading: "Google BigQuery",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/google-query.png",
                 class: " col-lg-4"
             },
             {
                 heading:"AWS Redshift",
-                image:"/assets/UI-Icons/testing.svg",
-                class:" col-lg-4 ",
+                image:"/assets/Logo/redshift.png",
+                class:"col-lg-6",
                 width:"20%"
             },
             {
                 heading:"Azure Data Lake.",
-                image:"/assets/UI-Icons/testing.svg",
-                class:" col-lg-4 ",
+                image:"/assets/Logo/data-lake.png",
+                class:"col-lg-6",
                 width:"20%"
             },
         
@@ -151,53 +149,53 @@ const UItechnology=[
         techs: [
             {
                 heading: "spaCy",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/spacy.png",
                 class: " col-lg-4 "
             },
             {
                 heading: "NLTK",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/nltk.png",
                 class: " col-lg-4"
             },
              {
                 heading: "OpenAI GPT",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/openAI.png",
                 class: " col-lg-4"
             },
             
             {
                 heading: "Hugging Face Transformers",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/hugging-face.png",
                 class: "col-lg-12"
             },{
                 heading:"Google Speech-to-Text",
-                image:"/assets/UI-Icons/testing.svg",
+                image:"/assets/Logo/speech-to-text.png",
                 class:"col-lg-12"
             },
            
             {
                 heading: "IBM Watson",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/IBM.png",
                 class: " col-lg-4"
             },
-            {
-                heading: " Rasak",
-                image: "/assets/UI-Icons/testing.svg",
-                class: " col-lg-4"
-            },
+            // {
+            //     heading: " Rasak",
+            //     image: "/assets/Logo/testing.svg",
+            //     class: " col-lg-4"
+            // },
             {
                 heading:"Dialogflow",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/dialogflow.png",
                 class:" col-lg-4 ",
                 width:"20%"
             },{
                 heading:"AWS Transcribe",
-                image:"/assets/UI-Icons/testing.svg",
+                image:"/assets/Logo/aws-transcribe.png",
                 class:"col-lg-6"
             },
             {
                 heading:"Microsoft Bot Framewor",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/bot.png",
                 class:"col-lg-12",
                 width:"20%"
             },
@@ -210,48 +208,48 @@ const UItechnology=[
         techs: [
             {
                 heading: "OpenCV",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/opencv.png",
                 class: " col-lg-4 "
             },
             {
                 heading: "Dlib",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/dlib.png",
                 class: " col-lg-4"
             },
             
             {
                 heading: "PIL (Pillow)",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/pillow.png",
                 class: " col-lg-4"
             },
             {
                 heading: "YOLO",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/yolo.png",
                 class: " col-lg-4"
             },
-            {
-                heading:"Faster R-CNN",
-                image:"/assets/UI-Icons/testing.svg",
-                class:" col-lg-4"
-            },
+            // {
+            //     heading:"Faster R-CNN",
+            //     image:"/assets/Logo/testing.svg",
+            //     class:" col-lg-4"
+            // },
             {
                 heading: "SSD",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/ssd.png",
                 class: " col-lg-4"
             },
-            {
-                heading:" FaceNet",
-                image:"/assets/UI-Icons/testing.svg",
-                class:" col-lg-4 "
-            },
+            // {
+            //     heading:" FaceNet",
+            //     image:"/assets/Logo/testing.svg",
+            //     class:" col-lg-4 "
+            // },
             {
                 heading: "DeepFace",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/deepface.png",
                 class: " col-lg-4"
             },
             {
                 heading: "Amazon Rekognition",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/rekognition.png",
                 class: " col-lg-4"
             },
         
@@ -264,43 +262,43 @@ const UItechnology=[
         techs: [
             {
                 heading: "Google AI",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/google-ai.png",
                 class: " col-lg-4 "
             },
             {
                 heading: "AWS AI/ML",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/aws.png",
                 class: " col-lg-4"
             },
             {
                 heading: "Docker",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/docker.png",
                 class: "col-lg-4"
             },
             {
                 heading: "Microsoft Azure AI",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/azure.png",
                 class: "col-lg-8"
             },
             
             {
                 heading:"Kubernetes",
-                image:"/assets/UI-Icons/testing.svg",
+                image:"/assets/Logo/kubernets.png",
                 class:"col-lg-4"
             },
             {
                 heading: "RESTful APIs",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/rest.png",
                 class: " col-lg-4"
             },
             {
                 heading:"GraphQL",
-                image:"/assets/UI-Icons/testing.svg",
+                image:"/assets/Logo/graphql.png",
                 class:" col-lg-4 "
             },
             {
                 heading:"WebSockets",
-                image:"/assets/UI-Icons/testing.svg",
+                image:"/assets/Logo/websocket.png",
                 class:" col-lg-4 "
             },
         
