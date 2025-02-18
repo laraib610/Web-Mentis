@@ -29,42 +29,42 @@ const cybertechnology=[
         techs:[
             {
                 heading: "Cisco ASA",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/cisco-asa.png",
                 class: " col-lg-4 "
             },
             {
                 heading: "Palo Alto",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/palo.png",
                 class: " col-lg-4 "
             },
             {
                 heading: "Fortinet",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/fortinet.png",
                 class: " col-lg-4 "
             },
             {
                 heading: "pfSense",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/pfSense.png",
                 class: " col-lg-4 "
             },
-            {
-                heading: "Snort",
-                image: "/assets/UI-Icons/testing.svg",
-                class: " col-lg-4 "
-            },
+            // {
+            //     heading: "Snort",
+            //     image: "/assets/Logo/testing.svg",
+            //     class: " col-lg-4 "
+            // },
             {
                 heading: "Suricata",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/suricata.png",
                 class: " col-lg-4 "
             },
             {
                 heading: "OpenVPN",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/openVpn.svg",
                 class: " col-lg-4 "
             },
             {
                 heading: "Cisco AnyConnect",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/anyConnect.png",
                 class: " col-lg-4 "
             },
         
@@ -77,37 +77,37 @@ const cybertechnology=[
         techs:[
             {
                 heading: "Symantec",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/symantic.png",
                 class: " col-lg-4 "
             },
             {
                 heading: "CrowdStrike",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/crowdstrike.png",
                 class: " col-lg-4 "
             },
             {
                 heading: "McAfee",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/mcafee.png",
                 class: " col-lg-4 "
             },
             {
                 heading: "Bitdefender",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/bitdefender.png",
                 class: " col-lg-4 "
             },
             {
                 heading: "Microsoft Intune",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/intune.png",
                 class: " col-lg-4 "
             },
             {
                 heading: "Jamf",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/jamf.png",
                 class: " col-lg-4 "
             },
             {
                 heading: "OpenVPN",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/openvpn.svg",
                 class: " col-lg-4 "
             },
         ]
@@ -118,22 +118,22 @@ const cybertechnology=[
         techs:[
             {
                 heading: "Google Authenticator",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/Google-Authenticator.png",
                 class: " col-lg-6 "
             },
             {
                 heading: "Duo Security",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/Duo-Security.png",
                 class: " col-lg-6 "
             },
             {
                 heading: "Okta",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/okta.png",
                 class: " col-lg-6 "
             },
             {
                 heading: "Microsoft Azure AD",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/azure-ad.png",
                 class: " col-lg-6 "
             },
           
@@ -145,27 +145,27 @@ const cybertechnology=[
         techs:[
             {
                 heading: "Metasploit",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/metasploit.png",
                 class: " col-lg-4 "
             },
             {
                 heading: "Burp Suite",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/burp-suite.png",
                 class: " col-lg-4 "
             },
             {
                 heading: "Kali Linux",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/kali-linux.png",
                 class: " col-lg-4 "
             },
             {
                 heading: " Wireshark",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/wireshark.svg",
                 class: " col-lg-4 "
             },
             {
                 heading: "Nessus",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/nessus.svg",
                 class: " col-lg-4 "
             },
           
@@ -177,27 +177,27 @@ const cybertechnology=[
         techs:[
             {
                 heading: "AWS Security Hub",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/Security-Hub.png",
                 class: " col-lg-6 "
             },
             {
                 heading: "Microsoft Defender for Cloud",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/defender-cloud.png",
                 class: " col-lg-6 "
             },
             {
                 heading: "Google Chronicle",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/Google-Chronicle.png",
                 class: " col-lg-6 "
             },
             {
                 heading: "Docker Security",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/docker-cloud.png",
                 class: " col-lg-6 "
             },
             {
                 heading: "Kubernetes RBAC",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/kubernetes-color.svg",
                 class: " col-lg-6 "
             },
           
@@ -209,22 +209,22 @@ const cybertechnology=[
         techs:[
             {
                 heading: "Splunk",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/splunk.png",
                 class: " col-lg-4 "
             },
             {
                 heading: " IBM QRadar",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/qradar-seek.png",
                 class: " col-lg-4 "
             },
             {
                 heading: "ArcSight",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/arcsight-seek.png",
                 class: " col-lg-4 "
             },
             {
                 heading: "ELK Stack",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/elk.svg",
                 class: " col-lg-4 "
             },
           
@@ -236,22 +236,22 @@ const cybertechnology=[
         techs:[
             {
                 heading: "ISO 27001",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/iso-27001.png",
                 class: " col-lg-4 "
             },
             {
                 heading: "NIST",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/nist.png",
                 class: " col-lg-4 "
             },
             {
                 heading: "GDPR",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/gdpr.png",
                 class: " col-lg-4 "
             },
             {
                 heading: "HIPAA",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/hipaa.jpg",
                 class: " col-lg-4 "
             },
           
