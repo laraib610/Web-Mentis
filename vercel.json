@@ -1,0 +1,14 @@
+{
+    "rewrites": [
+      {
+        "source": "/Services/:slug",
+        "destination": "/Services/:slug.html"
+      },
+      {
+        "source": "/:slug",
+        "destination": "/:slug.html"
+      }
+    ]
+  }
+  
+  

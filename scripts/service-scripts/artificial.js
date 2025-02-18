@@ -310,29 +310,29 @@ const UItechnology=[
         techs: [
             {
                 heading: "IBM AI Fairness 360",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/ai-fairness.png",
                 class: "col-lg-8"
+            },{
+                heading: "GDPR",
+                image: "/assets/Logo/GDPR.png",
+                class: "col-lg-4"
             },
-            {
-                heading: "CCPA",
-                image: "/assets/UI-Icons/testing.svg",
-                class: " col-lg-4"
-            },
+            // {
+            //     heading: "CCPA",
+            //     image: "/assets/Logo/testing.svg",
+            //     class: " col-lg-4"
+            // },
             {
                 heading: " AI Explainability 360",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/ai-explainability.png",
                 class: "col-lg-8"
             },
             
-            {
-                heading: "GDPR",
-                image: "/assets/UI-Icons/testing.svg",
-                class: "col-lg-4"
-            },
+            
             
             {
                 heading:"ISO/IEC 27001",
-                image:"/assets/UI-Icons/testing.svg",
+                image:"/assets/Logo/Iso.png",
                 class:"col-lg-6"
             },
 
