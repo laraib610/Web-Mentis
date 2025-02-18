@@ -130,48 +130,48 @@ const eventtechnology=[
         techs: [
             {
                 heading: "Hootsuite",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/testing.svg",
                 class: " col-lg-4"
             },
             {
                 heading: "Buffer",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/testing.svg",
                 class: " col-lg-4"
             },
             
             {
                 heading: "Sprout Social",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/testing.svg",
                 class: " col-lg-4"
             },
             {
                 heading: "Mailchimp",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/testing.svg",
                 class: " col-lg-4"
             },
             {
                 heading: "HubSpot",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/testing.svg",
                 class: " col-lg-4"
             },
             {
                 heading: "ActiveCampaign",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/testing.svg",
                 class: " col-lg-4"
             },
             {
                 heading: "Google Ads",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/testing.svg",
                 class: " col-lg-4"
             },
             {
                 heading: "Facebook Ads",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/testing.svg",
                 class: " col-lg-4"
             },
             {
                 heading: "LinkedIn Ads",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/testing.svg",
                 class: " col-lg-4"
             },
         
@@ -183,33 +183,33 @@ const eventtechnology=[
         techs: [
             {
                 heading: "Eventbrite",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/testing.svg",
                 class: " col-lg-4"
             },
             {
                 heading: "Ticket Tailor",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/testing.svg",
                 class: " col-lg-4"
             },
             
             {
                 heading: "Eventzilla",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/testing.svg",
                 class: " col-lg-4"
             },
             {
                 heading: "RSVPify",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/testing.svg",
                 class: " col-lg-4"
             },
             {
                 heading: "Eventbee",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/testing.svg",
                 class: " col-lg-4"
             },
             {
                 heading: "RegFox",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/testing.svg",
                 class: " col-lg-4"
             },
         
@@ -221,53 +221,53 @@ const eventtechnology=[
         techs: [
             {
                 heading: "Zoom",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/testing.svg",
                 class: " col-lg-4"
             },
             {
                 heading: "Webex",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/testing.svg",
                 class: " col-lg-4"
             },
             
             {
                 heading: "Microsoft Teams",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/testing.svg",
                 class: " col-lg-4"
             },
             {
                 heading: " StreamYard",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/testing.svg",
                 class: " col-lg-4"
             },
             {
                 heading: " Hopin",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/testing.svg",
                 class: " col-lg-4"
             },
             {
                 heading: "Airmeet",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/testing.svg",
                 class: " col-lg-4"
             },
             {
                 heading: "BigMarker",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/testing.svg",
                 class: " col-lg-4"
             },
             {
                 heading: "Slido",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/testing.svg",
                 class: " col-lg-4"
             },
             {
                 heading: "Mentimeter",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/testing.svg",
                 class: " col-lg-4"
             },
             {
                 heading: "Kahoo",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/testing.svg",
                 class: " col-lg-4"
             },
         
@@ -279,33 +279,33 @@ const eventtechnology=[
         techs: [
             {
                 heading: "Google Forms",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/testing.svg",
                 class: " col-lg-4"
             },
             {
                 heading: "Typeform",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/testing.svg",
                 class: " col-lg-4"
             },
             
             {
                 heading: "SurveyMonkey",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/testing.svg",
                 class: " col-lg-4"
             },
             {
                 heading: "Google Analytics",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/testing.svg",
                 class: " col-lg-4"
             },
             {
                 heading: "HubSpot",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/testing.svg",
                 class: " col-lg-4"
             },
             {
                 heading: "Tableau",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/testing.svg",
                 class: " col-lg-4"
             },
         ],
@@ -316,23 +316,23 @@ const eventtechnology=[
         techs: [
             {
                 heading: "Bizzabo",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/testing.svg",
                 class: " col-lg-4"
             },
             {
                 heading: "Eventdex",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/testing.svg",
                 class: " col-lg-4"
             },
             
             {
                 heading: "Boomset",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/testing.svg",
                 class: " col-lg-4"
             },
             {
                 heading: "GDPR-compliant registration platforms",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/testing.svg",
                 width:"7%",
                 class: " col-lg-12"
             },
@@ -395,7 +395,7 @@ document.addEventListener('DOMContentLoaded', function () {
             const cardHTML = `
             <div>
                 <a href="#${tech.id}" id="${tech.id}" class="tech-link d-flex justify-content-between" onclick="getApps('${tech.id}')">
-                    ${tech.heading} <img loading="lazy" src="/assets/UI-Icons/arrow.svg" alt="">
+                    ${tech.heading} <img loading="lazy" src="/assets/Logo/arrow.svg" alt="">
                 </a>
                 <hr>
             </div>
@@ -425,7 +425,7 @@ const processHtml=`
             </div>
         </div>  
         <div class="col-lg-1 p-0 d-none d-lg-block"  data-aos="fade-right" data-aos-delay="1000" data-aos-duration="1000">
-            <img loading="lazy"  src="/assets/UI-Icons/arrow-line.svg" width="100%"  alt="">
+            <img loading="lazy"  src="/assets/Logo/arrow-line.svg" width="100%"  alt="">
 
         </div>
         <div class="col-lg-3 d-flex justify-content-center" data-aos="fade-right" data-aos-delay="1000" data-aos-duration="1000">
@@ -442,7 +442,7 @@ const processHtml=`
             </div>
         </div>   
         <div class="col-lg-1 p-0 d-none d-lg-block"  data-aos="fade-right" data-aos-delay="1500" data-aos-duration="1500">
-            <img loading="lazy"  src="/assets/UI-Icons/arrow-line.svg" width="100%"  alt="">
+            <img loading="lazy"  src="/assets/Logo/arrow-line.svg" width="100%"  alt="">
 
         </div>
         <div class="col-lg-3 d-flex justify-content-center" data-aos="fade-right" data-aos-delay="1500" data-aos-duration="1500">
@@ -460,7 +460,7 @@ const processHtml=`
         </div>       
     </div>   
     <div class="arrow pt-2 d-none d-lg-block" data-aos="fade-down" data-aos-delay="2000" data-aos-duration="2000">
-        <img loading="lazy"  src="/assets/UI-Icons/hori-line.svg" width="100%" alt="">
+        <img loading="lazy"  src="/assets/Logo/hori-line.svg" width="100%" alt="">
     </div>
     <div class="d-lg-flex flex-wrap justify-content-between align-items-center" data-aos="fade-right" data-aos-delay="2000" data-aos-duration="2000">
         <div class="col-lg-3 d-flex justify-content-center">
