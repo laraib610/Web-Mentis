@@ -423,7 +423,7 @@ const softwaretechnology=[
             
             {
                 heading: "AWS Lambda",
-                image: "/assets/Logo/testing.svg",
+                image: "/assets/Logo/aws-lambda.png",
                 class: "col-lg-6"
             },
             {
@@ -433,22 +433,22 @@ const softwaretechnology=[
             },
             {
                 heading: "Azure Functions",
-                image: "/assets/Logo/testing.svg",
+                image: "/assets/Logo/azure-functions.png",
                 class: "col-lg-6"
             },
             {
                 heading: "AWS ELB",
-                image: "/assets/Logo/testing.svg",
+                image: "/assets/Logo/aws-elb.png",
                 class: " col-lg-4"
             },
             {
                 heading: "Nginx",
-                image: "/assets/Logo/testing.svg",
+                image: "/assets/Logo/nginx.png",
                 class: " col-lg-4"
             },
             {
                 heading: "Google Cloud Functions",
-                image: "/assets/Logo/testing.svg",
+                image: "/assets/Logo/cloud-functions.png",
                 class: "col-lg-8"
             },
             {
