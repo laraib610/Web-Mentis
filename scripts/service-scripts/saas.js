@@ -30,12 +30,12 @@
                 },
                 {
                     heading: "Angular",
-                    image: "/assets/Logo/testing.svg",
+                    image: "/assets/Logo/angular.png",
                     class: " col-lg-4"
                 },
                 {
                     heading: "Vue JS",
-                    image: "/assets/Logo/testing.svg",
+                    image: "/assets/Logo/vue.png",
                     class: " col-lg-4"
                 },
                 {
@@ -51,30 +51,30 @@
                 
                 {
                     heading: "Material UI",
-                    image: "/assets/Logo/testing.svg",
+                    image: "/assets/Logo/material.png",
                     class: " col-lg-4"
                 },
             
                 {
                     heading: "Tailwind CSS",
-                    image: "/assets/Logo/testing.svg",
+                    image: "/assets/Logo/tailwind.png",
                     class: " col-lg-4"
                 },
                 {
                     heading: "Redux",
-                    image: "/assets/Logo/testing.svg",
+                    image: "/assets/Logo/redux.png",
                     class: " col-lg-4"
                 },
                 {
                     heading: "Vuex",
-                    image: "/assets/Logo/testing.svg",
+                    image: "/assets/Logo/vue.png",
                     class: " col-lg-4"
                 },
-                {
-                    heading: "Zustand",
-                    image: "/assets/Logo/testing.svg",
-                    class: " col-lg-4"
-                },
+                // {
+                //     heading: "Zustand",
+                //     image: "/assets/Logo/testing.svg",
+                //     class: " col-lg-4"
+                // },
             
             ],
         },
@@ -84,7 +84,7 @@
             techs: [
                 {
                     heading: "PHP",
-                    image: "/assets/Logo/testing.svg",
+                    image: "/assets/Logo/php.png",
                     class: " col-lg-4 "
                 },
                 {
@@ -94,12 +94,12 @@
                 },
                 {
                     heading: "NodeJS",
-                    image: "/assets/Logo/testing.svg",
+                    image: "/assets/Logo/js.png",
                     class: " col-lg-4 "
                 },
                 {
                     heading: "Ruby",
-                    image: "/assets/Logo/testing.svg",
+                    image: "/assets/Logo/ruby.svg",
                     class: " col-lg-4 "
                 },
                 {
@@ -109,27 +109,27 @@
                 },
                 {
                     heading: "Laravel",
-                    image: "/assets/Logo/testing.svg",
+                    image: "/assets/Logo/laravel.png",
                     class: " col-lg-4"
                 },
                 {
                     heading: "Django",
-                    image: "/assets/Logo/testing.svg",
+                    image: "/assets/Logo/django.svg",
                     class: " col-lg-4"
                 },
                 {
                     heading: "Express.js",
-                    image: "/assets/Logo/testing.svg",
+                    image: "/assets/Logo/express.png",
                     class: " col-lg-4"
                 },
                 {
                     heading: "Spring Boot",
-                    image: "/assets/Logo/testing.svg",
+                    image: "/assets/Logo/spring.png",
                     class: " col-lg-4"
                 },
                 {
                     heading: "Ruby on Rails",
-                    image: "/assets/Logo/testing.svg",
+                    image: "/assets/Logo/ruby-rails.png",
                     class: "col-lg-6"
                 },
             
@@ -208,7 +208,7 @@
                 },
                 {
                     heading: "AWS Lambda",
-                    image: "/assets/Logo/testing.svg",
+                    image: "/assets/Logo/aws-lambda.png",
                     class: " col-lg-4"
                 },
                 {
@@ -218,7 +218,7 @@
                 },
                 {
                     heading: "Azure Functions",
-                    image: "/assets/Logo/testing.svg",
+                    image: "/assets/Logo/azure-functions.png",
                     class: " col-lg-4"
                 },
                 {
