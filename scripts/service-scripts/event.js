@@ -72,53 +72,53 @@ const eventtechnology=[
         techs: [
             {
                 heading: "Trello",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/trello.png",
                 class: " col-lg-4"
             },
             {
                 heading: "Asana",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/asana.svg",
                 class: " col-lg-4"
             },
             
             {
                 heading: "Monday.com",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/monday.com.png",
                 class: " col-lg-4"
             },
             {
                 heading: "Eventbrite",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/eventbrite.png",
                 class: " col-lg-4"
             },
             {
                 heading: " Cvent",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/Cvent.png",
                 class: " col-lg-4"
             },
             {
                 heading: "Bizzabo",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/Bizzabo.png",
                 class: " col-lg-4"
             },
             {
                 heading: "Whova",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/whova.png",
                 class: " col-lg-4"
             },
             {
                 heading: "Social Tables",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/social-table.png",
                 class: " col-lg-4"
             },
             {
                 heading: " Tripleseat",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/Tripleseat.png",
                 class: " col-lg-4"
             },
             {
                 heading: " Gather",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/gather.png",
                 class: " col-lg-4"
             },
         
