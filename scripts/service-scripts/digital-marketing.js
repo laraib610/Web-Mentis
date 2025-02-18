@@ -198,44 +198,44 @@ const UItechnology=[
         techs: [
             {
                 heading: "Google Ads",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/google-ads.png",
                 class: " col-lg-4 "
             },
             {
                 heading: " Bing Ads",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/bing.png",
                 class: " col-lg-4"
             },
             
             {
                 heading: "Facebook Ads",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/facebook-adds.png",
                 class: " col-lg-4"
             },
             {
                 heading: "LinkedIn Ads",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/linkdin-ad.png",
                 class: " col-lg-4"
             },
             {
                 heading:"TikTok Ads",
-                image:"/assets/UI-Icons/testing.svg",
+                image:"/assets/Logo/tiktok.png",
                 class:" col-lg-4"
             },
             {
                 heading: "AdRoll",
-                image: "/assets/UI-Icons/testing.svg",
+                image: "/assets/Logo/adroll.png",
                 class: " col-lg-4"
             },
             {
                 heading:"Criteo",
-                image:"/assets/UI-Icons/testing.svg",
+                image:"/assets/Logo/CRTO.png",
                 class:" col-lg-4 "
             },
             {
                 heading: "Perfect Audience",
-                image: "/assets/UI-Icons/testing.svg",
-                class: " col-lg-4"
+                image: "/assets/Logo/audience.png",
+                class: "col-lg-8"
             },
         
         ],
