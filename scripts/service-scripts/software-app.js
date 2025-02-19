@@ -618,7 +618,7 @@ document.addEventListener('DOMContentLoaded', function () {
         softwaretechnology.forEach(tech => {
             const cardHTML = `
             <div>
-                <a href="#${tech.id}" id="${tech.id}" class="tech-link d-flex justify-content-between" onclick="getApps('${tech.id}')">
+<a href="javascript:void(0);" id="${tech.id}" class="tech-link d-flex justify-content-between" onclick="event.preventDefault(); getApps('${tech.id}')">
                     ${tech.heading} <img loading="lazy" src="/assets/UI-Icons/arrow.svg" alt="">
                 </a>
                 <hr>
