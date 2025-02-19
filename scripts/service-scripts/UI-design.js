@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         {
             heading:"Sketch",
-            image:"/assets/Logo/sketch.svg",
+            image:"/assets/Logo/ruby.svg",
             class:" col-lg-4 "
         },
         {
