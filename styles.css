@@ -174,12 +174,14 @@
     color: white;
     font-size: 14px;
     border: none;
-    padding: 20px 30px; 
+    padding: 0px 30px; 
     border-radius: 50px; 
     cursor: pointer;
     box-shadow: 0 0 10px rgba(232, 16, 149, 0.5); 
     transition: all 0.3s ease-in-out;
     margin-left: 10px;
+    align-content: center;
+    height: 50px;
   }
   
   .oval-button:hover {
