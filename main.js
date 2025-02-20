@@ -1,6 +1,6 @@
 $(function() {
   // Load header content
-  $("#header").load("shared/header/header.html", function() {
+  $("#header").load("shared/header/header.html", function() { 
       // Callback logic for header load (if necessary)
       const navItems = document.querySelectorAll('.navbar-nav .nav-link');
       console.log(navItems)
