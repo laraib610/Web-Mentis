@@ -53,7 +53,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script src="scripts/tech.js"></script>
-    <link rel="stylesheet" href="/styles/services.css">
+    <!-- <link rel="stylesheet" href="/styles/services.css"> -->
 </head>
 
 <body>
@@ -202,28 +202,19 @@
         </svg>
 
         <div>
-            <div class="container pb-4">
-                <div class="d-lg-flex justify-content-center align-items-center px-4 py-5">
-                    <div class="col-lg-6">
-                        <img loading="lazy" src="/assets/Mantis.png" class="mantis" width="80%" alt="">
+            <div class=" pb-4">
+                <div class="d-lg-flex justify-content-between align-items-center px-4 py-5">
+                    <div class="col-lg-4">
+                        <img loading="lazy" src="/assets/Mantis.png" class="mantis" width="100%" alt="">
 
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-8">
                         <div>
-                            <h5 class="typed" data-aos="fade-up" data-aos-duration="3000">
+                            <h5 class="typed" style="font-size: 48px;" data-aos="fade-up" data-aos-duration="3000">
                                 What is Webmantis?
                             </h5>
-                            <p class="text-white" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="200">
-                                Webmantis is a leading technology and digital solutions provider dedicated to
-                                transforming businesses with cutting-edge innovation. We specialize in mobile app
-                                development, UI/UX design, web development, cybersecurity, SaaS solutions, CRM
-                                integrations, cloud services, digital marketing, event and corporate management,
-                                artificial intelligence (AI), and more.
+                            <p class="text-white" id="typed-text"  data-aos="fade-up" data-aos-duration="3000" data-aos-delay="200"></p>
 
-                                At Webmantis, we believe in delivering smart, scalable, and secure solutions that
-                                empower businesses to thrive in the digital era. Whether you're a startup looking for a
-                                robust online presence or an enterprise seeking advanced tech solutions, our expert team
-                                ensures seamless execution tailored to your needs.
                             </p>
                             <button class="btn-custom rounded-1 border-0 fw-medium" data-aos="fade-up"
                                 data-aos-duration="3000" data-aos-delay="200">ABOUT</button>
@@ -380,6 +371,29 @@
             loop: true
         });
     </script>
+
+<script>
+    var typed = new Typed("#typed-text", {
+        strings: [
+            `Webmantis is a leading technology and digital solutions provider dedicated to transforming businesses with cutting-edge innovation. We specialize in 
+            <span class="typed">mobile app development</span>, 
+            <span class="typed">UI/UX design</span>, 
+            <span class="typed">web development</span>, 
+            <span class="typed">cybersecurity</span>, 
+            <span class="typed">SaaS solutions</span>, 
+            <span class="typed">CRM integrations</span>, 
+            <span class="typed">cloud services</span>, 
+            <span class="typed">digital marketing</span>, 
+            <span class="typed">event and corporate management</span>, 
+            <span class="typed">artificial intelligence (AI)</span>, and more. <br><br> 
+            At Webmantis, we believe in delivering smart, scalable, and secure solutions that empower businesses to thrive in the digital era. Whether you're a startup looking for a robust online presence or an enterprise seeking advanced tech solutions, our expert team ensures seamless execution tailored to your needs.`
+        ],
+        typeSpeed: 10,  
+        backSpeed: 10,    
+        showCursor: false, 
+        loop: false        
+    });
+</script>
 
 </body>
 
