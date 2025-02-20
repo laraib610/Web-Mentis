@@ -24,12 +24,12 @@ const saastechnology = [
             {
                 heading: "Photoshop",
                 image: "/assets/Logo/photoshop.svg",
-                class: " col-lg-6"
+                class: "col-lg-6"
             },
             {
                 heading: "Illustrator",
                 image: "/assets/Logo/illustrator.svg",
-                class: " col-lg-6"
+                class: "col-lg-6"
             },
         ]
     },
@@ -145,17 +145,17 @@ const saastechnology = [
             {
                 heading: "AWS Security Hub",
                 image: "/assets/Logo/Security-Hub.png",
-                class: " col-lg-6 "
+                class: "col-lg-6"
             },
             {
                 heading: "Google Authenticator",
                 image: "/assets/Logo/Google-Authenticator.png",
-                class: " col-lg-6 "
+                class: "col-lg-6"
             },
             {
                 heading: "Duo Security",
                 image: "/assets/Logo/Duo-Security.png",
-                class: " col-lg-6 "
+                class: "col-lg-6"
             },
             {
                 heading: "CrowdStrike",
@@ -299,7 +299,7 @@ const saastechnology = [
             {
                 heading: "Firebase Functions",
                 image: "/assets/Logo/firebase.png",
-                class: " col-lg-4"
+                class: "col-lg-6"
             },
             {
                 heading: "Nginx",
@@ -685,7 +685,7 @@ const saastechnology = [
             {
                 heading: "Google Forms",
                 image: "/assets/Logo/google-forms.png",
-                class: " col-lg-4"
+                class: "col-lg-6"
             },
             {
                 heading: "Typeform",
@@ -696,12 +696,12 @@ const saastechnology = [
             {
                 heading: "SurveyMonkey",
                 image: "/assets/Logo/survey.png",
-                class: " col-lg-4"
+                class: "col-lg-6"
             },
             {
                 heading: "Google Analytics",
                 image: "/assets/Logo/google-analytics.png",
-                class: " col-lg-4"
+                class: "col-lg-6"
             },
             {
                 heading: "HubSpot",
@@ -844,7 +844,7 @@ function getApps(techId) {
         data += `
             <div class="${app.class.trim()} p-2">
                 <div class="app py-1 px-1 d-flex align-items-center">
-                    <img loading="lazy" width="20%"  src="${app.image}" alt="${app.heading}">
+                    <img loading="lazy" width="${app.class==='col-lg-6'?'13%':app.class=='col-lg-12'?'6%':app.class=='col-lg-8'?'9%':'20%'}" src="${app.image}" alt="${app.heading}">
                     <h5 class="m-0 px-1">${app.heading}</h5>
                 </div>
             </div>
