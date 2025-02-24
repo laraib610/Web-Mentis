@@ -239,6 +239,7 @@ top: 30px; */
   position: relative;
   top: 49px;
 } */
+ 
 .project-text p{
   font-family: "Poppins";
   font-size: 14px;
@@ -383,7 +384,7 @@ top: 30px; */
   }
   .blue-wave {
     position: relative;
-    top: 59px;
+    /* top: 59px; */
     z-index: 1;
 }
 .partner-img {

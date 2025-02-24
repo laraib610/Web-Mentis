@@ -332,6 +332,8 @@ hr{
             } 
              
     }
+
+
     
 
     .our-partners{
@@ -345,6 +347,9 @@ hr{
 
     .pb{
         padding-bottom: 1.5rem !important;
+    }
+    .mt{
+        margin-top:1px;
     }
 
 }
@@ -363,5 +368,5 @@ hr{
 }
 
 .pb{
-    padding-bottom: 10rem !important;
+    padding-bottom: 15rem !important;
 }

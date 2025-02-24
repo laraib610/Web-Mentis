@@ -114,6 +114,7 @@
 .section_transition-image {
     width: 100%;
     position: relative;
+    top: 1px;
 }
 
 .background-color-darkblue {
@@ -237,6 +238,7 @@
         background-position-y: -209px !important;
         padding-bottom: 90% !important;
     }
+  
 }
 @media (max-width:2560px) {
     .our-partners {
