@@ -18,9 +18,11 @@ p{
     text-decoration-skip-ink: none;
 
 }
+
 .package-list{
     list-style-type: disc;
     margin-left: 2px;
+
     li{
         color: white;
         font-family: "Poppins";
@@ -37,6 +39,14 @@ p{
 
     }
 }
+.package-card{
+    height: 100%;
+    .pkg{
+        height: 95%;
+    }
+
+}
+
 .package-button{
     background-color: rgba(218, 232, 16, 1);
     display: flex;
@@ -64,7 +74,7 @@ p{
     margin: 0;
 }
 .p-text-2{
-    padding-bottom: 0px;
+    padding-bottom:  30px;
     text-align: center;
     color:rgba(218, 232, 16, 1);
     margin: 0;
@@ -77,8 +87,6 @@ p{
         background-size: cover;
     }
 }
-
-
 
 
 

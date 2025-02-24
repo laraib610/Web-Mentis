@@ -370,3 +370,11 @@ hr{
 .pb{
     padding-bottom: 15rem !important;
 }
+
+.size{
+    align-items: flex-start !important;
+    justify-content: flex-end;
+    min-height: 500px;
+    max-width: 900px;
+}
+
