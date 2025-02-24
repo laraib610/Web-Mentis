@@ -18,9 +18,13 @@ p{
     text-decoration-skip-ink: none;
 
 }
+.package-card{
+    height: 160vh;
+}
 .package-list{
     list-style-type: disc;
     margin-left: 2px;
+
     li{
         color: white;
         font-family: "Poppins";
@@ -36,6 +40,9 @@ p{
         
 
     }
+}
+.pkg{
+    height: 140vh;
 }
 .package-button{
     background-color: rgba(218, 232, 16, 1);
@@ -64,7 +71,7 @@ p{
     margin: 0;
 }
 .p-text-2{
-    padding-bottom: 0px;
+    padding-bottom: 20px;
     text-align: center;
     color:rgba(218, 232, 16, 1);
     margin: 0;
