@@ -80,7 +80,7 @@ $(function () {
     // Dynamically populate global offices
     const globalOffices = [
       { heading: "PAKISTAN", image: "/assets/pakistan.png", description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.", phone: '+92 123 145 4469', imagesize: "60%" },
-      { heading: "USA OFFICE", image: "/assets/usa.png", description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.", phone: '+92 123 145 4469', imagesize: "79%" },
+      { heading: "USA OFFICE", image: "/assets/usa.png", description: "1780 Morse Rd, Columbus, OHIO 43229, USA", phone: '+15712997157', imagesize: "100%" },
       { heading: "UK OFFICE", image: "/assets/uk.png", description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.", phone: '+92 123 145 4469', imagesize: "30%" },
       { heading: "AUSTRALIA", image: "/assets/australia.png", description: "58 Norwest Boulevard, Baulkham Hills, Sydney NSW, Australia", phone: '+61477223109', imagesize: "57%" },
       { heading: "UAE OFFICE", image: "/assets/uae.png", description: "Flower Center, Dubai International Airports", phone: '+97142200263', imagesize: "57%" }
