@@ -79,11 +79,11 @@ $(function () {
     }
     // Dynamically populate global offices
     const globalOffices = [
-      { heading: "PAKISTAN", image: "/assets/pakistan.png", description: " Plot# 206, 3 Service Rd East, I-10/3, Islamabad, 44800", phone: '(051) 8779777',email:'info@webmentis.com', imagesize: "60%" },
-      { heading: "USA OFFICE", image: "/assets/usa.png", description: "1780 Morse Rd, Columbus, OHIO 43229, USA", phone: '+15712997157',email:'info@webmentis.com', imagesize: "100%" },
-      { heading: "UK OFFICE", image: "/assets/uk.png", description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.", phone: '+92 123 145 4469',email:'info@webmentis.com', imagesize: "30%" },
-      { heading: "AUSTRALIA", image: "/assets/australia.png", description: "58 Norwest Boulevard, Baulkham Hills, Sydney NSW, Australia", phone: '+61477223109',email:'info@webmentis.au', imagesize: "57%" },
-      { heading: "UAE OFFICE", image: "/assets/uae.png", description: "Flower Center, Dubai International Airports", phone: '+97142200263',email:'info@webmentis.com', imagesize: "57%" }
+      { heading: "PAKISTAN", image: "/assets/pakistan.png", Address: "Office #10, 2nd Floor, Al Karam Plaza, F-11 Markaz, Islamabad", phone:'+923320374154', Address_2:'Plot# 206, 3 Service Rd East, I-10/3, Islamabad, 44800' , phone_2: '(051) 8779777',email:'info@webmentis.com', imagesize: "60%" },
+      { heading: "USA OFFICE", image: "/assets/usa.png", Address: "1780 Morse Rd, Columbus, OHIO 43229, USA", phone: '+15712997157',email:'info@webmentis.com', imagesize: "100%" },
+      { heading: "UK OFFICE", image: "/assets/uk.png", Address: "18 Sherrington street, M12 5RW Manchester", phone: '+447435773487',email:'info@webmentis.com', imagesize: "30%" },
+      { heading: "AUSTRALIA", image: "/assets/australia.png", Address: "58 Norwest Boulevard, Baulkham Hills, Sydney NSW, Australia", phone: '+61477223109',email:'info@webmentis.au', imagesize: "57%" },
+      { heading: "UAE OFFICE", image: "/assets/uae.png", Address: "Flower Center, Dubai International Airports", phone: '+97142200263',email:'info@webmentis.com', imagesize: "57%" }
     ];
 
     const globalContainer = document.getElementById('global-office');
@@ -96,13 +96,10 @@ $(function () {
                       </div>
                       <div class="py-2 d-flex flex-column justify-content-center justify-content-lg-start">
                           <h6 class="text-white mob-text">${office.heading}</h6>
-                          <p class="text-white mob-text">${office.description}</p>
-                      </div>
-                      <div d-flex justify-content-center justify-content-lg-start>
-                        <p class="text-white mob-text">${office.phone}</p>
+                          <p class="text-white mob-text">${office.Address}</p>
+                          <p class="text-white mob-text">${office.phone}</p>
                          <p class="text-white mob-text">${office.email}</p>
                       </div>
-                      
                   </div>
               `;
         globalContainer.insertAdjacentHTML('beforeend', cardHTML);
