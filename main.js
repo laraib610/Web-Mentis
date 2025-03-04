@@ -90,13 +90,13 @@ $(function () {
     if (globalContainer) {
       globalOffices.forEach(office => {
         const cardHTML = `
-                  <div class="p-3">
-                      <div class="d-flex justify-content-center justify-content-lg-start">
-                          <img loading="lazy"  src="${office.image}" width="${office.imagesize}" alt="">
+                  <div class="p-3 d-flex flex-column justify-content-center">
+                      <div class="d-flex justify-content-center justify-content-lg-start" style="width:150px; height:150px">
+                          <img loading="lazy"  src="${office.image}" alt="">
                       </div>
-                      <div class="py-2 d-flex flex-column justify-content-center justify-content-lg-start">
+                      <div class="mt-5 py-2 d-flex flex-column justify-content-center justify-content-lg-start">
                           <h6 class="text-white mob-text">${office.heading}</h6>
-                          <p class="text-white mob-text">${office.Address}</p>
+                          <p class="text-white text-center mob-text">${office.Address}</p>
                           <p class="text-white mob-text">${office.phone}</p>
                          <p class="text-white mob-text">${office.email}</p>
                       </div>
