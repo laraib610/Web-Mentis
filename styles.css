@@ -417,9 +417,9 @@ top: 30px; */
 }
 
 .wave-top {
-  top: -2px; /* Adjust if needed */
+  margin-bottom: -2px; /* Adjust if needed */
 }
 
 .wave-bottom {
-  bottom: -2px; /* Adjust if needed */
+  margin-top: -2px; /* Adjust if needed */
 }
