@@ -91,7 +91,7 @@ $(function () {
       globalOffices.forEach(office => {
         const cardHTML = `
                   <div class="p-3 d-flex flex-column justify-content-center">
-                      <div class="d-flex justify-content-center justify-content-lg-start" style="width:150px; height:150px">
+                      <div class="d-flex justify-content-center justify-content-lg-start w-100" style="width:150px; height:150px">
                           <img loading="lazy"  src="${office.image}" alt="">
                       </div>
                       <div class="mt-5 py-2 d-flex flex-column justify-content-center justify-content-lg-start">

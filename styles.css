@@ -413,15 +413,9 @@ top: 30px; */
   background: linear-gradient(to top, #0a0c40, #0a0c6a); /* Gradient Background */
   text-align: center;
   color: white; /* Adjust text color */
+  margin-top: -2px;
 }
 
-/* SVG Waves */
-/* .wave {
-  position: absolute;
-  width: 100%;
-  left: 0;
-}
- */
 .wave-top {
   top: -2px; /* Adjust if needed */
 }
