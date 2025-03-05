@@ -170,16 +170,7 @@ hr{
     background-position: center;
 
 }
-.our-partners {
-    background: url('/assets/our-partner-bg.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position-y: -69px;
-    margin-top: -80px;
-    position: relative;
-    z-index: 2;
-    min-height: 500px; /* Adjust height as necessary */
-}
+
 .carousel-item{
     border-radius: 10px;
     padding: 10px;
@@ -335,40 +326,17 @@ hr{
 
 
     
-
-    .our-partners{
-        background-position-y: -209px !important;
-        padding-bottom: 78% !important;
-        margin-top: -230px !important;
-    }
     .carousel{
         width: 100%;
     }
 
-    .pb{
+    /* .pb{
         padding-bottom: 1.5rem !important;
-    }
+    } */
     .mt{
         margin-top:1px;
     }
 
-}
-@media (max-width:2560px) {
-    .our-partners {
-        background: url('/assets/our-partner-bg.png');
-        background-size: 100% 100%;
-        background-repeat: no-repeat; 
-        margin-top: -192px;
-        padding-top: 120px;
-        padding-bottom: 71px;
-        position: relative;
-        z-index: 2;
-        min-height: 500px;  
-    }
-}
-
-.pb{
-    padding-bottom: 15rem !important;
 }
 
 .size{
@@ -378,3 +346,5 @@ hr{
     max-width: 900px;
 }
 
+
+  
