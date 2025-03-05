@@ -79,11 +79,11 @@ $(function () {
     }
     // Dynamically populate global offices
     const globalOffices = [
-      { heading: "PAKISTAN", image: "/assets/pakistan.png", Address: "Office #10, 2nd Floor, Al Karam Plaza, F-11 Markaz, Islamabad", phone:'+923320374154', Address_2:'Plot# 206, 3 Service Rd East, I-10/3, Islamabad, 44800' , phone_2: '(051) 8779777',email:'info@webmentis.com', imagesize: "60%" },
-      { heading: "USA OFFICE", image: "/assets/usa.png", Address: "1780 Morse Rd, Columbus, OHIO 43229, USA", phone: '+15712997157',email:'info@webmentis.com', imagesize: "100%" },
-      { heading: "UK OFFICE", image: "/assets/uk.png", Address: "18 Sherrington street, M12 5RW Manchester", phone: '+447435773487',email:'info@webmentis.com', imagesize: "30%" },
-      { heading: "AUSTRALIA", image: "/assets/australia.png", Address: "58 Norwest Boulevard, Baulkham Hills, Sydney NSW, Australia", phone: '+61477223109',email:'info@webmentis.au', imagesize: "57%" },
-      { heading: "UAE OFFICE", image: "/assets/uae.png", Address: "Flower Center, Dubai International Airports", phone: '+97142200263',email:'info@webmentis.com', imagesize: "57%" }
+      { heading: "PAKISTAN", image: "/assets/pakistan.png", Address: "Office #10, 2nd Floor, Al Karam Plaza, F-11 Markaz, Islamabad", phone:'+923320374154', Address_2:'Plot# 206, 3 Service Rd East, I-10/3, Islamabad, 44800' , phone_2: '(051) 8779777',email:'info@webmantis.com', imagesize: "60%" },
+      { heading: "USA OFFICE", image: "/assets/usa.png", Address: "1780 Morse Rd, Columbus, OHIO 43229, USA", phone: '+15712997157',email:'info@webmantis.com', imagesize: "100%" },
+      { heading: "UK OFFICE", image: "/assets/uk.png", Address: "18 Sherrington street, M12 5RW Manchester", phone: '+447435773487',email:'info@webmantis.com', imagesize: "30%" },
+      { heading: "AUSTRALIA", image: "/assets/australia.png", Address: "58 Norwest Boulevard, Baulkham Hills, Sydney NSW, Australia", phone: '+61477223109',email:'info@webmantis.au', imagesize: "57%" },
+      { heading: "UAE OFFICE", image: "/assets/uae.png", Address: "Flower Center, Dubai International Airports", phone: '+97142200263',email:'info@webmantis.com', imagesize: "57%" }
     ];
 
     const globalContainer = document.getElementById('global-office');
